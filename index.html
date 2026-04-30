@@ -674,6 +674,33 @@
   </div>
 </section>
 
+<!-- ═══════════════════════════════════════════ T-HUB 영상 -->
+<section id="video-section" style="background:#060F1E;padding:80px 32px;text-align:center">
+  <div class="container">
+    <div class="section-tag" style="border-left-color:var(--orange)">T-HUB Inside</div>
+    <h2 class="section-title" style="color:white;margin-bottom:12px">T-HUB를 직접 만나보세요</h2>
+    <p style="color:rgba(255,255,255,.5);font-size:.95rem;margin-bottom:40px;word-break:keep-all">
+      아시아 최대 스타트업 허브, T-HUB 본사의 실제 모습을 영상으로 확인하세요.
+    </p>
+    <a href="https://www.youtube.com/watch?v=7wnlb45vRrw" target="_blank" rel="noopener"
+       style="display:block;position:relative;width:100%;max-width:860px;margin:0 auto 40px;padding-top:56.25%;border-radius:4px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5);cursor:pointer">
+      <img src="https://img.youtube.com/vi/7wnlb45vRrw/maxresdefault.jpg" alt="T-HUB 소개 영상"
+           style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover">
+      <div style="position:absolute;inset:0;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;transition:background .2s"
+           onmouseover="this.style.background='rgba(0,0,0,.15)'" onmouseout="this.style.background='rgba(0,0,0,.3)'">
+        <div style="width:72px;height:72px;background:rgba(217,80,0,.9);border-radius:50%;display:flex;align-items:center;justify-content:center">
+          <div style="width:0;height:0;border-top:14px solid transparent;border-bottom:14px solid transparent;border-left:24px solid white;margin-left:6px"></div>
+        </div>
+      </div>
+    </a>
+    <a href="https://t-hub.co" target="_blank" rel="noopener"
+       style="display:inline-block;padding:13px 32px;background:var(--orange);color:white;border-radius:4px;font-size:.95rem;font-weight:800;text-decoration:none;letter-spacing:.02em;transition:background .2s"
+       onmouseover="this.style.background='#F06020'" onmouseout="this.style.background='#D95000'">
+      T-HUB 공식 사이트 방문하기
+    </a>
+  </div>
+</section>
+
 <!-- ═══════════════════════════════════════════ 왜 인도인가 -->
 <section id="why">
   <div class="container">
@@ -1178,64 +1205,3 @@
   async function submitForm(e) {
     e.preventDefault();
     const btn = document.getElementById('form-submit-btn');
-    const success = document.getElementById('form-success');
-    const error = document.getElementById('form-error');
-    btn.disabled = true;
-    btn.textContent = '전송 중...';
-    success.style.display = 'none';
-    error.style.display = 'none';
-    try {
-      const res = await fetch('https://formsubmit.co/ajax/chris.indiacon@gmail.com', {
-        method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: new FormData(e.target),
-      });
-      if (res.ok) {
-        e.target.reset();
-        success.style.display = 'block';
-        btn.textContent = '보내기 완료';
-      } else {
-        throw new Error();
-      }
-    } catch {
-      error.style.display = 'block';
-      btn.disabled = false;
-      btn.textContent = '보내기';
-    }
-  }
-
-  function showTab(idx) {
-    document.querySelectorAll('.ttab').forEach((t, i) => t.classList.toggle('active', i === idx));
-    document.querySelectorAll('.tpanel').forEach((p, i) => p.classList.toggle('active', i === idx));
-  }
-
-  window.addEventListener('scroll', () => {
-    document.getElementById('to-top').classList.toggle('show', window.scrollY > 400);
-  });
-
-  // 수치 카운터 애니메이션
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      entry.target.querySelectorAll('.num').forEach(el => {
-        const raw = el.textContent.replace(/[^0-9]/g, '');
-        const target = parseInt(raw);
-        if (isNaN(target) || target === 0) return;
-        const suffix = el.textContent.replace(/[0-9,]/g, '');
-        let cur = 0;
-        const step = Math.max(1, Math.ceil(target / 80));
-        const timer = setInterval(() => {
-          cur = Math.min(cur + step, target);
-          el.textContent = cur.toLocaleString() + suffix;
-          if (cur >= target) clearInterval(timer);
-        }, 18);
-      });
-      observer.unobserve(entry.target);
-    });
-  }, { threshold: 0.4 });
-
-  document.querySelectorAll('.stats-grid').forEach(el => observer.observe(el));
-</script>
-</body>
-</html>
-
