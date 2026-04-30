@@ -1,1 +1,1241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-HUB Korea | 인도 최대 스타트업 허브와 함께</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:   #0B1F3A;
+      --navy2:  #132D52;
+      --orange: #D95000;
+      --orange2:#F06020;
+      --blue:   #1B4F8A;
+      --light:  #F4F7FB;
+      --text:   #1A202C;
+      --muted:  #4A5568;
+      --border: #DDE3EC;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    /* ── 스크롤 상단 버튼 ─────────────────────── */
+    #to-top {
+      position: fixed; bottom: 28px; right: 28px; z-index: 999;
+      width: 42px; height: 42px; border-radius: 4px;
+      background: var(--navy); color: white; border: none;
+      font-size: .88rem; font-weight: 700; letter-spacing: .04em;
+      cursor: pointer; box-shadow: 0 4px 14px rgba(11,31,58,.3);
+      display: none; align-items: center; justify-content: center;
+      transition: opacity .2s, background .2s;
+    }
+    #to-top.show { display: flex; }
+    #to-top:hover { background: var(--orange); }
+
+    /* ── 네비게이션 ───────────────────────────── */
+    nav {
+      position: fixed; top: 0; left: 0; width: 100%; z-index: 900;
+      background: var(--navy);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 32px; height: 64px;
+    }
+    .nav-logo img { height: 34px; }
+    .nav-logo-text {
+      font-size: 1.4rem; font-weight: 900; color: white; letter-spacing: -.02em;
+    }
+    .nav-logo-text span { color: var(--orange); }
+    .nav-links { display: flex; gap: 2px; }
+    .nav-links a {
+      color: rgba(255,255,255,.7); text-decoration: none;
+      font-size: .8rem; font-weight: 600; padding: 6px 13px; border-radius: 4px;
+      transition: color .2s, background .2s;
+    }
+    .nav-links a:hover { color: white; background: rgba(255,255,255,.08); }
+    .nav-cta {
+      padding: 8px 22px; background: var(--orange); color: white; border: none;
+      border-radius: 4px; font-size: .82rem; font-weight: 700; cursor: pointer;
+      text-decoration: none; transition: background .2s;
+      letter-spacing: .02em;
+    }
+    .nav-cta:hover { background: var(--orange2); }
+    .nav-hamburger {
+      display: none; flex-direction: column; gap: 5px;
+      cursor: pointer; padding: 6px;
+    }
+    .nav-hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: white; border-radius: 1px;
+    }
+
+    /* ── 히어로 ───────────────────────────────── */
+    #hero {
+      min-height: 100vh;
+      background: linear-gradient(140deg, #080F1E 0%, #0B1F3A 55%, #112840 100%);
+      display: flex; align-items: center; justify-content: center;
+      position: relative; overflow: hidden; padding: 120px 32px 80px;
+    }
+    #hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+    .hero-content {
+      text-align: center; max-width: 820px; position: relative; z-index: 1;
+    }
+    .hero-badge {
+      display: inline-block;
+      border: 1px solid rgba(217,80,0,.5);
+      border-radius: 2px; padding: 5px 16px; font-size: .75rem;
+      color: #E8945A; font-weight: 700; margin-bottom: 30px;
+      letter-spacing: .08em; text-transform: uppercase;
+    }
+    .hero-title {
+      font-size: clamp(2rem, 5vw, 3.3rem); font-weight: 900;
+      color: white; line-height: 1.22; margin-bottom: 24px;
+      word-break: keep-all; letter-spacing: -.02em;
+    }
+    .hero-title em { color: var(--orange); font-style: normal; }
+    .hero-sub {
+      font-size: clamp(.92rem, 1.8vw, 1.08rem); color: rgba(255,255,255,.6);
+      max-width: 600px; margin: 0 auto 44px; word-break: keep-all; line-height: 1.8;
+    }
+    .hero-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      padding: 13px 32px; background: var(--orange); color: white;
+      border: none; border-radius: 4px; font-size: .96rem; font-weight: 800;
+      cursor: pointer; text-decoration: none; transition: background .2s;
+      letter-spacing: .02em;
+    }
+    .btn-primary:hover { background: var(--orange2); }
+    .btn-outline {
+      padding: 13px 32px; background: transparent; color: rgba(255,255,255,.85);
+      border: 1px solid rgba(255,255,255,.35); border-radius: 4px;
+      font-size: .96rem; font-weight: 600; cursor: pointer; text-decoration: none;
+      transition: border-color .2s, color .2s;
+    }
+    .btn-outline:hover { border-color: white; color: white; }
+    .hero-stats {
+      display: flex; justify-content: center; flex-wrap: wrap;
+      margin-top: 64px;
+      border-top: 1px solid rgba(255,255,255,.1);
+      padding-top: 40px; gap: 0;
+    }
+    .hstat {
+      flex: 1; min-width: 120px; padding: 0 24px 0; text-align: center;
+      border-right: 1px solid rgba(255,255,255,.1);
+    }
+    .hstat:last-child { border-right: none; }
+    .hstat-num { font-size: 1.85rem; font-weight: 900; color: white; display: block; }
+    .hstat-num span { color: var(--orange); }
+    .hstat-label { font-size: .68rem; color: rgba(255,255,255,.5); margin-top: 5px; letter-spacing: .04em; }
+
+    /* ── 공통 섹션 ────────────────────────────── */
+    section { padding: 96px 32px; }
+    .container { max-width: 1160px; margin: 0 auto; }
+
+    .section-tag {
+      display: inline-block;
+      font-size: .68rem; font-weight: 800; letter-spacing: .14em;
+      text-transform: uppercase; color: var(--orange);
+      border-left: 3px solid var(--orange); padding-left: 10px;
+      margin-bottom: 18px;
+    }
+    h2.section-title {
+      font-size: clamp(1.55rem, 3.2vw, 2.2rem); font-weight: 900;
+      color: var(--navy); line-height: 1.28; margin-bottom: 16px;
+      word-break: keep-all; letter-spacing: -.02em;
+    }
+    .section-desc {
+      color: var(--muted); font-size: .97rem; max-width: 560px;
+      word-break: keep-all; line-height: 1.8;
+    }
+    .section-header { margin-bottom: 56px; }
+
+    /* ── T-HUB 소개 ───────────────────────────── */
+    #about { background: white; }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+    }
+    .about-logo-wrap { margin-bottom: 26px; }
+    .about-logo-wrap img { height: 40px; }
+    .about-text h3 {
+      font-size: 1.3rem; font-weight: 900; color: var(--navy);
+      margin-bottom: 16px; line-height: 1.35; letter-spacing: -.02em;
+    }
+    .about-text p { color: var(--muted); margin-bottom: 16px; font-size: .95rem; line-height: 1.8; }
+    .about-text p strong { color: var(--navy); }
+    .about-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 26px; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px; background: var(--light);
+      border: 1px solid var(--border);
+      border-radius: 2px; font-size: .76rem; font-weight: 700; color: var(--navy);
+    }
+    .badge::before {
+      content: ''; display: block; width: 6px; height: 6px;
+      border-radius: 50%; background: var(--orange); flex-shrink: 0;
+    }
+    .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .stat-box {
+      background: var(--light); border-radius: 4px; padding: 26px 22px;
+      text-align: center; border: 1px solid var(--border);
+      border-top: 3px solid var(--orange);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .stat-box:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+    .stat-box .num {
+      font-size: 2rem; font-weight: 900; color: var(--navy); display: block;
+    }
+    .stat-box .lbl { font-size: .7rem; color: var(--muted); margin-top: 6px; font-weight: 600; letter-spacing: .03em; }
+
+    /* ── 왜 인도인가 ──────────────────────────── */
+    #why { background: var(--light); }
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .why-card {
+      background: white; border-radius: 4px; padding: 32px 28px;
+      border: 1px solid var(--border); border-top: 3px solid transparent;
+      transition: border-top-color .2s, transform .2s, box-shadow .2s;
+    }
+    .why-card:hover {
+      border-top-color: var(--orange);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+    .why-num {
+      font-size: 2.4rem; font-weight: 900; color: rgba(217,80,0,.12);
+      line-height: 1; margin-bottom: 18px; letter-spacing: -.04em;
+    }
+    .why-card h4 {
+      font-size: 1rem; font-weight: 800; color: var(--navy);
+      margin-bottom: 10px; letter-spacing: -.01em;
+    }
+    .why-card p { font-size: .87rem; color: var(--muted); line-height: 1.75; word-break: keep-all; }
+    .why-card .hl { color: var(--orange); font-weight: 800; }
+
+    /* ── 협력 대상 ────────────────────────────── */
+    #target { background: white; }
+    .target-tabs { display: flex; gap: 0; flex-wrap: wrap; margin-bottom: 44px; border-bottom: 2px solid var(--border); }
+    .ttab {
+      padding: 12px 24px; border: none; background: transparent;
+      font-size: .85rem; font-weight: 700; color: var(--muted);
+      cursor: pointer; transition: color .2s;
+      border-bottom: 2px solid transparent; margin-bottom: -2px;
+      letter-spacing: .01em;
+    }
+    .ttab.active { color: var(--navy); border-bottom-color: var(--orange); }
+    .ttab:hover { color: var(--navy); }
+
+    .tpanel { display: none; }
+    .tpanel.active { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .tpanel-label {
+      font-size: .7rem; font-weight: 800; letter-spacing: .12em;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 14px;
+    }
+    .tpanel h3 {
+      font-size: 1.4rem; font-weight: 900; color: var(--navy);
+      margin-bottom: 14px; line-height: 1.3; letter-spacing: -.02em;
+    }
+    .tpanel .sub {
+      font-size: .93rem; color: var(--muted); margin-bottom: 28px;
+      word-break: keep-all; line-height: 1.8;
+    }
+    .benefit-list { display: flex; flex-direction: column; gap: 10px; }
+    .benefit-item {
+      display: flex; align-items: flex-start; gap: 14px;
+      background: var(--light); border-radius: 4px; padding: 14px 16px;
+      border-left: 3px solid var(--border);
+      transition: border-left-color .2s;
+    }
+    .benefit-item:hover { border-left-color: var(--orange); }
+    .bi-check {
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--navy); color: white;
+      font-size: .65rem; font-weight: 900;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 2px;
+    }
+    .benefit-item .bi-text strong {
+      display: block; font-size: .87rem; color: var(--navy); margin-bottom: 2px; font-weight: 800;
+    }
+    .benefit-item .bi-text span { font-size: .8rem; color: var(--muted); line-height: 1.65; }
+
+    .tpanel-visual {
+      background: var(--navy); border-radius: 4px; padding: 36px;
+      color: white; display: flex; flex-direction: column; gap: 20px;
+    }
+    .tpanel-visual h4 {
+      font-size: .72rem; font-weight: 800; opacity: .55;
+      letter-spacing: .1em; text-transform: uppercase; margin-bottom: 0;
+    }
+    .tpanel-kpi { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .tpanel-kpi-item {
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 4px; padding: 18px 16px;
+    }
+    .tpanel-kpi-item .k-num {
+      font-size: 1.65rem; font-weight: 900; color: white; line-height: 1;
+    }
+    .tpanel-kpi-item .k-lbl { font-size: .68rem; opacity: .6; margin-top: 6px; letter-spacing: .03em; }
+    .tpanel-quote {
+      border-left: 3px solid var(--orange);
+      padding: 14px 18px;
+      font-size: .84rem; line-height: 1.7; color: rgba(255,255,255,.7);
+      word-break: keep-all;
+    }
+
+    /* ── 프로그램 ─────────────────────────────── */
+    #programs { background: var(--light); }
+    .prog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .prog-card {
+      background: white; border-radius: 4px; padding: 32px 30px;
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--border);
+      transition: border-top-color .2s, transform .2s, box-shadow .2s;
+      display: flex; flex-direction: column;
+    }
+    .prog-card:hover {
+      border-top-color: var(--orange);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(0,0,0,.09);
+    }
+    .prog-category {
+      font-size: .68rem; font-weight: 800; letter-spacing: .12em;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 14px;
+    }
+    .prog-card h4 {
+      font-size: 1.1rem; font-weight: 900; color: var(--navy);
+      margin-bottom: 12px; letter-spacing: -.01em; line-height: 1.35;
+    }
+    .prog-card p {
+      font-size: .88rem; color: var(--muted); line-height: 1.75;
+      margin-bottom: 20px; word-break: keep-all; flex: 1;
+    }
+    .prog-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+    .prog-tag {
+      padding: 3px 12px; border-radius: 2px;
+      border: 1px solid var(--border);
+      font-size: .72rem; font-weight: 700;
+      color: var(--muted);
+    }
+
+    /* ── 협력 현황 ────────────────────────────── */
+    #cooperation { background: white; }
+    .coop-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+    .timeline { position: relative; padding-left: 28px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 6px; top: 8px; bottom: 8px;
+      width: 1px; background: var(--border);
+    }
+    .tl-item { position: relative; margin-bottom: 36px; }
+    .tl-item:last-child { margin-bottom: 0; }
+    .tl-dot {
+      position: absolute; left: -26px; top: 6px;
+      width: 12px; height: 12px; border-radius: 50%;
+      background: white; border: 2px solid var(--orange);
+    }
+    .tl-year {
+      font-size: .72rem; font-weight: 800; color: var(--orange);
+      letter-spacing: .08em; margin-bottom: 6px;
+    }
+    .tl-item h4 {
+      font-size: .97rem; font-weight: 800; color: var(--navy);
+      margin-bottom: 7px; letter-spacing: -.01em;
+    }
+    .tl-item p { font-size: .87rem; color: var(--muted); line-height: 1.7; word-break: keep-all; }
+
+    .strength-box {
+      background: var(--light); border-radius: 4px; padding: 30px;
+      border: 1px solid var(--border); margin-bottom: 24px;
+    }
+    .strength-label {
+      font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+      text-transform: uppercase; margin-bottom: 14px;
+    }
+    .strength-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .stag {
+      padding: 5px 13px; border-radius: 2px;
+      font-size: .78rem; font-weight: 700;
+      border: 1px solid var(--border);
+    }
+    .stag-kr { background: #EBF2FF; color: #1D3A6E; border-color: #C3D5F5; }
+    .stag-in { background: #FFF2EB; color: #7A2A00; border-color: #F5CDB0; }
+
+    .partner-logos {
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+      margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--border);
+    }
+    .partner-label {
+      font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--muted); width: 100%; margin-bottom: 4px;
+    }
+    .partner-chip {
+      padding: 7px 16px; border: 1px solid var(--border); border-radius: 2px;
+      font-size: .8rem; font-weight: 700; color: var(--navy);
+      background: white;
+    }
+
+    /* ── 문의하기 ─────────────────────────────── */
+    #contact {
+      background: var(--navy);
+      padding: 110px 32px;
+    }
+    .contact-inner { max-width: 680px; margin: 0 auto; text-align: center; }
+    .contact-inner .section-tag { border-left-color: rgba(217,80,0,.8); }
+    .contact-inner h2 { color: white; }
+    .contact-inner .section-desc {
+      color: rgba(255,255,255,.6); max-width: 100%;
+      margin: 0 auto 44px;
+    }
+    .contact-cards {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 14px; margin-bottom: 44px;
+    }
+    .ccard {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 4px; padding: 24px 22px; text-align: left;
+    }
+    .ccard-cat {
+      font-size: .68rem; font-weight: 800; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 10px;
+    }
+    .ccard h5 { font-size: .93rem; font-weight: 800; color: white; margin-bottom: 6px; }
+    .ccard p { font-size: .82rem; color: rgba(255,255,255,.55); line-height: 1.65; word-break: keep-all; }
+
+    .contact-form { margin-top: 40px; text-align: left; }
+    .form-row { margin-bottom: 16px; }
+    .form-row label {
+      display: block; font-size: .72rem; font-weight: 700;
+      color: rgba(255,255,255,.45); letter-spacing: .1em;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .form-row input,
+    .form-row select {
+      width: 100%; padding: 13px 16px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 4px; color: white; font-size: .93rem;
+      font-family: inherit; outline: none;
+      transition: border-color .2s, background .2s;
+      -webkit-appearance: none; appearance: none;
+    }
+    .form-row input::placeholder { color: rgba(255,255,255,.28); }
+    .form-row input:focus,
+    .form-row select:focus,
+    .form-row textarea:focus {
+      border-color: var(--orange); background: rgba(255,255,255,.1);
+    }
+    .form-row textarea::placeholder { color: rgba(255,255,255,.28); }
+    .form-row select { cursor: pointer; }
+    .form-row select option { background: #0B1F3A; color: white; }
+    .form-submit-btn {
+      width: 100%; padding: 15px; background: var(--orange);
+      color: white; border: none; border-radius: 4px;
+      font-size: 1rem; font-weight: 800; cursor: pointer;
+      letter-spacing: .03em; transition: background .2s;
+      margin-top: 8px; font-family: inherit;
+    }
+    .form-submit-btn:hover { background: var(--orange2); }
+    .form-submit-btn:disabled { opacity: .55; cursor: not-allowed; }
+    .form-success {
+      display: none; margin-top: 20px; padding: 18px 22px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.15);
+      border-left: 3px solid var(--orange);
+      border-radius: 4px; color: rgba(255,255,255,.8);
+      font-size: .9rem; line-height: 1.7; text-align: left;
+    }
+    .form-error {
+      display: none; margin-top: 14px; font-size: .82rem;
+      color: #F87171; text-align: center;
+    }
+    .contact-note {
+      margin-top: 18px; font-size: .78rem; color: rgba(255,255,255,.3);
+      letter-spacing: .02em; text-align: center;
+    }
+
+    /* ── 푸터 ─────────────────────────────────── */
+    footer {
+      background: #060F1E; color: rgba(255,255,255,.4);
+      padding: 40px 32px; text-align: center; font-size: .8rem;
+    }
+    .footer-logo { margin-bottom: 14px; }
+    .footer-logo img { height: 26px; opacity: .55; }
+    .footer-logo-text {
+      display: none; font-size: .95rem; font-weight: 900;
+      color: rgba(255,255,255,.45);
+    }
+    .footer-links {
+      display: flex; gap: 20px; justify-content: center;
+      flex-wrap: wrap; margin: 12px 0 18px;
+    }
+    .footer-links a {
+      color: rgba(255,255,255,.4); text-decoration: none;
+      transition: color .2s;
+    }
+    .footer-links a:hover { color: var(--orange); }
+    footer a { color: rgba(255,255,255,.4); text-decoration: none; }
+    footer a:hover { color: var(--orange); }
+    .footer-note { font-size: .73rem; color: rgba(255,255,255,.22); margin-top: 10px; }
+
+    /* ── 반응형 ───────────────────────────────── */
+    @media (max-width: 900px) {
+      .nav-links, .nav-cta { display: none; }
+      .nav-hamburger { display: flex; }
+      .about-grid, .coop-grid { grid-template-columns: 1fr; gap: 44px; }
+      .why-grid { grid-template-columns: 1fr 1fr; }
+      .tpanel.active { grid-template-columns: 1fr; }
+      .prog-grid { grid-template-columns: 1fr; }
+      .contact-cards { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      section { padding: 68px 20px; }
+      .why-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+      .hero-stats { flex-direction: column; padding-top: 28px; gap: 20px; }
+      .hstat { border-right: none; padding: 0; }
+      .tpanel-kpi { grid-template-columns: 1fr 1fr; }
+      .target-tabs { border-bottom: none; flex-direction: column; gap: 2px; }
+      .ttab { border: 1px solid var(--border); border-radius: 4px; text-align: left; }
+      .ttab.active { background: var(--navy); color: white; border-color: var(--navy); }
+    }
+
+    /* ── 모바일 메뉴 ──────────────────────────── */
+    #mobile-menu {
+      display: none; flex-direction: column;
+      background: var(--navy2);
+      border-top: 1px solid rgba(255,255,255,.08);
+      padding: 12px 24px 20px; gap: 2px;
+    }
+    #mobile-menu.open { display: flex; }
+    #mobile-menu a {
+      color: rgba(255,255,255,.75); text-decoration: none;
+      font-size: .9rem; font-weight: 600; padding: 10px 12px;
+      border-radius: 4px; transition: background .2s;
+    }
+    #mobile-menu a:hover { background: rgba(255,255,255,.08); }
+    #mobile-menu .nav-cta {
+      text-align: center; margin-top: 10px; display: block;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ 네비게이션 -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#hero">
+      <img src="https://cdn.prod.website-files.com/69130479501764fda8a895c6/6927dcd1e2305a744a15761b_image%20102.svg"
+           alt="T-HUB"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="nav-logo-text" style="display:none">T<span>-HUB</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">T-HUB 소개</a>
+      <a href="#why">왜 인도인가</a>
+      <a href="#target">협력 대상</a>
+      <a href="#programs">프로그램</a>
+      <a href="#cooperation">협력 현황</a>
+    </div>
+    <a class="nav-cta" href="#contact">협력 문의</a>
+    <div class="nav-hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div id="mobile-menu">
+    <a href="#about" onclick="toggleMenu()">T-HUB 소개</a>
+    <a href="#why" onclick="toggleMenu()">왜 인도인가</a>
+    <a href="#target" onclick="toggleMenu()">협력 대상</a>
+    <a href="#programs" onclick="toggleMenu()">프로그램</a>
+    <a href="#cooperation" onclick="toggleMenu()">협력 현황</a>
+    <a class="nav-cta" href="#contact" onclick="toggleMenu()">협력 문의</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════ 히어로 -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">인도 진출의 실증된 파트너 · 공식 한국 협력 창구</div>
+    <h1 class="hero-title">
+      인도 진출,<br>
+      막막하셨다면<br>
+      <em>T-HUB</em>가 답입니다
+    </h1>
+    <p class="hero-sub">
+      인도 시장, 관심은 있지만 어디서부터 시작해야 할지 막막하셨다면 —<br>
+      T-HUB는 인도 정부가 직접 설립한 아시아 최대 스타트업 허브로,
+      2,300개 이상의 IT 기업이 거쳐간 검증된 혁신 플랫폼입니다.<br>
+      그 방대한 네트워크와 인프라가 지금 한국 기업의 문을 두드리고 있습니다.
+    </p>
+    <div class="hero-btns">
+      <a class="btn-primary" href="#contact">협력 문의하기</a>
+      <a class="btn-outline" href="#about">T-HUB 알아보기</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat">
+        <span class="hstat-num">2,300<span>+</span></span>
+        <div class="hstat-label">입주 스타트업</div>
+      </div>
+      <div class="hstat">
+        <span class="hstat-num">$<span>20억</span>+</span>
+        <div class="hstat-label">누적 투자 유치</div>
+      </div>
+      <div class="hstat">
+        <span class="hstat-num">290<span>+</span></span>
+        <div class="hstat-label">전문 멘토</div>
+      </div>
+      <div class="hstat">
+        <span class="hstat-num" style="font-size:1.4rem">세계 최대</span>
+        <div class="hstat-label">스타트업 허브 면적</div>
+      </div>
+      <div class="hstat">
+        <span class="hstat-num">100<span>+</span></span>
+        <div class="hstat-label">글로벌 프로그램</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ T-HUB 소개 -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="about-logo-wrap">
+          <img src="https://cdn.prod.website-files.com/69130479501764fda8a895c6/6927dc95d9efce33b45f7305_image%201.svg"
+               alt="T-HUB Logo"
+               onerror="this.style.display='none'">
+        </div>
+        <h3>인도를 넘어 세계를 이끄는<br>혁신 생태계의 중심</h3>
+        <p>
+          T-HUB는 2015년 인도 텔랑가나 주정부와 IIIT 하이데라바드, ISB, NALSAR가 공동 설립한
+          <strong>세계 최대 규모의 스타트업 허브</strong>입니다. 공공과 민간이 함께 만드는 인도형 혁신 생태계 모델로,
+          스타트업·대기업·정부·투자자·학계를 하나의 플랫폼으로 연결합니다.
+        </p>
+        <p>
+          프랑스 Station F의 1.5배에 달하는 <strong>572,000 sq ft(약 53,000㎡)</strong> 규모에
+          인도 최초의 Google for Startups Hub를 운영하며 글로벌 혁신의 최전선을 이끌고 있습니다.
+        </p>
+        <p>
+          2022년 인도 국가 스타트업 어워드 <strong>최우수 인큐베이터</strong>,
+          2023년 과학기술부 <strong>최우수 국가기술비즈니스인큐베이터</strong>에 선정되었습니다.
+        </p>
+        <div class="about-badges">
+          <div class="badge">Best Incubator in India 2022</div>
+          <div class="badge">Google for Startups Hub 운영</div>
+          <div class="badge">2015년 설립 · 10년 역사</div>
+          <div class="badge">세계 3위 스타트업 생태계</div>
+        </div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-box">
+          <span class="num">2,300+</span>
+          <div class="lbl">입주 스타트업</div>
+        </div>
+        <div class="stat-box">
+          <span class="num">$20억+</span>
+          <div class="lbl">총 투자 유치</div>
+        </div>
+        <div class="stat-box">
+          <span class="num">290+</span>
+          <div class="lbl">전문 멘토</div>
+        </div>
+        <div class="stat-box">
+          <span class="num">200+</span>
+          <div class="lbl">투자자 네트워크</div>
+        </div>
+        <div class="stat-box">
+          <span class="num">90+</span>
+          <div class="lbl">혁신 파트너</div>
+        </div>
+        <div class="stat-box">
+          <span class="num">2,000+</span>
+          <div class="lbl">개최 이벤트</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 왜 인도인가 -->
+<section id="why">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Why India</div>
+      <h2 class="section-title">지금, 왜 인도인가?</h2>
+      <p class="section-desc">
+        인도는 더 이상 미래의 시장이 아닙니다.
+        지금 이 순간, 가장 빠르게 성장하고 있는 기회의 땅입니다.
+      </p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-num">01</div>
+        <h4>세계 3위 스타트업 생태계</h4>
+        <p>인도는 <span class="hl">185,000개 이상</span>의 공인 스타트업을 보유하며 미국, 중국에 이어 세계 3위의 스타트업 강국입니다. 매년 수천 개의 혁신 기업이 새롭게 탄생하고 있습니다.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">02</div>
+        <h4>14억 인구의 거대 시장</h4>
+        <p>세계 최대 인구 대국이자 빠르게 성장하는 중산층. 디지털 경제 성장률은 <span class="hl">연 20%</span>를 상회하며, 소비 시장으로서의 잠재력은 세계 최상위 수준입니다.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">03</div>
+        <h4>글로벌 IT 인재 강국</h4>
+        <p>매년 <span class="hl">150만 명</span>의 IT 엔지니어가 배출되는 인도는 AI, 소프트웨어, 데이터 분야의 세계 최대 기술 인력 공급국으로 자리 잡고 있습니다.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">04</div>
+        <h4>견고한 경제 성장</h4>
+        <p>2024년 GDP 성장률 <span class="hl">7.2%</span>로 주요국 중 최상위권. '디지털 인디아', '메이크 인 인디아' 정책을 통해 외국 기업에 대한 시장 개방을 지속 확대하고 있습니다.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">05</div>
+        <h4>한-인도 특별 전략적 동반자</h4>
+        <p>2010년 체결된 <span class="hl">한-인도 CEPA</span>와 2015년 특별전략적동반자 관계 격상으로 양국 기업 간 비즈니스 환경이 지속적으로 개선되고 있습니다.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">06</div>
+        <h4>AI·딥테크 혁신의 중심</h4>
+        <p>Google, Microsoft, AWS가 인도를 <span class="hl">글로벌 AI 핵심 거점</span>으로 집중 투자 중. T-HUB의 MATH AI 센터를 통해 세계 수준의 AI·ML 기술 스타트업과 직접 연결됩니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 협력 대상 -->
+<section id="target">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">협력 대상</div>
+      <h2 class="section-title">누구와 함께하나요?</h2>
+      <p class="section-desc">
+        T-HUB Korea는 4가지 협력 대상에 맞춤화된 지원 프로그램을 제공합니다.
+      </p>
+    </div>
+
+    <div class="target-tabs">
+      <button class="ttab active" onclick="showTab(0)">인도 진출 희망 기업</button>
+      <button class="ttab" onclick="showTab(1)">인도 IT 기술 도입 기업</button>
+      <button class="ttab" onclick="showTab(2)">지방자치단체 · 협회</button>
+      <button class="ttab" onclick="showTab(3)">대학교</button>
+    </div>
+
+    <!-- 패널 0 -->
+    <div class="tpanel active" id="tpanel-0">
+      <div>
+        <div class="tpanel-label">Korean Companies</div>
+        <h3>인도 진출을 꿈꾸는<br>한국 기업을 위해</h3>
+        <p class="sub">
+          14억 인도 시장의 문을 열고 싶지만 현지 네트워크와 정보가 부족하신가요?
+          T-HUB의 광범위한 현지 생태계와 한국 협력 채널을 통해
+          안전하고 빠른 인도 시장 소프트랜딩을 지원합니다.
+        </p>
+        <div class="benefit-list">
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>소프트랜딩 지원</strong>
+              <span>인도 현지 사무공간, 법인 설립, 규제 자문 등 초기 정착 전 과정 지원</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>현지 파트너 매칭</strong>
+              <span>T-HUB 네트워크 내 200개 이상 기업 및 투자자와의 비즈니스 매칭 서비스</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>인도 시장 테스트베드</strong>
+              <span>제품·서비스의 인도 현지화 실험 및 파일럿 프로그램 운영 지원</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>T-Bridge 프로그램 연계</strong>
+              <span>T-HUB 공식 국제화 프로그램을 통한 체계적인 글로벌 진출 지원</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tpanel-visual">
+        <h4>인도 진출 기회 지표</h4>
+        <div class="tpanel-kpi">
+          <div class="tpanel-kpi-item"><div class="k-num">14억</div><div class="k-lbl">소비자 시장 인구</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">7.2%</div><div class="k-lbl">GDP 성장률 (2024)</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">200+</div><div class="k-lbl">T-HUB 입주 대기업</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">100+</div><div class="k-lbl">국제 협력 프로그램</div></div>
+        </div>
+        <div class="tpanel-quote">
+          "T-HUB는 단순한 스타트업 허브가 아닙니다. 인도 전체 스타트업 생태계를 연결하는 통합 플랫폼으로, 한국 기업의 인도 시장 진출에 가장 강력한 파트너입니다."
+        </div>
+      </div>
+    </div>
+
+    <!-- 패널 1 -->
+    <div class="tpanel" id="tpanel-1">
+      <div>
+        <div class="tpanel-label">Tech Collaboration</div>
+        <h3>인도 최첨단 IT 기술로<br>혁신을 가속하세요</h3>
+        <p class="sub">
+          AI, 핀테크, 헬스테크, IoT 분야에서 세계 수준의 기술을 보유한 인도 스타트업과
+          T-HUB를 통해 직접 연결하세요. 2,300개 이상의 스타트업 풀에서
+          최적의 기술 파트너를 찾아드립니다.
+        </p>
+        <div class="benefit-list">
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>AI · ML 기술 매칭</strong>
+              <span>MATH AI 센터를 통한 인도 최고 수준의 AI·머신러닝 스타트업 연결</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>헬스테크 · 핀테크 협력</strong>
+              <span>의료, 금융, IoT 분야 검증된 인도 스타트업과 기술 라이선싱 및 협업</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>Corporate Innovation Conclave 참가</strong>
+              <span>T-HUB 연간 최대 행사에서 최신 스타트업 기술 데모 및 투자 기회 발굴</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>공동 R&D 프로젝트</strong>
+              <span>한국 기업과 인도 스타트업의 공동 기술 개발 및 지식재산권 공유 협약 지원</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tpanel-visual">
+        <h4>인도 IT 기술 현황</h4>
+        <div class="tpanel-kpi">
+          <div class="tpanel-kpi-item"><div class="k-num">150만</div><div class="k-lbl">연간 IT 인재 배출</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">2,300+</div><div class="k-lbl">기술 스타트업</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">글로벌 1위</div><div class="k-lbl">IT 아웃소싱</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">MATH</div><div class="k-lbl">AI·ML 혁신 센터</div></div>
+        </div>
+        <div class="tpanel-quote">
+          "Google, Microsoft, AWS 모두 인도를 글로벌 AI 혁신의 핵심 거점으로 지정했습니다. T-HUB는 이 혁신의 중심에서 한국 기업의 기술 파트너를 연결합니다."
+        </div>
+      </div>
+    </div>
+
+    <!-- 패널 2 -->
+    <div class="tpanel" id="tpanel-2">
+      <div>
+        <div class="tpanel-label">Public Sector</div>
+        <h3>한국 지방정부와 협회를 위한<br>인도 협력 창구</h3>
+        <p class="sub">
+          인도의 혁신 생태계 모델은 한국 지방정부와 협회의 스타트업 지원 정책,
+          스마트시티 구축, 국제 교류에 새로운 시사점을 제공합니다.
+          T-HUB와의 공식 협력으로 지역 혁신 역량을 강화하세요.
+        </p>
+        <div class="benefit-list">
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>스마트시티 · 디지털 정부 협력</strong>
+              <span>인도 텔랑가나 주정부의 스마트시티 모델과 한국 지자체 간 정책 교류</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>MoU 체결 및 공식 파트너십</strong>
+              <span>T-HUB 및 인도 지방정부와의 공식 협약 체결을 통한 장기 협력 기반 구축</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>인도 혁신 생태계 시찰 프로그램</strong>
+              <span>T-HUB 본부 방문, 현지 스타트업 미팅, 정부 기관 교류 프로그램 기획·운영</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>지역 스타트업 생태계 구축 자문</strong>
+              <span>T-HUB 10년 운영 노하우를 바탕으로 한 지역 혁신 생태계 설계 및 자문</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tpanel-visual">
+        <h4>공공-민간 협력 모델</h4>
+        <div class="tpanel-kpi">
+          <div class="tpanel-kpi-item"><div class="k-num">PPP</div><div class="k-lbl">공공-민간 혁신 모델</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">10년+</div><div class="k-lbl">생태계 운영 경험</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">100+</div><div class="k-lbl">정부 협력 프로그램</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">확정</div><div class="k-lbl">한국 파트너 입주</div></div>
+        </div>
+        <div class="tpanel-quote">
+          "T-HUB의 공공-민간 파트너십 모델은 인도 스타트업 생태계 성공의 핵심입니다. 한국 지방자치단체가 이 모델에서 배울 수 있는 것은 매우 많습니다."
+        </div>
+      </div>
+    </div>
+
+    <!-- 패널 3 -->
+    <div class="tpanel" id="tpanel-3">
+      <div>
+        <div class="tpanel-label">Academia</div>
+        <h3>한국 대학교를 위한<br>글로벌 혁신 교육의 창구</h3>
+        <p class="sub">
+          IIIT 하이데라바드, ISB 등 세계 수준의 인도 대학 및 연구기관과 협력하는
+          T-HUB를 통해 한국 대학교의 글로벌 혁신 교육과 연구 역량을 강화하세요.
+        </p>
+        <div class="benefit-list">
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>공동 연구 프로젝트</strong>
+              <span>AI, 바이오테크, 우주항공 등 첨단 분야 한-인도 공동 연구 및 논문 협력</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>학생 · 교수 교류 프로그램</strong>
+              <span>T-HUB 인턴십, 교환학생, 창업 캠프 등 인도 현지 체험 프로그램 연계</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>스타트업 창업 프로그램</strong>
+              <span>대학 내 T-HUB 연계 창업 교육 및 인도 시장을 겨냥한 스타트업 인큐베이팅</span>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="bi-check">→</div>
+            <div class="bi-text">
+              <strong>글로벌 네트워크 확장</strong>
+              <span>T-HUB를 통한 200개 이상 글로벌 파트너 대학 및 연구기관 네트워크 접근</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tpanel-visual">
+        <h4>T-HUB 학술 네트워크</h4>
+        <div class="tpanel-kpi">
+          <div class="tpanel-kpi-item"><div class="k-num">IIIT-H</div><div class="k-lbl">공동 설립 대학</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">ISB</div><div class="k-lbl">비즈니스 스쿨 협력</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">400+</div><div class="k-lbl">글로벌 네트워크</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">MATH</div><div class="k-lbl">AI 혁신 연구센터</div></div>
+        </div>
+        <div class="tpanel-quote">
+          "T-HUB는 창업 지원을 넘어 인도의 학문적 역량과 기업 혁신을 연결하는 지식 생태계입니다. 한국 대학과의 교류로 새로운 연구의 지평을 열어갑니다."
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 프로그램 -->
+<section id="programs">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Programs</div>
+      <h2 class="section-title">T-HUB 주요 협력 프로그램</h2>
+      <p class="section-desc">
+        T-HUB가 운영하는 검증된 프로그램을 통해 체계적으로 인도와 연결하세요.
+      </p>
+    </div>
+    <div class="prog-grid">
+      <div class="prog-card">
+        <div class="prog-category">국제화 · 시장 진출</div>
+        <h4>T-Bridge — 글로벌 시장 진출 프로그램</h4>
+        <p>T-HUB의 공식 국제화 프로그램으로, 한국 기업과 스타트업이 인도 시장에 안착할 수 있도록 현지 파트너 매칭, 규제 자문, 네트워크 구축을 지원합니다. 방글라데시, 우즈베키스탄, 일본, 한국, UAE 등 다양한 국가와 협력 중입니다.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">소프트랜딩</span>
+          <span class="prog-tag">파트너 매칭</span>
+          <span class="prog-tag">글로벌 네트워크</span>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-category">한-인도 성장 지원</div>
+        <h4>India Market Access Bridge</h4>
+        <p>인도 시장 진출을 원하는 한국 스타트업과 중소기업을 위한 맞춤형 액셀러레이터 프로그램. KOSME와의 MoU를 기반으로 공동 운영하며, 시장 분석에서 고객 발굴까지 실질적인 인도 시장 접근 기회를 제공합니다.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">KOSME 연계</span>
+          <span class="prog-tag">시장 분석</span>
+          <span class="prog-tag">고객 발굴</span>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-category">AI · 딥테크</div>
+        <h4>MATH AI 센터 — AI·ML 혁신 허브</h4>
+        <p>인도 과학기술부(DST)와 T-HUB가 공동 운영하는 AI·머신러닝 전문 혁신 센터. Google, AWS 등 글로벌 빅테크와 연계하여 인도 최고 수준의 AI 스타트업 및 연구 역량에 직접 접근할 수 있습니다.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">AI / ML</span>
+          <span class="prog-tag">딥테크</span>
+          <span class="prog-tag">R&D 협력</span>
+        </div>
+      </div>
+      <div class="prog-card">
+        <div class="prog-category">기업 혁신</div>
+        <h4>Corporate Innovation Conclave</h4>
+        <p>T-HUB 최대 연간 행사로, 스타트업과 대기업의 혁신 협력을 촉진하는 플랫폼입니다. 한국 기업이 참가하여 최신 인도 기술 트렌드를 파악하고 잠재적 파트너를 발굴할 수 있는 최고의 기회입니다.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">데모데이</span>
+          <span class="prog-tag">투자 기회</span>
+          <span class="prog-tag">네트워킹</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 협력 현황 -->
+<section id="cooperation">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Cooperation History</div>
+      <h2 class="section-title">한-인도 협력의 발자취</h2>
+      <p class="section-desc">
+        T-HUB와 한국의 협력은 이미 시작되었습니다.
+        공식 MoU와 정부 간 협의를 기반으로 더 깊고 넓은 파트너십을 만들어갑니다.
+      </p>
+    </div>
+    <div class="coop-grid">
+      <div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2018</div>
+            <h4>한-인도 스타트업 허브 출범</h4>
+            <p>KOTRA와 인도 Invest India가 공동 MoU를 체결하여 양국 스타트업·투자자 간 협력 플랫폼을 공식 출범. 한-인도 스타트업 교류의 제도적 기반이 마련되었습니다.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2020</div>
+            <h4>T-HUB × KOSME MoU 체결</h4>
+            <p>T-HUB가 한국 중소벤처기업부 산하 KOSME(중소벤처기업진흥공단)와 공식 MoU를 체결. 한국 스타트업의 인도 시장 진출 액셀러레이터 프로그램을 공동 운영하기 시작했습니다.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2025</div>
+            <h4>한국 중기부 – 인도 DPIIT 협력 협의</h4>
+            <p>한국 중소벤처기업부가 인도 산업통상진흥부(DPIIT) 및 IIT 델리를 방문, 스타트업 협력 MoU를 체결하고 양국 유망 기업 간 기술 교류 확대에 합의했습니다.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2025</div>
+            <h4>T-HUB 신관 한국 파트너 공식 입주</h4>
+            <p>T-HUB 신규 건물에 한국이 공식 국제 파트너로 입주 확정. 일본, UAE, 방글라데시와 함께 한국이 T-HUB의 핵심 글로벌 파트너로 자리매김했습니다.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="strength-box">
+          <div class="strength-label" style="color:var(--blue)">한국의 강점</div>
+          <div class="strength-tags">
+            <span class="stag stag-kr">반도체</span>
+            <span class="stag stag-kr">배터리 · 전기차</span>
+            <span class="stag stag-kr">콘텐츠 · K-컬처</span>
+            <span class="stag stag-kr">스마트 제조</span>
+            <span class="stag stag-kr">의료 · 바이오</span>
+          </div>
+        </div>
+        <div class="strength-box">
+          <div class="strength-label" style="color:var(--orange)">인도의 강점</div>
+          <div class="strength-tags">
+            <span class="stag stag-in">AI · 소프트웨어</span>
+            <span class="stag stag-in">IT 인재</span>
+            <span class="stag stag-in">핀테크</span>
+            <span class="stag stag-in">우주 · 방위산업</span>
+            <span class="stag stag-in">거대 내수 시장</span>
+          </div>
+        </div>
+        <div class="partner-logos">
+          <div class="partner-label">공식 협력 기관</div>
+          <div class="partner-chip">T-HUB (인도 · 텔랑가나 주정부)</div>
+          <div class="partner-chip">KOSME 중소벤처기업진흥공단</div>
+          <div class="partner-chip">KOTRA 한국무역투자진흥공사</div>
+          <div class="partner-chip">Invest India</div>
+          <div class="partner-chip">한국 중소벤처기업부</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 문의하기 -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-tag">Contact</div>
+    <h2 class="section-title" style="color:white;margin-bottom:16px">지금 바로 협력을<br>시작하세요</h2>
+    <p class="section-desc">
+      인도 진출, IT 기술 도입, 기관 협력, 대학 교류 — 어떤 질문이든 환영합니다.<br>
+      T-HUB Korea 협력 창구가 신속하게 답변드리겠습니다.
+    </p>
+    <div class="contact-cards">
+      <div class="ccard">
+        <div class="ccard-cat">기업 협력</div>
+        <h5>인도 진출 · IT 기술 도입</h5>
+        <p>한국 기업의 인도 시장 진출 및 인도 첨단 기술 도입 지원</p>
+      </div>
+      <div class="ccard">
+        <div class="ccard-cat">기관 · 학교 협력</div>
+        <h5>지자체 · 협회 · 대학</h5>
+        <p>공공기관 MoU 체결 및 교육·연구 교류 프로그램</p>
+      </div>
+    </div>
+    <form class="contact-form" id="contact-form" onsubmit="submitForm(event)">
+      <input type="hidden" name="_subject" value="T-HUB Korea 협력 문의">
+      <input type="hidden" name="_captcha" value="false">
+      <div class="form-row">
+        <label for="cf-name">이름</label>
+        <input id="cf-name" type="text" name="name" placeholder="성함을 입력해 주세요" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-email">이메일</label>
+        <input id="cf-email" type="email" name="email" placeholder="회신 받으실 이메일 주소" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-interest">관심 분야</label>
+        <select id="cf-interest" name="interest" required>
+          <option value="" disabled selected>관심 분야를 선택해 주세요</option>
+          <option>인도 시장 진출 (한국 기업)</option>
+          <option>인도 IT 기술 도입</option>
+          <option>기관 · 지자체 협력</option>
+          <option>대학 · 학술 교류</option>
+          <option>기타 문의</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="cf-message">문의 내용</label>
+        <textarea id="cf-message" name="message" placeholder="궁금하신 점을 자유롭게 작성해 주세요" rows="5" style="width:100%;padding:13px 16px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:4px;color:white;font-size:.93rem;font-family:inherit;outline:none;resize:vertical;transition:border-color .2s,background .2s;line-height:1.7"></textarea>
+      </div>
+      <button type="submit" class="form-submit-btn" id="form-submit-btn">보내기</button>
+      <div class="form-success" id="form-success">
+        문의가 접수되었습니다.<br>
+        최대한 빠른 시일내에 답변 드리겠습니다.
+      </div>
+      <div class="form-error" id="form-error">
+        전송 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.
+      </div>
+    </form>
+    <p class="contact-note">입력하신 이메일로 직접 답변드립니다.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 푸터 -->
+<footer>
+  <div class="footer-logo">
+    <img src="https://cdn.prod.website-files.com/69130479501764fda8a895c6/6927dcd1e2305a744a15761b_image%20102.svg"
+         alt="T-HUB"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block'">
+    <span class="footer-logo-text">T-HUB Korea</span>
+  </div>
+  <div class="footer-links">
+    <a href="#about">T-HUB 소개</a>
+    <a href="#why">왜 인도인가</a>
+    <a href="#target">협력 대상</a>
+    <a href="#programs">프로그램</a>
+    <a href="#cooperation">협력 현황</a>
+    <a href="#contact">문의하기</a>
+  </div>
+  <p>T-HUB Korea 협력 창구 &nbsp;|&nbsp; <a href="mailto:chris.indiacon@gmail.com?subject=T-HUB Korea 협력 문의">이메일 문의</a></p>
+  <p class="footer-note">본 사이트는 인도 T-HUB(t-hub.co)와의 협력을 소개하기 위한 공식 한국 협력 창구입니다.</p>
+</footer>
+
+<button id="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">TOP</button>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('mobile-menu').classList.toggle('open');
+  }
+
+  async function submitForm(e) {
+    e.preventDefault();
+    const btn = document.getElementById('form-submit-btn');
+    const success = document.getElementById('form-success');
+    const error = document.getElementById('form-error');
+    btn.disabled = true;
+    btn.textContent = '전송 중...';
+    success.style.display = 'none';
+    error.style.display = 'none';
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/chris.indiacon@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(e.target),
+      });
+      if (res.ok) {
+        e.target.reset();
+        success.style.display = 'block';
+        btn.textContent = '보내기 완료';
+      } else {
+        throw new Error();
+      }
+    } catch {
+      error.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = '보내기';
+    }
+  }
+
+  function showTab(idx) {
+    document.querySelectorAll('.ttab').forEach((t, i) => t.classList.toggle('active', i === idx));
+    document.querySelectorAll('.tpanel').forEach((p, i) => p.classList.toggle('active', i === idx));
+  }
+
+  window.addEventListener('scroll', () => {
+    document.getElementById('to-top').classList.toggle('show', window.scrollY > 400);
+  });
+
+  // 수치 카운터 애니메이션
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.querySelectorAll('.num').forEach(el => {
+        const raw = el.textContent.replace(/[^0-9]/g, '');
+        const target = parseInt(raw);
+        if (isNaN(target) || target === 0) return;
+        const suffix = el.textContent.replace(/[0-9,]/g, '');
+        let cur = 0;
+        const step = Math.max(1, Math.ceil(target / 80));
+        const timer = setInterval(() => {
+          cur = Math.min(cur + step, target);
+          el.textContent = cur.toLocaleString() + suffix;
+          if (cur >= target) clearInterval(timer);
+        }, 18);
+      });
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.4 });
+
+  document.querySelectorAll('.stats-grid').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
 
