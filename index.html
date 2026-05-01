@@ -455,12 +455,19 @@
     .form-submit-btn:hover { background: var(--orange2); }
     .form-submit-btn:disabled { opacity: .55; cursor: not-allowed; }
     .form-success {
-      display: none; margin-top: 20px; padding: 18px 22px;
-      background: rgba(255,255,255,.07);
+      display: none; margin-top: 20px; padding: 28px 28px;
+      background: rgba(255,255,255,.06);
       border: 1px solid rgba(255,255,255,.15);
-      border-left: 3px solid var(--orange);
-      border-radius: 4px; color: rgba(255,255,255,.8);
-      font-size: .9rem; line-height: 1.7; text-align: left;
+      border-top: 3px solid var(--orange);
+      border-radius: 4px; text-align: center;
+    }
+    .form-success .success-title {
+      font-size: 1.05rem; font-weight: 800; color: white;
+      margin-bottom: 10px; letter-spacing: -.01em;
+    }
+    .form-success .success-body {
+      font-size: .88rem; color: rgba(255,255,255,.55);
+      line-height: 1.8; word-break: keep-all;
     }
     .form-error {
       display: none; margin-top: 14px; font-size: .82rem;
@@ -1164,8 +1171,11 @@
       </div>
       <button type="submit" class="form-submit-btn" id="form-submit-btn">보내기</button>
       <div class="form-success" id="form-success">
-        문의가 접수되었습니다.<br>
-        최대한 빠른 시일내에 답변 드리겠습니다.
+        <div class="success-title">문의가 성공적으로 접수되었습니다.</div>
+        <div class="success-body">
+          소중한 관심에 감사드립니다.<br>
+          담당자가 내용을 검토한 후 기재하신 이메일로 직접 연락드리겠습니다.
+        </div>
       </div>
       <div class="form-error" id="form-error">
         전송 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.
@@ -1205,3 +1215,63 @@
   async function submitForm(e) {
     e.preventDefault();
     const btn = document.getElementById('form-submit-btn');
+    const success = document.getElementById('form-success');
+    const error = document.getElementById('form-error');
+    btn.disabled = true;
+    btn.textContent = '전송 중...';
+    success.style.display = 'none';
+    error.style.display = 'none';
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/chris.indiacon@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(e.target),
+      });
+      if (res.ok) {
+        e.target.reset();
+        success.style.display = 'block';
+        btn.textContent = '보내기 완료';
+      } else {
+        throw new Error();
+      }
+    } catch {
+      error.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = '보내기';
+    }
+  }
+
+  function showTab(idx) {
+    document.querySelectorAll('.ttab').forEach((t, i) => t.classList.toggle('active', i === idx));
+    document.querySelectorAll('.tpanel').forEach((p, i) => p.classList.toggle('active', i === idx));
+  }
+
+  window.addEventListener('scroll', () => {
+    document.getElementById('to-top').classList.toggle('show', window.scrollY > 400);
+  });
+
+  // 수치 카운터 애니메이션
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.querySelectorAll('.num').forEach(el => {
+        const raw = el.textContent.replace(/[^0-9]/g, '');
+        const target = parseInt(raw);
+        if (isNaN(target) || target === 0) return;
+        const suffix = el.textContent.replace(/[0-9,]/g, '');
+        let cur = 0;
+        const step = Math.max(1, Math.ceil(target / 80));
+        const timer = setInterval(() => {
+          cur = Math.min(cur + step, target);
+          el.textContent = cur.toLocaleString() + suffix;
+          if (cur >= target) clearInterval(timer);
+        }, 18);
+      });
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.4 });
+
+  document.querySelectorAll('.stats-grid').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
