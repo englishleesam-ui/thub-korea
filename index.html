@@ -1260,4 +1260,130 @@
   <div class="footer-logo">
     <img src="https://cdn.prod.website-files.com/69130479501764fda8a895c6/6927dcd1e2305a744a15761b_image%20102.svg"
          alt="T-HUB"
-         onerro
+         onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block'">
+    <span class="footer-logo-text">T-HUB Korea</span>
+  </div>
+  <div class="footer-links">
+    <a href="#about">T-HUB 소개</a>
+    <a href="#why">왜 인도인가</a>
+    <a href="#target">협력 대상</a>
+    <a href="#programs">프로그램</a>
+    <a href="#cooperation">협력 현황</a>
+    <a href="#contact">문의하기</a>
+  </div>
+  <p>T-HUB Korea 협력 창구 &nbsp;|&nbsp; <a href="mailto:chris.indiacon@gmail.com?subject=T-HUB Korea 협력 문의">이메일 문의</a></p>
+  <p class="footer-note">본 사이트는 인도 T-HUB(t-hub.co)와의 협력을 소개하기 위한 공식 한국 협력 창구입니다.</p>
+</footer>
+
+<button id="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">TOP</button>
+
+<script>
+  // ── 뉴스 탭 ──────────────────────────────────────────
+  function showNewsTab(idx) {
+    document.querySelectorAll('.ntab').forEach((t, i) => t.classList.toggle('active', i === idx));
+    document.querySelectorAll('.news-panel').forEach((p, i) => p.classList.toggle('active', i === idx));
+  }
+
+  function renderNews(articles, category, elId) {
+    const el = document.getElementById(elId);
+    const filtered = articles.filter(a => a.category === category);
+    if (!filtered.length) {
+      el.innerHTML = '<div class="news-empty">현재 등록된 뉴스가 없습니다.</div>';
+      return;
+    }
+    el.innerHTML = filtered.map((a, i) => `
+      <div class="news-card">
+        <div class="news-card-num">${String(i + 1).padStart(2, '0')}</div>
+        <div class="news-card-body">
+          <div class="news-card-title">${a.title_ko}</div>
+          <div class="news-card-meta">
+            <span class="news-card-source">${a.source}</span>
+            <span>${a.date}</span>
+          </div>
+        </div>
+        <a class="news-card-link" href="${a.url}" target="_blank" rel="noopener">원문 보기</a>
+      </div>`).join('');
+  }
+
+  fetch('./news.json')
+    .then(r => r.json())
+    .then(data => {
+      renderNews(data.articles, 'india', 'news-india');
+      renderNews(data.articles, 'thub',  'news-thub');
+      if (data.last_updated) {
+        document.getElementById('news-updated').textContent = '최종 업데이트: ' + data.last_updated;
+      }
+    })
+    .catch(() => {
+      document.getElementById('news-india').innerHTML = '<div class="news-empty">뉴스를 불러올 수 없습니다.</div>';
+      document.getElementById('news-thub').innerHTML  = '<div class="news-empty">뉴스를 불러올 수 없습니다.</div>';
+    });
+
+  // ─────────────────────────────────────────────────────
+  function toggleMenu() {
+    document.getElementById('mobile-menu').classList.toggle('open');
+  }
+
+  async function submitForm(e) {
+    e.preventDefault();
+    const btn = document.getElementById('form-submit-btn');
+    const success = document.getElementById('form-success');
+    const error = document.getElementById('form-error');
+    btn.disabled = true;
+    btn.textContent = '전송 중...';
+    success.style.display = 'none';
+    error.style.display = 'none';
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/chris.indiacon@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(e.target),
+      });
+      if (res.ok) {
+        e.target.reset();
+        success.style.display = 'block';
+        btn.textContent = '보내기 완료';
+      } else {
+        throw new Error();
+      }
+    } catch {
+      error.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = '보내기';
+    }
+  }
+
+  function showTab(idx) {
+    document.querySelectorAll('.ttab').forEach((t, i) => t.classList.toggle('active', i === idx));
+    document.querySelectorAll('.tpanel').forEach((p, i) => p.classList.toggle('active', i === idx));
+  }
+
+  window.addEventListener('scroll', () => {
+    document.getElementById('to-top').classList.toggle('show', window.scrollY > 400);
+  });
+
+  // 수치 카운터 애니메이션
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.querySelectorAll('.num').forEach(el => {
+        const raw = el.textContent.replace(/[^0-9]/g, '');
+        const target = parseInt(raw);
+        if (isNaN(target) || target === 0) return;
+        const suffix = el.textContent.replace(/[0-9,]/g, '');
+        let cur = 0;
+        const step = Math.max(1, Math.ceil(target / 80));
+        const timer = setInterval(() => {
+          cur = Math.min(cur + step, target);
+          el.textContent = cur.toLocaleString() + suffix;
+          if (cur >= target) clearInterval(timer);
+        }, 18);
+      });
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.4 });
+
+  document.querySelectorAll('.stats-grid').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
