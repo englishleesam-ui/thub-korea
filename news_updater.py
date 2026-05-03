@@ -34,6 +34,23 @@ FILTERS = {
 }
 
 
+STOP_WORDS = {'a','an','the','in','of','to','and','or','is','are','for','on','at','by','as','its','it','with','from','that','this','was','has','have','be','will','but'}
+
+def title_words(title):
+    words = set(title.lower().replace("'s", '').split())
+    return words - STOP_WORDS
+
+def is_duplicate(title, seen_titles):
+    w = title_words(title)
+    for s in seen_titles:
+        sw = title_words(s)
+        if not w or not sw:
+            continue
+        if len(w & sw) / min(len(w), len(sw)) >= 0.6:
+            return True
+    return False
+
+
 def translate(text):
     if not HAS_TRANSLATOR or not text:
         return text
@@ -95,12 +112,14 @@ def main():
 
     # 새 기사 검색
     new_articles = []
+    seen_titles  = [a['title_en'] for a in existing.get('articles', [])]
     for category, query in QUERIES.items():
         print(f'검색 중: {category}')
         for art in fetch(query, category):
-            if art['url'] not in seen_urls:
+            if art['url'] not in seen_urls and not is_duplicate(art['title_en'], seen_titles):
                 new_articles.append(art)
                 seen_urls.add(art['url'])
+                seen_titles.append(art['title_en'])
 
     if not new_articles:
         print('새 기사 없음 — news.json 유지')
