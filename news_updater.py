@@ -22,8 +22,15 @@ NEWS_FILE    = Path(__file__).parent / 'news.json'
 MAX_PER_CAT  = 8
 
 QUERIES = {
-    'india': '"India economy" OR "Indian economy" growth investment',
-    'thub':  'T-HUB Hyderabad startup innovation',
+    'india': '"India economy" OR "Indian economy" OR "India GDP" OR "India growth"',
+    'thub':  '"T-HUB" Hyderabad',
+}
+
+# 관련성 필터: 제목에 이 단어 중 하나라도 있어야 통과
+FILTERS = {
+    'india': ['india', 'indian', 'modi', 'mumbai', 'delhi', 'bangalore', 'bengaluru',
+              'hyderabad', 'rupee', 'sensex', 'nifty', 'rbi'],
+    'thub':  ['t-hub', 'thub', 'hyderabad', 'telangana'],
 }
 
 
@@ -51,11 +58,14 @@ def fetch(query, category):
         print(f'  API 오류 [{category}]: {e}')
         return []
 
+    keywords = FILTERS.get(category, [])
     results = []
     for item in resp.json().get('articles', []):
         title = item.get('title', '')
         url   = item.get('url', '')
         if not title or not url or title == '[Removed]':
+            continue
+        if keywords and not any(k in title.lower() for k in keywords):
             continue
         results.append({
             'title_ko': translate(title),
