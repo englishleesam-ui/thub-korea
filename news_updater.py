@@ -23,14 +23,14 @@ MAX_PER_CAT  = 8
 
 QUERIES = {
     'india': '"India economy" OR "Indian economy" OR "India GDP" OR "India growth"',
-    'thub':  '"T-HUB" Hyderabad',
+    'thub':  'T-HUB OR "Hyderabad startup" OR "Telangana startup" OR "India startup"',
 }
 
 # 관련성 필터: 제목에 이 단어 중 하나라도 있어야 통과
 FILTERS = {
     'india': ['india', 'indian', 'modi', 'mumbai', 'delhi', 'bangalore', 'bengaluru',
               'hyderabad', 'rupee', 'sensex', 'nifty', 'rbi'],
-    'thub':  ['t-hub', 'thub', 'hyderabad', 'telangana'],
+    'thub':  ['t-hub', 'thub', 'hyderabad', 'telangana', 'india', 'indian', 'startup'],
 }
 
 
