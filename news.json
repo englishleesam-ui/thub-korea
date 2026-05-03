@@ -1,1 +1,133 @@
-{"last_updated": "2026-05-03", "articles": []}
+{
+  "last_updated": "2026-05-03",
+  "articles": [
+    {
+      "title_ko": "Apple의 인도 성장에 대한 Tim Cook; 팔로알토 네트웍스, 포트키 인수",
+      "title_en": "Tim Cook on Apple's India growth; Palo Alto Networks acquires Portkey",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/tim-cook-on-apples-india-growth-palo-alto-networks-acquires-portkey/articleshow/130678737.cms",
+      "source": "The Times of India",
+      "date": "2026-05-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "Palo Alto Networks가 Portkey를 인수했습니다. 팀 쿡이 말하는 애플의 인도 성장",
+      "title_en": "Palo Alto Networks acquires Portkey; Tim Cook on Apple's India growth",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/palo-alto-networks-acquires-portkey-tim-cook-on-apples-india-growth/articleshow/130678737.cms",
+      "source": "The Times of India",
+      "date": "2026-05-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "Sensex, Nifty는 4월에 7% 상승 마감",
+      "title_en": "Sensex, Nifty end 7 per cent higher in April",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/sensex-nifty-end-7-per-cent-higher-in-april/article70926006.ece",
+      "source": "BusinessLine",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "CEA 나게스와란(CEA Nageswaran)은 인도가 글로벌 충격을 흡수하고 더욱 강해질 위치에 있다고 말했습니다.",
+      "title_en": "India positioned to absorb global shocks and emerge stronger, says CEA Nageswaran",
+      "url": "https://www.aninews.in/news/business/india-positioned-to-absorb-global-shocks-and-emerge-stronger-says-cea-nageswaran20260430172200",
+      "source": "ANI News",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "Inside India 뉴스레터: AI가 고임금 IT 일자리에 타격을 가하면서 인도 성장 스토리의 균열을 폭로하고 있습니다.",
+      "title_en": "Inside India newsletter: AI is exposing cracks in India’s growth story as it hits high-paying IT jobs",
+      "url": "https://www.cnbc.com/2026/04/30/ai-threat-indias-growth-story-jobs.html",
+      "source": "CNBC",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "PepsiCo, 무설탕 음료에 베팅, 디지털 추진으로 인도 성장 촉진",
+      "title_en": "PepsiCo bets on zero-sugar drinks, digital push to drive India growth",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-bets-on-zero-sugar-drinks-digital-push-to-drive-india-growth/articleshow/130617289.cms",
+      "source": "The Times of India",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "서아시아 전쟁, 강수량 부족으로 인플레이션 상승, 인도 성장 지연: Finmin",
+      "title_en": "West Asia war, rain deficit can hike inflation, drag India's growth: Finmin",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/west-asia-war-rain-deficit-can-hike-inflation-drag-indias-growth-finmin/articleshow/130617282.cms",
+      "source": "The Times of India",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "서아시아 분쟁은 인플레이션 위험을 높입니다. 인도의 국내 강점은 쿠션을 제공합니다: Finmin 보고서",
+      "title_en": "West Asia conflict raises inflation risks; India's domestic strength offers cushion: Finmin report",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/west-asia-conflict-raises-inflation-risks-indias-domestic-strength-offers-cushion-finmin-report/articleshow/130610581.cms",
+      "source": "The Times of India",
+      "date": "2026-04-29",
+      "category": "india"
+    },
+    {
+      "title_ko": "풀스택 컴퓨팅 플랫폼으로 AI 추론 기회를 노리는 인도 스타트업",
+      "title_en": "Indian startup targets AI inference opportunity with full-stack compute platform",
+      "url": "https://www.digitimes.com/news/a20260427VL219/india-startup-ai-inference-gpu-investment-training.html",
+      "source": "Digitimes",
+      "date": "2026-04-28",
+      "category": "thub"
+    },
+    {
+      "title_ko": "유니콘 인큐베이터와 BFI(Blockchain For Impact)가 한국 의료 기술을 인도에 진출하기 위한 MOU를 체결했습니다.",
+      "title_en": "Unicorn Incubator and Blockchain For Impact (BFI) Sign MoU to Channel Korean Healthcare Tech Into India",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/unicorn-incubator-and-blockchain-for-impact-bfi-sign-mou-to-channel-korean-healthcare-tech-into-india/article70911553.ece",
+      "source": "BusinessLine",
+      "date": "2026-04-27",
+      "category": "thub"
+    },
+    {
+      "title_ko": "인도의 거대 기술 기업들은 1,150억 달러의 대패를 떨쳐내기 위해 고군분투하고 있습니다.",
+      "title_en": "India tech giants struggle to shake off $115 billion rout",
+      "url": "https://www.livemint.com/companies/news/india-tech-giants-struggle-to-shake-off-115-billion-rout-11777277478771.html",
+      "source": "Livemint",
+      "date": "2026-04-27",
+      "category": "thub"
+    },
+    {
+      "title_ko": "인도의 거대 기술 기업들은 1,150억 달러의 대패를 떨쳐내기 위해 고군분투하고 있습니다.",
+      "title_en": "India tech giants struggle to shake off $115 billion rout",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/india-tech-giants-struggle-to-shake-off-115-billion-rout/articleshow/130541628.cms",
+      "source": "The Times of India",
+      "date": "2026-04-27",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Skyroot, Vikram-1을 시작하고 인도 최초의 민간 궤도 임무를 위해 6월 발사를 목표로 함",
+      "title_en": "Skyroot flags off Vikram-1, targets June launch for India’s first private orbital mission",
+      "url": "https://economictimes.indiatimes.com/news/science/skyroot-flags-off-vikram-1-targets-june-launch-for-indias-first-private-orbital-mission/articleshow/130511994.cms",
+      "source": "The Times of India",
+      "date": "2026-04-25",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Lachy Groom, 인도 스타트업 Pronto를 2억 달러 가치 평가로 지원 | 테크크런치",
+      "title_en": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say | TechCrunch",
+      "url": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
+      "source": "TechCrunch",
+      "date": "2026-04-25",
+      "category": "thub"
+    },
+    {
+      "title_ko": "인도 기술 기업들은 FY26에 117억 달러를 조달했으며, 거래는 적었지만 IPO가 10년 최고치에 도달함에 따라 투자액은 늘어났습니다.",
+      "title_en": "India tech firms raise $11.7 bn in FY26, fewer deals but higher bets as IPOs hit decade high: report",
+      "url": "https://www.thehindubusinessline.com/info-tech/india-tech-firms-raise-117-bn-in-fy26-fewer-deals-but-higher-bets-as-ipos-hit-decade-high-report/article70889119.ece",
+      "source": "BusinessLine",
+      "date": "2026-04-21",
+      "category": "thub"
+    },
+    {
+      "title_ko": "인도 기술 기업들은 FY26에 117억 달러를 조달했으며, 거래는 적었지만 IPO가 10년 최고치에 도달함에 따라 투자액은 늘어났습니다.",
+      "title_en": "India tech firms raise $11.7 bn in FY26, fewer deals but higher bets as IPOs hit decade high: report",
+      "url": "https://www.thehindubusinessline.com/companies/india-tech-firms-raise-117-bn-in-fy26-fewer-deals-but-higher-bets-as-ipos-hit-decade-high-report/article70889119.ece",
+      "source": "BusinessLine",
+      "date": "2026-04-21",
+      "category": "thub"
+    }
+  ]
+}
