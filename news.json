@@ -1,4 +1,69 @@
 {
   "last_updated": "2026-05-03",
-  "articles": []
+  "articles": [
+    {
+      "title_ko": "Apple의 인도 성장에 대한 Tim Cook; 팔로알토 네트웍스, 포트키 인수",
+      "title_en": "Tim Cook on Apple's India growth; Palo Alto Networks acquires Portkey",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/tim-cook-on-apples-india-growth-palo-alto-networks-acquires-portkey/articleshow/130678737.cms",
+      "source": "The Times of India",
+      "date": "2026-05-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "Palo Alto Networks가 Portkey를 인수했습니다. 팀 쿡이 말하는 애플의 인도 성장",
+      "title_en": "Palo Alto Networks acquires Portkey; Tim Cook on Apple's India growth",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/palo-alto-networks-acquires-portkey-tim-cook-on-apples-india-growth/articleshow/130678737.cms",
+      "source": "The Times of India",
+      "date": "2026-05-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "Sensex, Nifty는 4월에 7% 상승 마감",
+      "title_en": "Sensex, Nifty end 7 per cent higher in April",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/sensex-nifty-end-7-per-cent-higher-in-april/article70926006.ece",
+      "source": "BusinessLine",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "CEA 나게스와란(CEA Nageswaran)은 인도가 글로벌 충격을 흡수하고 더욱 강해질 위치에 있다고 말했습니다.",
+      "title_en": "India positioned to absorb global shocks and emerge stronger, says CEA Nageswaran",
+      "url": "https://www.aninews.in/news/business/india-positioned-to-absorb-global-shocks-and-emerge-stronger-says-cea-nageswaran20260430172200",
+      "source": "ANI News",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "Inside India 뉴스레터: AI가 고임금 IT 일자리에 타격을 가하면서 인도 성장 스토리의 균열을 폭로하고 있습니다.",
+      "title_en": "Inside India newsletter: AI is exposing cracks in India’s growth story as it hits high-paying IT jobs",
+      "url": "https://www.cnbc.com/2026/04/30/ai-threat-indias-growth-story-jobs.html",
+      "source": "CNBC",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "PepsiCo, 무설탕 음료에 베팅, 디지털 추진으로 인도 성장 촉진",
+      "title_en": "PepsiCo bets on zero-sugar drinks, digital push to drive India growth",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-bets-on-zero-sugar-drinks-digital-push-to-drive-india-growth/articleshow/130617289.cms",
+      "source": "The Times of India",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "서아시아 전쟁, 강수량 부족으로 인플레이션이 상승하고 인도의 성장이 지연될 수 있음: Finmin",
+      "title_en": "West Asia war, rain deficit can hike inflation, drag India's growth: Finmin",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/west-asia-war-rain-deficit-can-hike-inflation-drag-indias-growth-finmin/articleshow/130617282.cms",
+      "source": "The Times of India",
+      "date": "2026-04-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "서아시아 분쟁은 인플레이션 위험을 높입니다. 인도의 국내 강점은 쿠션을 제공합니다: Finmin 보고서",
+      "title_en": "West Asia conflict raises inflation risks; India's domestic strength offers cushion: Finmin report",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/west-asia-conflict-raises-inflation-risks-indias-domestic-strength-offers-cushion-finmin-report/articleshow/130610581.cms",
+      "source": "The Times of India",
+      "date": "2026-04-29",
+      "category": "india"
+    }
+  ]
 }
