@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-05-04",
   "articles": [
+    {
+      "title_ko": "국제적 위상을 위해서는 강력한 루피가 필수적입니다.",
+      "title_en": "A strong rupee is essential for international standing",
+      "url": "https://sundayguardianlive.com/business/a-strong-rupee-is-essential-for-international-standing-188165/",
+      "source": "The Sunday Guardian",
+      "date": "2026-05-03",
+      "category": "india"
+    },
+    {
+      "title_ko": "말호트라 RBI 총재는 글로벌 경제 위험 증가를 지적했다.",
+      "title_en": "RBI Governor Malhotra flags rising global economic risks",
+      "url": "https://indianexpress.com/article/business/rbi-governor-malhotra-flags-rising-global-economic-risks-10667158/",
+      "source": "The Indian Express",
+      "date": "2026-05-02",
+      "category": "india"
+    },
+    {
+      "title_ko": "말호트라 RBI 주지사는 인도가 글로벌 역풍 속에서 회복력을 보여줌에 따라 더 깊고 효율적인 금융 시장을 요구합니다.",
+      "title_en": "RBI Governor Malhotra calls for deeper, more efficient financial markets as India shows resilience amid global headwinds",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-governor-malhotra-calls-for-deeper-more-efficient-financial-markets-as-india-shows-resilience-amid-global-headwinds/articleshow/130709953.cms",
+      "source": "The Times of India",
+      "date": "2026-05-02",
+      "category": "india"
+    },
     {
       "title_ko": "Apple의 인도 성장에 대한 Tim Cook; 팔로알토 네트웍스, 포트키 인수",
       "title_en": "Tim Cook on Apple's India growth; Palo Alto Networks acquires Portkey",
@@ -39,22 +63,6 @@
       "url": "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-bets-on-zero-sugar-drinks-digital-push-to-drive-india-growth/articleshow/130617289.cms",
       "source": "The Times of India",
       "date": "2026-04-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "서아시아 전쟁, 강수량 부족으로 인플레이션이 상승하고 인도의 성장이 지연될 수 있음: Finmin",
-      "title_en": "West Asia war, rain deficit can hike inflation, drag India's growth: Finmin",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/west-asia-war-rain-deficit-can-hike-inflation-drag-indias-growth-finmin/articleshow/130617282.cms",
-      "source": "The Times of India",
-      "date": "2026-04-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "서아시아 분쟁은 인플레이션 위험을 높입니다. 인도의 국내 강점은 쿠션을 제공합니다: Finmin 보고서",
-      "title_en": "West Asia conflict raises inflation risks; India's domestic strength offers cushion: Finmin report",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/west-asia-conflict-raises-inflation-risks-indias-domestic-strength-offers-cushion-finmin-report/articleshow/130610581.cms",
-      "source": "The Times of India",
-      "date": "2026-04-29",
       "category": "india"
     },
     {
