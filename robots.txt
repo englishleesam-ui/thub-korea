@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# 사이트맵 위치
+Sitemap: https://t-hub.kr/sitemap.xml
+
+# 주요 검색엔진 크롤러 명시적 허용
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
