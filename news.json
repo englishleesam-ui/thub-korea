@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-05-21",
   "articles": [
+    {
+      "title_ko": "서아시아 위기에도 불구하고 인도 은행 시스템은 견고하고 외환 보유액 감소: 전문가",
+      "title_en": "Indian banking system robust despite West Asia crisis, falling forex reserves: Experts",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-banking-system-robust-despite-west-asia-crisis-falling-forex-reserves-experts/articleshow/131216047.cms",
+      "source": "The Times of India",
+      "date": "2026-05-20",
+      "category": "india"
+    },
+    {
+      "title_ko": "'건설적인' 중미 관계가 인도에 무엇을 의미합니까?",
+      "title_en": "What Does a ‘Constructive’ China-US Relationship Mean for India?",
+      "url": "https://thediplomat.com/2026/05/what-does-a-constructive-china-us-relationship-mean-for-india/",
+      "source": "The Diplomat",
+      "date": "2026-05-19",
+      "category": "india"
+    },
+    {
+      "title_ko": "제3차 인도-노르딕 정상회담을 계기로 총리와 덴마크 총리 대행이 회담을 가졌습니다.",
+      "title_en": "Prime Minister's meeting with Acting Prime Minister of Denmark on the margins of the 3rd India-Nordic Summit",
+      "url": "https://www.globalsecurity.org/wmd/library/news/india/2026/india-260519-india-mea02.htm",
+      "source": "Globalsecurity.org",
+      "date": "2026-05-19",
+      "category": "india"
+    },
+    {
+      "title_ko": "계속되는 서아시아 갈등으로 인해 인도의 무역 전망에 그림자가 드리워지면서 경제에 대한 하방 위험이 구체화되기 시작했습니다.",
+      "title_en": "Downside risks to economy have begun materializing as continued West Asia conflict casts shadow over India's trade outlook: Crisil",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/downside-risks-to-economy-have-begun-materializing-as-continued-west-asia-conflict-casts-shadow-over-indias-trade-outlook-crisil/articleshow/131196834.cms",
+      "source": "The Times of India",
+      "date": "2026-05-19",
+      "category": "india"
+    },
+    {
+      "title_ko": "1,380억 달러 규모의 완충액: 인도에서 가장 눈에 띄는 수출이 루피를 구제할 수 있습니다.",
+      "title_en": "The $138 bn buffer: India’s most visible export can rescue the rupee",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/the-138-bn-buffer-indias-most-visible-export-can-rescue-the-rupee/articleshow/131195268.cms",
+      "source": "The Times of India",
+      "date": "2026-05-19",
+      "category": "india"
+    },
+    {
+      "title_ko": "오늘 센섹스 | 주식 시장 하이라이트: 이란 전쟁 우려가 IT 이익을 상쇄함에 따라 Sensex는 보합 마감, Nifty는 23,650으로 마감",
+      "title_en": "Sensex today | Stock Market Highlights: Sensex closes flat, Nifty ends at 23,650 as Iran war worries offset IT gains",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-18th-may-2026/article70990074.ece",
+      "source": "BusinessLine",
+      "date": "2026-05-18",
+      "category": "india"
+    },
+    {
+      "title_ko": "글로벌 리스크에도 불구하고 인도는 강력한 성장 회복을 준비하고 있습니다: Morgan Stanley",
+      "title_en": "India poised for strong growth revival despite global risks: Morgan Stanley",
+      "url": "https://www.thehindubusinessline.com/economy/india-poised-for-strong-growth-revival-despite-global-risks-morgan-stanley/article70992527.ece",
+      "source": "BusinessLine",
+      "date": "2026-05-18",
+      "category": "india"
+    },
     {
       "title_ko": "인도의 '중국 플러스 원' 추진에는 세금 완화와 선진국과의 신속한 FTA가 필요합니다: Arvind Virmani",
       "title_en": "India’s 'China-plus-one' push needs tax ease and fast-track FTAs with developed nations: Arvind Virmani",
@@ -10,60 +66,28 @@
       "category": "india"
     },
     {
-      "title_ko": "인도는 유가 상승을 헤쳐나가기 위해 태양광, 그리드 개혁을 추진해야 합니다: 전 NITI Aayog 회원 Arvind Virmani",
-      "title_en": "India must push solar, grid reforms to navigate oil price rise: Ex-NITI Aayog member Arvind Virmani",
-      "url": "https://economictimes.indiatimes.com/industry/renewables/india-must-push-solar-grid-reforms-to-navigate-oil-price-rise-ex-niti-aayog-member-arvind-virmani/articleshow/131150363.cms",
+      "title_ko": "나렌드라 모디(Narendra Modi) 총리와 조르지아 멜로니(Giorgia Meloni) 총리는 인도-이탈리아 관계를 심화시키기 위한 인도-지중해 비전을 설명합니다.",
+      "title_en": "PM Narendra Modi and PM Giorgia Meloni outline Indo-Mediterranean vision to deepen India-Italy ties",
+      "url": "https://economictimes.indiatimes.com/news/india/pm-narendra-modi-and-pm-giorgia-meloni-outline-indo-mediterranean-vision-to-deepen-india-italy-ties/articleshow/131210336.cms",
+      "source": "The Times of India",
+      "date": "2026-05-19",
+      "category": "thub"
+    },
+    {
+      "title_ko": "현지화, 현지화: Rapido가 인도 거리에서 Uber에 도전하는 방법",
+      "title_en": "Be local, build local: How Rapido is challenging Uber on India’s streets",
+      "url": "https://www.moneycontrol.com/news/business/startup/be-local-build-local-how-rapido-is-challenging-uber-on-india-s-streets-13922722.html",
+      "source": "Moneycontrol",
+      "date": "2026-05-18",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Modi 총리의 노르웨이 방문으로 인도-북유럽 비즈니스 및 스타트업 관계 강화: 업계 목소리",
+      "title_en": "PM Modi's Norway visit seen boosting India-Nordic business, startup ties: Industry voices",
+      "url": "https://economictimes.indiatimes.com/news/india/pm-modis-visit-to-norway-a-new-era-for-india-nordic-business-and-startups/articleshow/131157743.cms",
       "source": "The Times of India",
       "date": "2026-05-17",
-      "category": "india"
-    },
-    {
-      "title_ko": "MoSPI는 인도의 지식 경제 기여도를 측정하기 위한 프레임워크를 제안합니다.",
-      "title_en": "MoSPI proposes framework to measure India's knowledge economy contribution",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/mospi-proposes-framework-to-measure-indias-knowledge-economy-contribution/articleshow/131144526.cms",
-      "source": "The Times of India",
-      "date": "2026-05-17",
-      "category": "india"
-    },
-    {
-      "title_ko": "Tata Steel Q4FY26 순이익은 인도 성장과 비용 변화에 힘입어 125% 급증",
-      "title_en": "Tata Steel Q4FY26 Net Profit Surges 125% Driven by India Growth, Cost Transformation",
-      "url": "https://www.rediff.com/business/report/tata-steel-q4fy26-net-profit-surges-125-driven-by-india-growth-cost-transformation/20260516.htm",
-      "source": "Rediff.com",
-      "date": "2026-05-16",
-      "category": "india"
-    },
-    {
-      "title_ko": "그래프, 데이터 및 관점: 최근 원유 가격 급등이 인도 경제를 시험하는 이유",
-      "title_en": "Graphs, Data and Perspectives: Why the latest crude oil price spike will test the Indian economy",
-      "url": "https://indianexpress.com/article/explained/explained-economics/crude-oil-spike-affects-economy-10691553/",
-      "source": "The Indian Express",
-      "date": "2026-05-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "Rs 3 인상은 인도의 인플레이션 전쟁을 다소 어렵게 만듭니다.",
-      "title_en": "A Rs 3 hike makes India’s inflation battle somewhat harder",
-      "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/petrol-diesel-price-hike-rs-3-per-litre-india-food-inflation-retail-growth-iran-war-impact-rbi-crude-oil/articleshow/131113757.cms",
-      "source": "The Times of India",
-      "date": "2026-05-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "과도한 긴축 정책은 인도가 탈출하려는 경제 상황을 악화시킬 수 있습니다.",
-      "title_en": "Excessive austerity could worsen the economic situation that India is trying to escape",
-      "url": "https://www.livemint.com/opinion/online-views/excessive-austerity-economic-situation-india-gdp-sri-lanka-forex-imports-current-account-deficit-11778675338601.html",
-      "source": "Livemint",
-      "date": "2026-05-14",
-      "category": "india"
-    },
-    {
-      "title_ko": "AI는 2030년까지 인도 경제에 5000억 달러 이상을 추가할 수 있습니다: 연구",
-      "title_en": "AI could add over $500 billion to India's economy by 2030: Study",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-could-add-over-500-billion-to-indias-economy-by-2030-study/articleshow/131064079.cms",
-      "source": "The Times of India",
-      "date": "2026-05-13",
-      "category": "india"
+      "category": "thub"
     },
     {
       "title_ko": "ETtech Deals Digest: 스타트업, 5월 둘째 주에 7억 9천만 달러 모금",
@@ -103,30 +127,6 @@
       "url": "https://www.moneycontrol.com/news/business/startup/hcltech-to-lead-300-million-sarvam-ai-round-with-150-million-bet-at-1-5-billion-valuation-13918719.html",
       "source": "Moneycontrol",
       "date": "2026-05-14",
-      "category": "thub"
-    },
-    {
-      "title_ko": "20분짜리 프레젠테이션으로 Lachy Groom의 인도 스타트업 Pronto 지원 | 테크크런치",
-      "title_en": "A 20-minute pitch wins Indian startup Pronto backing from Lachy Groom | TechCrunch",
-      "url": "https://techcrunch.com/2026/05/06/a-20-minute-pitch-wins-indian-startup-pronto-backing-from-lachy-groom/",
-      "source": "TechCrunch",
-      "date": "2026-05-06",
-      "category": "thub"
-    },
-    {
-      "title_ko": "푸네 주식회사 | 산의 냉기부터 인도산 혁신까지: 스타트업은 가벼운 재킷에 따뜻함을 '인쇄'합니다.",
-      "title_en": "Pune Inc | From mountain chill to made-in-India innovation: Startup ‘prints’ warmth into lightweight jackets",
-      "url": "https://indianexpress.com/article/cities/pune/startup-suryudey-printed-electronics-heated-jackets-yash-goliya-10673874/",
-      "source": "The Indian Express",
-      "date": "2026-05-05",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도 스타트업이 세계 최초의 OptoSAR 위성을 발사했습니다. 총리, 이스로(Isro) '드리시티' 임무 칭찬",
-      "title_en": "Indian startup launches world's first OptoSAR satellite; PM, Isro praise 'Drishti' mission",
-      "url": "https://timesofindia.indiatimes.com/science/indian-startup-launches-worlds-first-optosar-satellite-pm-isro-praise-drishti-mission/articleshow/130736194.cms",
-      "source": "The Times of India",
-      "date": "2026-05-03",
       "category": "thub"
     }
   ]
