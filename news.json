@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-25",
   "articles": [
+    {
+      "title_ko": "이란 전쟁의 영향은 2개월 이상 지속되지 않을 것입니다. 인도 성장 스토리는 많은 투자로 계속될 것: Sajjan Jindal",
+      "title_en": "Iran war impact won't last beyond 2 months; India growth story to continue with lot of capex: Sajjan Jindal",
+      "url": "https://economictimes.indiatimes.com/news/india/iran-war-impact-wont-last-beyond-2-months-india-growth-story-to-continue-with-lot-of-capex-sajjan-jindal/articleshow/131280404.cms",
+      "source": "The Times of India",
+      "date": "2026-05-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "루비오가 인도로 구출 임무를 수행한다고요? 여기에는 높은 위험이 있습니다",
+      "title_en": "Rubio coming on a rescue mission to India? Here are the high stakes",
+      "url": "https://economictimes.indiatimes.com/news/india/rubio-india-visit-oil-rubio-coming-on-a-rescue-mission-to-india-here-are-the-high-stakes/articleshow/131265693.cms",
+      "source": "The Times of India",
+      "date": "2026-05-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는이란 전쟁의 영향을 모니터링해야한다고 RBI 보고서는 밝혔습니다.",
+      "title_en": "India needs to monitor Iran war impact, RBI report says",
+      "url": "https://www.moneycontrol.com/news/business/banks/india-needs-to-monitor-iran-war-impact-rbi-report-says-13928253.html",
+      "source": "Moneycontrol",
+      "date": "2026-05-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "공급 위험, 날씨 불확실성으로 인해 흐려진 인도의 단기 전망: RBI 보고서",
+      "title_en": "India’s near-term outlook clouded by supply risks, weather uncertainties: RBI report",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-near-term-outlook-clouded-by-supply-risks-weather-uncertainties-rbi-report/articleshow/131264786.cms",
+      "source": "The Times of India",
+      "date": "2026-05-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "유가 급등, 글로벌 부채, 시장 스트레스: RBI는 외부 충격이 가중되고 있다고 지적하지만 인도가 아직 회복력이 있는 5개 영역을 제시합니다.",
+      "title_en": "Oil spike, global debt, market stress: RBI flags mounting external shocks but lays out 5 areas where India remains resilient",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/oil-spike-global-debt-market-stress-rbi-flags-mounting-external-shocks-but-lays-out-5-areas-where-india-remains-resilient/articleshow/131264313.cms",
+      "source": "The Times of India",
+      "date": "2026-05-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "서구가 모디의 성공을 어떻게 오독하는가",
+      "title_en": "How the West Misreads Modi’s Success",
+      "url": "http://foreignpolicy.com/2026/05/22/west-modi-india-democracy-elections/",
+      "source": "Foreign Policy",
+      "date": "2026-05-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "BJP, 모디 총리의 5개국 순방 전문가, 야당에 맞서다",
+      "title_en": "BJP counters Opposition, experts on PM Modi's five-nation tour",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/bjp-counters-opposition-experts-on-pm-modis-five-nation-tour/articleshow/131249132.cms",
+      "source": "The Times of India",
+      "date": "2026-05-21",
+      "category": "india"
+    },
     {
       "title_ko": "서아시아 위기에도 불구하고 인도 은행 시스템은 견고하고 외환 보유액 감소: 전문가",
       "title_en": "Indian banking system robust despite West Asia crisis, falling forex reserves: Experts",
@@ -10,60 +66,28 @@
       "category": "india"
     },
     {
-      "title_ko": "'건설적인' 중미 관계가 인도에 무엇을 의미합니까?",
-      "title_en": "What Does a ‘Constructive’ China-US Relationship Mean for India?",
-      "url": "https://thediplomat.com/2026/05/what-does-a-constructive-china-us-relationship-mean-for-india/",
-      "source": "The Diplomat",
-      "date": "2026-05-19",
-      "category": "india"
+      "title_ko": "General Catalyst는 인도 여행 결제 시장에 6,300만 달러 규모의 투자를 주도했습니다 | 테크크런치",
+      "title_en": "General Catalyst just led a $63M bet on India's travel payments market | TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
+      "source": "TechCrunch",
+      "date": "2026-05-21",
+      "category": "thub"
     },
     {
-      "title_ko": "제3차 인도-노르딕 정상회담을 계기로 총리와 덴마크 총리 대행이 회담을 가졌습니다.",
-      "title_en": "Prime Minister's meeting with Acting Prime Minister of Denmark on the margins of the 3rd India-Nordic Summit",
-      "url": "https://www.globalsecurity.org/wmd/library/news/india/2026/india-260519-india-mea02.htm",
-      "source": "Globalsecurity.org",
-      "date": "2026-05-19",
-      "category": "india"
-    },
-    {
-      "title_ko": "계속되는 서아시아 갈등으로 인해 인도의 무역 전망에 그림자가 드리워지면서 경제에 대한 하방 위험이 구체화되기 시작했습니다.",
-      "title_en": "Downside risks to economy have begun materializing as continued West Asia conflict casts shadow over India's trade outlook: Crisil",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/downside-risks-to-economy-have-begun-materializing-as-continued-west-asia-conflict-casts-shadow-over-indias-trade-outlook-crisil/articleshow/131196834.cms",
+      "title_ko": "인도-UAE 무역은 CEPA의 도움으로 1000억 달러를 넘어섰고, 목표는 2032년까지 2000억 달러입니다: UAE 특사",
+      "title_en": "India-UAE trade has crossed USD 100 billion with help of CEPA, target is USD 200 billion by 2032: UAE envoy",
+      "url": "https://economictimes.indiatimes.com/news/international/uae/india-uae-trade-has-crossed-usd-100-billion-with-help-of-cepa-target-is-usd-200-billion-by-2032-uae-envoy/articleshow/131229869.cms",
       "source": "The Times of India",
-      "date": "2026-05-19",
-      "category": "india"
+      "date": "2026-05-20",
+      "category": "thub"
     },
     {
-      "title_ko": "1,380억 달러 규모의 완충액: 인도에서 가장 눈에 띄는 수출이 루피를 구제할 수 있습니다.",
-      "title_en": "The $138 bn buffer: India’s most visible export can rescue the rupee",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/the-138-bn-buffer-indias-most-visible-export-can-rescue-the-rupee/articleshow/131195268.cms",
+      "title_ko": "Kimberly-Clark 임원은 인도 기술 허브에서 AI 전환 기술을 재고한다고 말합니다.",
+      "title_en": "AI shift forces skills rethink at India tech hubs, Kimberly-Clark executive says",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-shift-forces-skills-rethink-at-india-tech-hubs-kimberly-clark-executive-says/articleshow/131227891.cms",
       "source": "The Times of India",
-      "date": "2026-05-19",
-      "category": "india"
-    },
-    {
-      "title_ko": "오늘 센섹스 | 주식 시장 하이라이트: 이란 전쟁 우려가 IT 이익을 상쇄함에 따라 Sensex는 보합 마감, Nifty는 23,650으로 마감",
-      "title_en": "Sensex today | Stock Market Highlights: Sensex closes flat, Nifty ends at 23,650 as Iran war worries offset IT gains",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-18th-may-2026/article70990074.ece",
-      "source": "BusinessLine",
-      "date": "2026-05-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "글로벌 리스크에도 불구하고 인도는 강력한 성장 회복을 준비하고 있습니다: Morgan Stanley",
-      "title_en": "India poised for strong growth revival despite global risks: Morgan Stanley",
-      "url": "https://www.thehindubusinessline.com/economy/india-poised-for-strong-growth-revival-despite-global-risks-morgan-stanley/article70992527.ece",
-      "source": "BusinessLine",
-      "date": "2026-05-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도의 '중국 플러스 원' 추진에는 세금 완화와 선진국과의 신속한 FTA가 필요합니다: Arvind Virmani",
-      "title_en": "India’s 'China-plus-one' push needs tax ease and fast-track FTAs with developed nations: Arvind Virmani",
-      "url": "https://economictimes.indiatimes.com/news/india/indias-china-plus-one-push-needs-tax-ease-and-fast-track-ftas-with-developed-nations-arvind-virmani/articleshow/131151983.cms",
-      "source": "The Times of India",
-      "date": "2026-05-17",
-      "category": "india"
+      "date": "2026-05-20",
+      "category": "thub"
     },
     {
       "title_ko": "나렌드라 모디(Narendra Modi) 총리와 조르지아 멜로니(Giorgia Meloni) 총리는 인도-이탈리아 관계를 심화시키기 위한 인도-지중해 비전을 설명합니다.",
@@ -103,30 +127,6 @@
       "url": "https://economictimes.indiatimes.com/tech/startups/why-sarvams-vivek-raghavan-calls-data-in-motion-the-most-valuable-asset-for-ai-startups/articleshow/131121361.cms",
       "source": "The Times of India",
       "date": "2026-05-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "AI 스타트업은 SaaS 시대의 마진을 누리지 못합니다. Kalaari Capital의 Harshit Kumar가 창업자가 대신 해야 할 일은 다음과 같습니다.",
-      "title_en": "AI startups don't enjoy SaaS-era margins: Here’s what Kalaari Capital's Harshit Kumar says founders should do instead",
-      "url": "https://economictimes.indiatimes.com/tech/startups/ai-startups-dont-enjoy-saas-era-margins-heres-what-kalaari-capitals-harshit-kumar-says-founders-should-do-instead/articleshow/131120241.cms",
-      "source": "The Times of India",
-      "date": "2026-05-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도 스타트업은 AI 우선 세계를 구축하는 동안 '최신 편견'을 피해야 합니다: OpenAI의 Pragya Misra",
-      "title_en": "Indian startups must avoid ‘recency bias’ while building for an AI-first world: OpenAI’s Pragya Misra",
-      "url": "https://economictimes.indiatimes.com/tech/startups/indian-startups-must-avoid-recency-bias-while-building-for-an-ai-first-world-openais-pragya-misra/articleshow/131111908.cms",
-      "source": "The Times of India",
-      "date": "2026-05-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "HCLTech, 15억 달러 가치 평가에 1억 5천만 달러 베팅으로 3억 달러 Sarvam AI 라운드 주도",
-      "title_en": "HCLTech to lead $300 million Sarvam AI round with $150 million bet at $1.5 billion valuation",
-      "url": "https://www.moneycontrol.com/news/business/startup/hcltech-to-lead-300-million-sarvam-ai-round-with-150-million-bet-at-1-5-billion-valuation-13918719.html",
-      "source": "Moneycontrol",
-      "date": "2026-05-14",
       "category": "thub"
     }
   ]
