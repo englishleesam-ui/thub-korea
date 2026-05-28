@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-28",
   "articles": [
+    {
+      "title_ko": "인플레이션 타겟팅 프레임워크에는 '환율 안정성' 조항이 포함되어야 합니다: Subbarao 전 RBI ​​주지사",
+      "title_en": "Inflation targeting framework should have included ‘exchange rate stability’ clause: Former RBI Governor Subbarao",
+      "url": "https://www.thehindubusinessline.com/economy/inflation-targeting-framework-should-have-included-exchange-rate-stability-clause-former-rbi-governor-subbarao/article71025830.ece",
+      "source": "BusinessLine",
+      "date": "2026-05-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "정오에는 시장이 안정됩니다. Adani, Coal India 급등, 은행, 의료 부문 견인",
+      "title_en": "Markets steady at midday; Adani, Coal India surge while banks, healthcare drag",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/markets-steady-at-midday-adani-coal-india-surge-while-banks-healthcare-drag/article71024004.ece",
+      "source": "BusinessLine",
+      "date": "2026-05-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "루비오의 인도 방문은 미국 무역 긴장, 쿼드 동맹 및 관광에 중점을 둡니다.",
+      "title_en": "Rubio's visit to India focuses on U.S. trade tensions, the Quad alliance and sightseeing",
+      "url": "https://www.pbs.org/newshour/world/rubios-visit-to-india-focuses-on-u-s-trade-tensions-the-quad-alliance-and-sightseeing",
+      "source": "PBS",
+      "date": "2026-05-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "루피를 방어하는 데 드는 비용",
+      "title_en": "Cost of defending the rupee",
+      "url": "https://www.thehindubusinessline.com/opinion/cost-of-defending-the-rupee/article71022061.ece",
+      "source": "BusinessLine",
+      "date": "2026-05-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "영부인이 속삭이는 가운데 타지마할에서 자네트 루비오가 기절합니다. 마르코는 인도와의 트럼프의 '지옥 같은' 균열을 복구하기 위해 출격합니다.",
+      "title_en": "Jeanette Rubio stuns at the Taj Mahal amid First Lady whispers - as Marco scrambles to repair Trump's 'hellhole' rift with India",
+      "url": "https://www.dailymail.com/news/article-15846683/jeanette-rubio-taj-mahal-marco-india-rift.html",
+      "source": "Dailymail.com",
+      "date": "2026-05-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "UPSC 키: 루피 감가상각, 사용 가능한 실현 자본 및 도로 먼지",
+      "title_en": "UPSC Key: Rupee depreciation, Available realised equity and Road dust",
+      "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-rupee-depreciation-available-realised-equity-and-road-dust-10707372/",
+      "source": "The Indian Express",
+      "date": "2026-05-25",
+      "category": "india"
+    },
     {
       "title_ko": "이란 전쟁의 영향은 2개월 이상 지속되지 않을 것입니다. 인도 성장 스토리는 많은 투자로 계속될 것: Sajjan Jindal",
       "title_en": "Iran war impact won't last beyond 2 months; India growth story to continue with lot of capex: Sajjan Jindal",
@@ -18,52 +66,36 @@
       "category": "india"
     },
     {
-      "title_ko": "인도는이란 전쟁의 영향을 모니터링해야한다고 RBI 보고서는 밝혔습니다.",
-      "title_en": "India needs to monitor Iran war impact, RBI report says",
-      "url": "https://www.moneycontrol.com/news/business/banks/india-needs-to-monitor-iran-war-impact-rbi-report-says-13928253.html",
-      "source": "Moneycontrol",
-      "date": "2026-05-22",
-      "category": "india"
-    },
-    {
-      "title_ko": "공급 위험, 날씨 불확실성으로 인해 흐려진 인도의 단기 전망: RBI 보고서",
-      "title_en": "India’s near-term outlook clouded by supply risks, weather uncertainties: RBI report",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-near-term-outlook-clouded-by-supply-risks-weather-uncertainties-rbi-report/articleshow/131264786.cms",
+      "title_ko": "AI가 인도 기술 허브에서 특허 창출을 가속화한다고 경영진은 말합니다.",
+      "title_en": "AI to turbocharge patent creation at India tech hubs, executives say",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-to-turbocharge-patent-creation-at-india-tech-hubs-executives-say/articleshow/131340416.cms",
       "source": "The Times of India",
-      "date": "2026-05-22",
-      "category": "india"
+      "date": "2026-05-27",
+      "category": "thub"
     },
     {
-      "title_ko": "유가 급등, 글로벌 부채, 시장 스트레스: RBI는 외부 충격이 가중되고 있다고 지적하지만 인도가 아직 회복력이 있는 5개 영역을 제시합니다.",
-      "title_en": "Oil spike, global debt, market stress: RBI flags mounting external shocks but lays out 5 areas where India remains resilient",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/oil-spike-global-debt-market-stress-rbi-flags-mounting-external-shocks-but-lays-out-5-areas-where-india-remains-resilient/articleshow/131264313.cms",
+      "title_ko": "하이데라바드의 BluJ, 전자 항공기 프로토타입 출시",
+      "title_en": "Hyderabad’s BluJ rolls out e-aircraft prototype",
+      "url": "https://economictimes.indiatimes.com/tech/startups/hyderabads-bluj-rolls-out-e-aircraft-prototype/articleshow/131336035.cms",
       "source": "The Times of India",
-      "date": "2026-05-22",
-      "category": "india"
+      "date": "2026-05-27",
+      "category": "thub"
     },
     {
-      "title_ko": "서구가 모디의 성공을 어떻게 오독하는가",
-      "title_en": "How the West Misreads Modi’s Success",
-      "url": "http://foreignpolicy.com/2026/05/22/west-modi-india-democracy-elections/",
-      "source": "Foreign Policy",
-      "date": "2026-05-22",
-      "category": "india"
+      "title_ko": "VergeCloud 및 KDEM, Dhruva 출시: 인도 스타트업을 위한 클라우드 인프라 크레딧으로 Rs 5 Crore",
+      "title_en": "VergeCloud and KDEM Launch Dhruva: Rs 5 Crore in Cloud Infrastructure Credits for Indian Startups",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/vergecloud-and-kdem-launch-dhruva-rs-5-crore-in-cloud-infrastructure-credits-for-indian-startups/article71023942.ece",
+      "source": "BusinessLine",
+      "date": "2026-05-26",
+      "category": "thub"
     },
     {
-      "title_ko": "BJP, 모디 총리의 5개국 순방 전문가, 야당에 맞서다",
-      "title_en": "BJP counters Opposition, experts on PM Modi's five-nation tour",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/bjp-counters-opposition-experts-on-pm-modis-five-nation-tour/articleshow/131249132.cms",
-      "source": "The Times of India",
-      "date": "2026-05-21",
-      "category": "india"
-    },
-    {
-      "title_ko": "서아시아 위기에도 불구하고 인도 은행 시스템은 견고하고 외환 보유액 감소: 전문가",
-      "title_en": "Indian banking system robust despite West Asia crisis, falling forex reserves: Experts",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-banking-system-robust-despite-west-asia-crisis-falling-forex-reserves-experts/articleshow/131216047.cms",
-      "source": "The Times of India",
-      "date": "2026-05-20",
-      "category": "india"
+      "title_ko": "Blinkit, Zepto 및 Instamart가 인도 스타트업 브랜드를 10분 배송 성공 사례로 전환한 방법",
+      "title_en": "How Blinkit, Zepto and Instamart are turning Indian startup brands into 10-minute delivery success stories",
+      "url": "https://www.livemint.com/industry/how-blinkit-zepto-and-instamart-are-turning-indian-startup-brands-into-10-minute-delivery-success-stories-11779760653380.html",
+      "source": "Livemint",
+      "date": "2026-05-26",
+      "category": "thub"
     },
     {
       "title_ko": "General Catalyst는 인도 여행 결제 시장에 6,300만 달러 규모의 투자를 주도했습니다 | 테크크런치",
@@ -95,38 +127,6 @@
       "url": "https://economictimes.indiatimes.com/news/india/pm-narendra-modi-and-pm-giorgia-meloni-outline-indo-mediterranean-vision-to-deepen-india-italy-ties/articleshow/131210336.cms",
       "source": "The Times of India",
       "date": "2026-05-19",
-      "category": "thub"
-    },
-    {
-      "title_ko": "현지화, 현지화: Rapido가 인도 거리에서 Uber에 도전하는 방법",
-      "title_en": "Be local, build local: How Rapido is challenging Uber on India’s streets",
-      "url": "https://www.moneycontrol.com/news/business/startup/be-local-build-local-how-rapido-is-challenging-uber-on-india-s-streets-13922722.html",
-      "source": "Moneycontrol",
-      "date": "2026-05-18",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Modi 총리의 노르웨이 방문으로 인도-북유럽 비즈니스 및 스타트업 관계 강화: 업계 목소리",
-      "title_en": "PM Modi's Norway visit seen boosting India-Nordic business, startup ties: Industry voices",
-      "url": "https://economictimes.indiatimes.com/news/india/pm-modis-visit-to-norway-a-new-era-for-india-nordic-business-and-startups/articleshow/131157743.cms",
-      "source": "The Times of India",
-      "date": "2026-05-17",
-      "category": "thub"
-    },
-    {
-      "title_ko": "ETtech Deals Digest: 스타트업, 5월 둘째 주에 7억 9천만 달러 모금",
-      "title_en": "ETtech Deals Digest: Startups raise $790 million in second week of May",
-      "url": "https://economictimes.indiatimes.com/tech/funding/ettech-deals-digest-startups-raise-790-million-in-second-week-of-may/articleshow/131133770.cms",
-      "source": "The Times of India",
-      "date": "2026-05-16",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Sarvam의 Vivek Raghavan이 '움직이는 데이터'를 AI 스타트업의 가장 가치 있는 자산이라고 부르는 이유",
-      "title_en": "Why Sarvam's Vivek Raghavan calls ‘data in motion’ the most valuable asset for AI startups",
-      "url": "https://economictimes.indiatimes.com/tech/startups/why-sarvams-vivek-raghavan-calls-data-in-motion-the-most-valuable-asset-for-ai-startups/articleshow/131121361.cms",
-      "source": "The Times of India",
-      "date": "2026-05-15",
       "category": "thub"
     }
   ]
