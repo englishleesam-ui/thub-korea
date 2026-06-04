@@ -1,69 +1,117 @@
 {
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-04",
   "articles": [
     {
-      "title_ko": "최적의 위치에 있는 미드캡? Nippon India의 Rupesh Patel이 새로운 지수 최고점에도 불구하고 가치 평가 조정을 보는 이유",
-      "title_en": "Midcaps in a sweet spot? Why Nippon India’s Rupesh Patel sees a valuation correction despite new index peaks",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/midcaps-in-a-sweet-spot-why-nippon-indias-rupesh-patel-sees-a-valuation-correction-despite-new-index-peaks/articleshow/131419336.cms",
+      "title_ko": "Uday Kotak의 AI 경각심: IPL이 종료되면서 아시아에서 가장 부유한 은행가는 Google의 800억 달러 자금 조달 후 '인도가 사업에 집중할 때'라고 말합니다.",
+      "title_en": "Uday Kotak’s AI-wake up call: As IPL ends, Asia's richest banker says 'time for India to focus on business' after Google’s $80 billion raise",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/uday-kotaks-ai-wake-up-call-as-ipl-ends-asias-richest-banker-says-time-for-india-to-focus-on-business-after-googles-80-billion-raise/articleshow/131475561.cms",
+      "source": "The Times of India",
+      "date": "2026-06-03",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 \"최고 비관론\" 단계에 있지만 경기 회복으로 수익이 늘어날 수 있음: Arbind Maheswari",
+      "title_en": "India in “peak pessimism” phase, but cyclical recovery may lift earnings: Arbind Maheswari",
+      "url": "https://economictimes.indiatimes.com/markets/expert-view/india-in-peak-pessimism-phase-but-cyclical-recovery-may-lift-earnings-arbind-maheswari/articleshow/131443559.cms",
+      "source": "The Times of India",
+      "date": "2026-06-02",
+      "category": "india"
+    },
+    {
+      "title_ko": "한국, 인도를 제치고 세계 6위의 주식 시장으로 성장",
+      "title_en": "South Korea Overtakes India as World’s Sixth-Largest Stock Market",
+      "url": "https://financialpost.com/pmn/business-pmn/south-korea-overtakes-india-as-worlds-sixth-largest-stock-market",
+      "source": "Financial Post",
+      "date": "2026-06-02",
+      "category": "india"
+    },
+    {
+      "title_ko": "새로운 IIP 시리즈가 제조업 중심의 회복을 보여주면서 인도 산업 생산량은 4월에 4.9% 증가했습니다.",
+      "title_en": "India industrial output grows 4.9% in April as new IIP series shows manufacturing-led recovery",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-industrial-output-grows-4-9-in-april-as-new-iip-series-shows-manufacturing-led-recovery/articleshow/131449495.cms",
+      "source": "The Times of India",
+      "date": "2026-06-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "진통제로서의 하이킹 샷: 인도의 경제 폭풍은 단호한 MPC 조치를 요구합니다",
+      "title_en": "Shot of hike as painkiller: India’s economic storm calls for decisive MPC action",
+      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/shot-of-hike-as-painkiller-indias-economic-storm-calls-for-decisive-mpc-action/articleshow/131428665.cms",
       "source": "The Times of India",
       "date": "2026-05-31",
       "category": "india"
     },
     {
-      "title_ko": "인도, 연료비 급등으로 카풀 증가로 BlaBlaCar의 최대 시장이 됨",
-      "title_en": "India becomes BlaBlaCar's largest market as fuel price surge boosts carpooling",
-      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/india-becomes-blablacars-largest-market-as-fuel-price-surge-boosts-carpooling/articleshow/131418637.cms",
-      "source": "The Times of India",
+      "title_ko": "인도의 '바퀴벌레 파티'가 어떻게 바이럴 밈에서 서구 언론으로 옮겨갔나요?",
+      "title_en": "How India’s ‘Cockroach Party’ went from viral meme to Western media darling",
+      "url": "https://www.rt.com/india/640745-cockroach-party-india-modi/",
+      "source": "RT",
       "date": "2026-05-31",
       "category": "india"
     },
     {
-      "title_ko": "재무부는 연료 가격, 몬순 우려 증가로 RBI 정책보다 인플레이션 위험을 표시",
-      "title_en": "Finance ministry flags inflation risks ahead of RBI policy as fuel prices, monsoon concerns mount",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/finance-ministry-flags-inflation-risks-ahead-of-rbi-policy-as-fuel-prices-monsoon-concerns-mount/articleshow/131406937.cms",
-      "source": "The Times of India",
-      "date": "2026-05-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도는 경제 회복력에도 불구하고 석유, 인플레이션 및 몬순 위험에 직면해 있습니다.",
-      "title_en": "India faces test of oil, inflation and monsoon risks despite economic resilience",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-faces-test-of-oil-inflation-and-monsoon-risks-despite-economic-resilience/articleshow/131405380.cms",
-      "source": "The Times of India",
-      "date": "2026-05-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "루피 가치 하락: 원자재와 인도 경제에 어떤 영향을 미치나요?",
-      "title_en": "Rupee depreciation: What are the implications for commodities and Indian economy?",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-depreciation-what-are-the-implications-for-commodities-and-indian-economy/articleshow/131403818.cms",
-      "source": "The Times of India",
-      "date": "2026-05-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "RBI는 서아시아 전쟁이 인도 성장 전망에 해를 끼칠 수 있다고 경고",
-      "title_en": "RBI warns West Asia war may hurt India growth outlook",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-warns-west-asia-war-may-hurt-india-growth-outlook/articleshow/131402558.cms",
-      "source": "The Times of India",
-      "date": "2026-05-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "탄력적인 인도 경제는 서아시아 역풍에 직면할 수 있습니다. 엘니뇨가 농업 생산에 미칠 영향: RBI",
-      "title_en": "Resilient Indian economy may face West Asia headwinds; El Nino impact likely on agri output: RBI",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/resilient-indian-economy-may-face-west-asia-headwinds-el-nino-impact-likely-on-agri-output-rbi/articleshow/131393251.cms",
-      "source": "The Times of India",
-      "date": "2026-05-29",
-      "category": "india"
-    },
-    {
-      "title_ko": "인플레이션 타겟팅 프레임워크에는 '환율 안정성' 조항이 포함되어야 합니다: Subbarao 전 RBI ​​주지사",
-      "title_en": "Inflation targeting framework should have included ‘exchange rate stability’ clause: Former RBI Governor Subbarao",
-      "url": "https://www.thehindubusinessline.com/economy/inflation-targeting-framework-should-have-included-exchange-rate-stability-clause-former-rbi-governor-subbarao/article71025830.ece",
+      "title_ko": "SBI 리서치는 루피 하락이 펀더멘털을 앞지르면서 더 강력한 RBI 개입을 요구합니다.",
+      "title_en": "SBI Research calls for stronger RBI intervention as rupee slide outpaces fundamentals",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/sbi-research-calls-for-stronger-rbi-intervention-as-rupee-slide-outpaces-fundamentals/article71044463.ece",
       "source": "BusinessLine",
-      "date": "2026-05-26",
+      "date": "2026-05-31",
       "category": "india"
+    },
+    {
+      "title_ko": "RBI MPC 회의: 중앙은행은 금리 현 상태를 유지할 가능성이 높으며 서아시아 위기 속에서 신중한 접근 방식을 채택할 것입니다.",
+      "title_en": "RBI MPC meet: Central bank likely to maintain status quo on rates, adopt cautious approach amid West Asia crisis",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-set-to-keep-rates-steady-amid-west-asia-crisis-experts-predict-cautious-economic-outlook/articleshow/131421956.cms",
+      "source": "The Times of India",
+      "date": "2026-05-31",
+      "category": "india"
+    },
+    {
+      "title_ko": "혁신 제휴를 활용하기 위한 영국의 인도 스타트업 사파리",
+      "title_en": "India's Startup Safari in UK to tap into innovation tie-ups",
+      "url": "https://economictimes.indiatimes.com/tech/startups/indias-startup-safari-in-uk-to-tap-into-innovation-tie-ups/articleshow/131465904.cms",
+      "source": "The Times of India",
+      "date": "2026-06-02",
+      "category": "thub"
+    },
+    {
+      "title_ko": "MUFG의 새로운 인도 펀드; 지구는 스포츠를 즐긴다",
+      "title_en": "MUFG’s new India fund; District goes sporting",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/mufgs-fresh-india-fund-district-goes-sporting/articleshow/131452663.cms",
+      "source": "The Times of India",
+      "date": "2026-06-02",
+      "category": "thub"
+    },
+    {
+      "title_ko": "일본 MUFG, 인도 스타트업 시장에 과감한 투자로 새로운 투자자 등장에 따라 2억 5천만 달러 규모의 인도 펀드 준비",
+      "title_en": "Japan's MUFG readies $250 million India fund as new investors emerge with bold bets in Indian startup market",
+      "url": "https://economictimes.indiatimes.com/tech/startups/japans-mufg-bets-250-million-on-india/articleshow/131445576.cms",
+      "source": "The Times of India",
+      "date": "2026-06-02",
+      "category": "thub"
+    },
+    {
+      "title_ko": "만리장성은 인도의 전자제품과 자동차 기술 흐름을 막을 수도 있다",
+      "title_en": "Chinese Wall may stem India tech flows for electronics and automobile",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinese-wall-may-stem-india-tech-flows-for-electronics-and-automobile/articleshow/131449426.cms",
+      "source": "The Times of India",
+      "date": "2026-06-01",
+      "category": "thub"
+    },
+    {
+      "title_ko": "기술직은 차가워진다. 칩 스타트업 변속 기어",
+      "title_en": "Tech jobs go cold; Chip startups shift gear",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/tech-jobs-go-cold-chip-startups-shift-gear/articleshow/131443887.cms",
+      "source": "The Times of India",
+      "date": "2026-06-01",
+      "category": "thub"
+    },
+    {
+      "title_ko": "인도 기술 일자리 감소: AI, 미국 이민 영향 채용",
+      "title_en": "India tech jobs decline: AI, US immigration impact recruitment",
+      "url": "https://economictimes.indiatimes.com/tech/technology/india-tech-jobs-decline-ai-us-immigration-impact-recruitment/articleshow/131428874.cms",
+      "source": "The Times of India",
+      "date": "2026-06-01",
+      "category": "thub"
     },
     {
       "title_ko": "Google에 대한 델리 HC의 판결, 스타트업 창업자들로부터 찬사를 받음",
@@ -79,54 +127,6 @@
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/piyush-goyal-wraps-up-canada-visit-focusing-on-india-canada-cepa-talks-50-billion-trade-goal/articleshow/131364388.cms",
       "source": "The Times of India",
       "date": "2026-05-28",
-      "category": "thub"
-    },
-    {
-      "title_ko": "아메리칸 항공은 인도 기술 허브 직원을 두 배로 늘릴 계획이라고 소식통은 말합니다.",
-      "title_en": "American Airlines plans to double India tech hub staff, sources say",
-      "url": "https://economictimes.indiatimes.com/tech/technology/american-airlines-plans-to-double-india-tech-hub-staff-sources-say/articleshow/131352232.cms",
-      "source": "The Times of India",
-      "date": "2026-05-27",
-      "category": "thub"
-    },
-    {
-      "title_ko": "감옥에 선고된 Byju Raveendran: 어떻게 높이 날아오르는 교육기술이 경고의 이야기가 되었는가",
-      "title_en": "Byju Raveendran sentenced to jail: How the high-flying edtech became a cautionary tale",
-      "url": "https://indianexpress.com/article/explained/explained-economics/byju-raveendran-singapore-court-jail-contempt-case-10710328/",
-      "source": "The Indian Express",
-      "date": "2026-05-27",
-      "category": "thub"
-    },
-    {
-      "title_ko": "AI가 인도 기술 허브에서 특허 창출을 가속화한다고 경영진은 말합니다.",
-      "title_en": "AI to turbocharge patent creation at India tech hubs, executives say",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-to-turbocharge-patent-creation-at-india-tech-hubs-executives-say/articleshow/131340416.cms",
-      "source": "The Times of India",
-      "date": "2026-05-27",
-      "category": "thub"
-    },
-    {
-      "title_ko": "하이데라바드의 BluJ, 전자 항공기 프로토타입 출시",
-      "title_en": "Hyderabad’s BluJ rolls out e-aircraft prototype",
-      "url": "https://economictimes.indiatimes.com/tech/startups/hyderabads-bluj-rolls-out-e-aircraft-prototype/articleshow/131336035.cms",
-      "source": "The Times of India",
-      "date": "2026-05-27",
-      "category": "thub"
-    },
-    {
-      "title_ko": "VergeCloud 및 KDEM, Dhruva 출시: 인도 스타트업을 위한 클라우드 인프라 크레딧으로 Rs 5 Crore",
-      "title_en": "VergeCloud and KDEM Launch Dhruva: Rs 5 Crore in Cloud Infrastructure Credits for Indian Startups",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/vergecloud-and-kdem-launch-dhruva-rs-5-crore-in-cloud-infrastructure-credits-for-indian-startups/article71023942.ece",
-      "source": "BusinessLine",
-      "date": "2026-05-26",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Blinkit, Zepto 및 Instamart가 인도 스타트업 브랜드를 10분 배송 성공 사례로 전환한 방법",
-      "title_en": "How Blinkit, Zepto and Instamart are turning Indian startup brands into 10-minute delivery success stories",
-      "url": "https://www.livemint.com/industry/how-blinkit-zepto-and-instamart-are-turning-indian-startup-brands-into-10-minute-delivery-success-stories-11779760653380.html",
-      "source": "Livemint",
-      "date": "2026-05-26",
       "category": "thub"
     }
   ]
