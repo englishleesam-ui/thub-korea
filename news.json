@@ -1,69 +1,101 @@
 {
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-11",
   "articles": [
     {
-      "title_ko": "주요 부문의 수입 의존도가 감소함에 따라 인도의 노력이 결과를 보여줌: 바로다 은행(Bank of Baroda)",
-      "title_en": "Make in India efforts showing results as import dependence falls in key sectors: Bank of Baroda",
-      "url": "https://www.thehindubusinessline.com/economy/make-in-india-efforts-showing-results-as-import-dependence-falls-in-key-sectors-bank-of-baroda/article71069462.ece",
+      "title_ko": "NDA가 오늘 12주년이 되었습니다. Narenra Modi가 Jawaharlal Nehru를 통과한 것을 기념하기 위해 만납니다.",
+      "title_en": "NDA turns 12 today, meets to mark Narenra Modi crossing Jawaharlal Nehru stint",
+      "url": "https://indianexpress.com/article/india/nda-turns-12-today-meets-to-mark-narenra-modi-crossing-jawaharlal-nehru-stint-10732136/",
+      "source": "The Indian Express",
+      "date": "2026-06-10",
+      "category": "india"
+    },
+    {
+      "title_ko": "APAC 동료보다 더 나은 위치에 있는 인도 은행: 서아시아 문제에 대한 피치",
+      "title_en": "Indian banks better placed than APAC peers: Fitch on West Asia woes",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-banks-better-placed-than-apac-peers-fitch-on-west-asia-woes/articleshow/131619503.cms",
+      "source": "The Times of India",
+      "date": "2026-06-09",
+      "category": "india"
+    },
+    {
+      "title_ko": "타점을 위한 호흡 공간",
+      "title_en": "Breathing space for RBI",
+      "url": "https://www.thehindubusinessline.com/opinion/breathing-space-for-rbi/article71081751.ece",
       "source": "BusinessLine",
-      "date": "2026-06-06",
+      "date": "2026-06-09",
       "category": "india"
     },
     {
-      "title_ko": "'자본에는 국적이 없다' FII, 성장 스토리에도 불구하고 인도에 매각 - 주목해야 할 5가지 핵심 요인",
-      "title_en": "‘Capital has no nationality,’ FII are selling India despite the growth story – 5 key factors to look at",
-      "url": "https://www.livemint.com/money/personal-finance/capital-has-no-nationality-fii-are-selling-india-despite-the-growth-story-5-key-factors-to-look-at-11780725307905.html",
-      "source": "Livemint",
-      "date": "2026-06-06",
-      "category": "india"
-    },
-    {
-      "title_ko": "\"1억 4천만 인도인의 열망 강화\": Rajnath Singh은 FY 2025-26에 인도의 7.7% GDP 성장을 환영합니다.",
-      "title_en": "\"Strengthen aspirations of 140 crore Indians\": Rajnath Singh hails India's 7.7% GDP growth in FY 2025-26",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/strengthen-aspirations-of-140-crore-indians-rajnath-singh-hails-indias-7-7-gdp-growth-in-fy-2025-26/articleshow/131544426.cms",
+      "title_ko": "Modi 3.0 기념일: 의회, '약속 대 현실' 문서로 정부를 비난",
+      "title_en": "Modi 3.0 anniversary: Congress jabs govt with 'promise versus reality' document",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/modi-3-0-anniversary-congress-jabs-govt-with-promise-versus-reality-document/articleshow/131607909.cms",
       "source": "The Times of India",
-      "date": "2026-06-06",
+      "date": "2026-06-09",
       "category": "india"
     },
     {
-      "title_ko": "FY26 성장은 예상보다 높으며 인도의 회복력을 보여줍니다: MoSPI 장관",
-      "title_en": "FY26 growth higher than anticipated, shows India's resilience: MoSPI Secretary",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/fy26-growth-higher-than-anticipated-shows-indias-resilience-mospi-secretary/articleshow/131536488.cms",
+      "title_ko": "인도의 성장 스토리는 Modi의 3번째 임기 동안 가장 어려운 시험에 직면해 있습니다.",
+      "title_en": "India's growth story faces its toughest test yet in Modi’s third term",
+      "url": "https://www.cnbc.com/2026/06/09/indias-growth-toughest-test-modi-12-years.html",
+      "source": "CNBC",
+      "date": "2026-06-09",
+      "category": "india"
+    },
+    {
+      "title_ko": "지정학적 위기에도 불구하고 인도의 경제 펀더멘털과 전략적 파트너십은 성장을 유지할 것입니다: 세계은행",
+      "title_en": "Despite geopolitical crisis, India's economic fundamentals and strategic partnerships will sustain growth: World Bank",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/despite-geopolitical-crisis-indias-economic-fundamentals-and-strategic-partnerships-will-sustain-growth-world-bank/articleshow/131605421.cms",
       "source": "The Times of India",
-      "date": "2026-06-05",
+      "date": "2026-06-09",
       "category": "india"
     },
     {
-      "title_ko": "인도는 글로벌 불확실성에도 불구하고 여전히 가장 빠르게 성장하는 주요 경제로 남아 있습니다. PM Modi, 최신 GDP 수치",
-      "title_en": "India remains fastest-growing major economy despite global uncertainty : PM Modi on latest GDP numbers",
-      "url": "https://www.thehindubusinessline.com/news/national/india-remains-fastest-growing-major-economy-despite-global-uncertainty-pm-modi-on-latest-gdp-numbers/article71066791.ece",
+      "title_ko": "인도중앙은행의 외환 방어 도구는 루피 하락으로 1,100억 달러를 넘어섰습니다.",
+      "title_en": "Reserve Bank of India’s forex defense tool surpasses $110 billion as rupee slides",
+      "url": "https://cryptobriefing.com/rbi-forex-tool-surpasses-110-billion/",
+      "source": "Crypto Briefing",
+      "date": "2026-06-09",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 경제, 정부 재정, 이란 전쟁으로 인한 비용 증가 참조",
+      "title_en": "Indian economy, government finances, see mounting costs from Iran war",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indian-economy-government-finances-see-mounting-costs-from-iran-war/articleshow/131600325.cms",
+      "source": "The Times of India",
+      "date": "2026-06-09",
+      "category": "india"
+    },
+    {
+      "title_ko": "Ambani가 지원하는 로봇 스타트업, 중국 공략 위해 1억 달러 모색",
+      "title_en": "Ambani-backed robot startup seeks $100 million to take on China",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/ambani-backed-robot-startup-seeks-100-million-to-take-on-china/articleshow/131624559.cms",
+      "source": "The Times of India",
+      "date": "2026-06-10",
+      "category": "thub"
+    },
+    {
+      "title_ko": "독일 튀링겐 장관, SAP Labs India 방문, 혁신 및 디지털 변혁 분야에서 인도-독일 협력 강화",
+      "title_en": "Minister-President of Thuringia, Germany Visits SAP Labs India, Reinforcing India–Germany Collaboration in Innovation and Digital Transformation",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/minister-president-of-thuringia-germany-visits-sap-labs-india-reinforcing-indiagermany-collaboration-in-innovation-and-digital-transformation/article71075197.ece",
       "source": "BusinessLine",
-      "date": "2026-06-05",
-      "category": "india"
+      "date": "2026-06-08",
+      "category": "thub"
     },
     {
-      "title_ko": "RBI는 금리를 동결하고 외국 자본 유치에 초점을 맞췄습니다.",
-      "title_en": "RBI leaves rates unchanged, shifts focus to attracting foreign capital",
-      "url": "https://www.livemint.com/industry/banking/rbi-mpc-repo-rate-unchanged-fpi-foreign-investors-sanjay-malhotra-banking-11780662419457.html",
-      "source": "Livemint",
-      "date": "2026-06-05",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도의 해산물 수출은 10년 만에 70% 증가해 세계 무역 성장을 앞질렀습니다: Piyush Goyal",
-      "title_en": "India’s seafood exports jump 70% in a decade, outpace global trade growth: Piyush Goyal",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-seafood-exports-jump-70-in-a-decade-outpace-global-trade-growth-piyush-goyal/articleshow/131532964.cms",
+      "title_ko": "미국 회사는 MIT, 스탠포드, 아이비리그에서만 채용한다며 인도 기술자를 거부합니다. 6개월 후 카르마가 미국 회사에 타격을 입힌다",
+      "title_en": "US company rejects Indian techie saying it only hires from MIT, Stanford or Ivy League. 6 months later, karma hits the US company",
+      "url": "https://economictimes.indiatimes.com/magazines/panache/us-company-rejects-indian-techie-saying-it-only-hires-from-mit-stanford-or-ivy-league-6-months-later-karma-hits-the-us-company/articleshow/131580268.cms",
       "source": "The Times of India",
-      "date": "2026-06-05",
-      "category": "india"
+      "date": "2026-06-08",
+      "category": "thub"
     },
     {
-      "title_ko": "Uday Kotak의 AI 경각심: IPL이 종료되면서 아시아에서 가장 부유한 은행가는 Google의 800억 달러 자금 조달 후 '인도가 사업에 집중할 때'라고 말합니다.",
-      "title_en": "Uday Kotak’s AI-wake up call: As IPL ends, Asia's richest banker says 'time for India to focus on business' after Google’s $80 billion raise",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/uday-kotaks-ai-wake-up-call-as-ipl-ends-asias-richest-banker-says-time-for-india-to-focus-on-business-after-googles-80-billion-raise/articleshow/131475561.cms",
+      "title_ko": "인도 스타트업 투자: 엔젤 투자가 위험도가 높고 비유동적이며 다양한 포트폴리오를 갖춘 인내심 있는 투자자에게만 적합한 이유",
+      "title_en": "Startup investing in India: Why angel investing is high-risk, illiquid, and suitable only for patient investors with diversified portfolios",
+      "url": "https://economictimes.indiatimes.com/wealth/invest/startup-investing-in-india-why-angel-investing-is-high-risk-illiquid-and-suitable-only-for-patient-investors-with-diversified-portfolios/articleshow/131540120.cms",
       "source": "The Times of India",
-      "date": "2026-06-03",
-      "category": "india"
+      "date": "2026-06-08",
+      "category": "thub"
     },
     {
       "title_ko": "인도와 중국의 관계는 수세기에 걸친 대화와 배움을 바탕으로 구축되었다고 Doraiswami는 말합니다.",
@@ -95,38 +127,6 @@
       "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/goldman-sachs-india-global-centre-chief-gunjan-samtani-to-retire-by-end-of-2026/articleshow/131509043.cms",
       "source": "The Times of India",
       "date": "2026-06-04",
-      "category": "thub"
-    },
-    {
-      "title_ko": "T-Mobile, 하이데라바드에 인도 최초의 기술 허브 개설",
-      "title_en": "T-Mobile opens first India tech hub in Hyderabad",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f204f507-fc72-410c-be07-bc1ae6a0fe31",
-      "source": "Yahoo Entertainment",
-      "date": "2026-06-04",
-      "category": "thub"
-    },
-    {
-      "title_ko": "T-Mobile, 인도 기술 센터 개설, 2027년까지 약 1,000명 채용",
-      "title_en": "T-Mobile opens India tech centre, to hire nearly 1,000 by 2027",
-      "url": "https://economictimes.indiatimes.com/tech/technology/t-mobile-opens-india-tech-centre-to-hire-nearly-1000-by-2027/articleshow/131507002.cms",
-      "source": "The Times of India",
-      "date": "2026-06-04",
-      "category": "thub"
-    },
-    {
-      "title_ko": "1,000억 달러 규모의 엄청난 기술 변화: GCC가 인도 인재 시장에 대한 지배력을 강화함",
-      "title_en": "The great $100-billion tech shift: GCCs tighten grip on India’s talent market",
-      "url": "https://economictimes.indiatimes.com/jobs/hr-policies-trends/india-gcc-boom-tech-talent-market-global-capability-centres-hiring-salaries-ai-jobs-layoffs-ai-engineer-jobs-ai-specialist-/articleshow/131496798.cms",
-      "source": "The Times of India",
-      "date": "2026-06-04",
-      "category": "thub"
-    },
-    {
-      "title_ko": "혁신 제휴를 활용하기 위한 영국의 인도 스타트업 사파리",
-      "title_en": "India's Startup Safari in UK to tap into innovation tie-ups",
-      "url": "https://economictimes.indiatimes.com/tech/startups/indias-startup-safari-in-uk-to-tap-into-innovation-tie-ups/articleshow/131465904.cms",
-      "source": "The Times of India",
-      "date": "2026-06-02",
       "category": "thub"
     }
   ]
