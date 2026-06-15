@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-15",
   "articles": [
+    {
+      "title_ko": "UPSC 핵심: 인도-프랑스 관계, 미국 외교관 소환 및 엘니뇨",
+      "title_en": "UPSC Key: India-France ties, US diplomat summoned and El Niño",
+      "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-india-france-ties-us-diplomat-summoned-and-el-nino-10738090/",
+      "source": "The Indian Express",
+      "date": "2026-06-13",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 식량 생산에서 자급자족을 달성했습니다: CTCRI 이사",
+      "title_en": "India has achieved self-sufficiency in food production: CTCRI director",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/india-has-achieved-self-sufficiency-in-food-production-ctcri-director/article71097779.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-13",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 유제품 시장: 성장하는 경제력",
+      "title_en": "Indian Dairy Market: A Growing Economic Force",
+      "url": "https://businessnewsthisweek.com/business/the-indian-dairy-market-growth-trends-and-future-opportunities/",
+      "source": "Businessnewsthisweek.com",
+      "date": "2026-06-12",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도의 경제 성장은 실제인가? Raghuram Rajan이 뭔가 이상하다고 말함",
+      "title_en": "Is India's economic growth real? Raghuram Rajan says something is off",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/is-indias-economic-growth-real-raghuram-rajan-says-something-is-off/articleshow/131676593.cms",
+      "source": "The Times of India",
+      "date": "2026-06-12",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 2047년까지 30조 달러 규모의 경제 비전을 달성하기 위해 국제 무역 관계를 확장해야 합니다: Piyush Goyal",
+      "title_en": "India must expand international trade ties to reach $30 trillion economy vision by 2047: Piyush Goyal",
+      "url": "https://www.thehindubusinessline.com/news/india-must-expand-international-trade-ties-to-reach-30-trillion-economy-vision-by-2047-piyush-goyal/article71092163.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-12",
+      "category": "india"
+    },
+    {
+      "title_ko": "국내의 목표 개혁이 인도를 외부 충격으로부터 구할 수 있을까요?",
+      "title_en": "Can targeted reforms at home save India from external shocks?",
+      "url": "https://economictimes.indiatimes.com/prime/economy-and-policy/can-targeted-reforms-at-home-save-india-from-external-shocks/primearticleshow/131660722.cms",
+      "source": "The Times of India",
+      "date": "2026-06-11",
+      "category": "india"
+    },
     {
       "title_ko": "NDA가 오늘 12주년이 되었습니다. Narenra Modi가 Jawaharlal Nehru를 통과한 것을 기념하기 위해 만납니다.",
       "title_en": "NDA turns 12 today, meets to mark Narenra Modi crossing Jawaharlal Nehru stint",
@@ -18,52 +66,44 @@
       "category": "india"
     },
     {
-      "title_ko": "타점을 위한 호흡 공간",
-      "title_en": "Breathing space for RBI",
-      "url": "https://www.thehindubusinessline.com/opinion/breathing-space-for-rbi/article71081751.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-09",
-      "category": "india"
-    },
-    {
-      "title_ko": "Modi 3.0 기념일: 의회, '약속 대 현실' 문서로 정부를 비난",
-      "title_en": "Modi 3.0 anniversary: Congress jabs govt with 'promise versus reality' document",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/modi-3-0-anniversary-congress-jabs-govt-with-promise-versus-reality-document/articleshow/131607909.cms",
+      "title_ko": "인도는 현재 2.3 lakh 스타트업을 보유하고 있으며 25 lakh 일자리를 창출했습니다: Jitendra Singh 연합 장관",
+      "title_en": "India now has 2.3 lakh startups, generated 25 lakh jobs: Union minister Jitendra Singh",
+      "url": "https://economictimes.indiatimes.com/tech/startups/india-now-has-2-3-lakh-startups-generated-25-lakh-jobs-union-minister-jitendra-singh/articleshow/131707691.cms",
       "source": "The Times of India",
-      "date": "2026-06-09",
-      "category": "india"
+      "date": "2026-06-13",
+      "category": "thub"
     },
     {
-      "title_ko": "인도의 성장 스토리는 Modi의 3번째 임기 동안 가장 어려운 시험에 직면해 있습니다.",
-      "title_en": "India's growth story faces its toughest test yet in Modi’s third term",
-      "url": "https://www.cnbc.com/2026/06/09/indias-growth-toughest-test-modi-12-years.html",
-      "source": "CNBC",
-      "date": "2026-06-09",
-      "category": "india"
+      "title_ko": "Equal AI는 일주일에 20통의 스팸 전화를 받는 인도인의 전화 통화를 확인하기 위해 3천만 달러를 모금했습니다.",
+      "title_en": "Equal AI raised $30M to screen phone calls for Indians who get 20 spam calls a week",
+      "url": "https://thenextweb.com/news/equal-ai-india-call-screening-30m-series-b/",
+      "source": "The Next Web",
+      "date": "2026-06-12",
+      "category": "thub"
     },
     {
-      "title_ko": "지정학적 위기에도 불구하고 인도의 경제 펀더멘털과 전략적 파트너십은 성장을 유지할 것입니다: 세계은행",
-      "title_en": "Despite geopolitical crisis, India's economic fundamentals and strategic partnerships will sustain growth: World Bank",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/despite-geopolitical-crisis-indias-economic-fundamentals-and-strategic-partnerships-will-sustain-growth-world-bank/articleshow/131605421.cms",
+      "title_ko": "Aum Ventures는 5년 안에 혁신적인 스타트업에 Rs 750 crore를 투자할 계획입니다.",
+      "title_en": "Aum Ventures plans to invest Rs 750 crore in innovative startups in 5 years",
+      "url": "https://economictimes.indiatimes.com/tech/funding/aum-ventures-plans-to-invest-rs-750-crore-in-innovative-startups-in-5-years/articleshow/131666941.cms",
       "source": "The Times of India",
-      "date": "2026-06-09",
-      "category": "india"
+      "date": "2026-06-11",
+      "category": "thub"
     },
     {
-      "title_ko": "인도중앙은행의 외환 방어 도구는 루피 하락으로 1,100억 달러를 넘어섰습니다.",
-      "title_en": "Reserve Bank of India’s forex defense tool surpasses $110 billion as rupee slides",
-      "url": "https://cryptobriefing.com/rbi-forex-tool-surpasses-110-billion/",
-      "source": "Crypto Briefing",
-      "date": "2026-06-09",
-      "category": "india"
+      "title_ko": "Microsoft, 탄소 제거 분야에서 인도의 역할 증가에 맞춰 Alt Carbon 활용 | 테크크런치",
+      "title_en": "Microsoft taps Alt Carbon in sign of India’s growing role in carbon removal | TechCrunch",
+      "url": "https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/",
+      "source": "TechCrunch",
+      "date": "2026-06-11",
+      "category": "thub"
     },
     {
-      "title_ko": "인도 경제, 정부 재정, 이란 전쟁으로 인한 비용 증가 참조",
-      "title_en": "Indian economy, government finances, see mounting costs from Iran war",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indian-economy-government-finances-see-mounting-costs-from-iran-war/articleshow/131600325.cms",
-      "source": "The Times of India",
-      "date": "2026-06-09",
-      "category": "india"
+      "title_ko": "Ambani가 지원하는 Addverb는 Unitree 및 Tesla Optimus에 대한 인도의 답변을 구축하기 위해 1억 달러를 원합니다.",
+      "title_en": "Ambani-backed Addverb wants $100 million to build India’s answer to Unitree and Tesla Optimus",
+      "url": "https://thenextweb.com/news/addverb-india-robotics-ambani-100m-humanoid/",
+      "source": "The Next Web",
+      "date": "2026-06-10",
+      "category": "thub"
     },
     {
       "title_ko": "Ambani가 지원하는 로봇 스타트업, 중국 공략 위해 1억 달러 모색",
@@ -87,46 +127,6 @@
       "url": "https://economictimes.indiatimes.com/magazines/panache/us-company-rejects-indian-techie-saying-it-only-hires-from-mit-stanford-or-ivy-league-6-months-later-karma-hits-the-us-company/articleshow/131580268.cms",
       "source": "The Times of India",
       "date": "2026-06-08",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도 스타트업 투자: 엔젤 투자가 위험도가 높고 비유동적이며 다양한 포트폴리오를 갖춘 인내심 있는 투자자에게만 적합한 이유",
-      "title_en": "Startup investing in India: Why angel investing is high-risk, illiquid, and suitable only for patient investors with diversified portfolios",
-      "url": "https://economictimes.indiatimes.com/wealth/invest/startup-investing-in-india-why-angel-investing-is-high-risk-illiquid-and-suitable-only-for-patient-investors-with-diversified-portfolios/articleshow/131540120.cms",
-      "source": "The Times of India",
-      "date": "2026-06-08",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도와 중국의 관계는 수세기에 걸친 대화와 배움을 바탕으로 구축되었다고 Doraiswami는 말합니다.",
-      "title_en": "India-China ties built on centuries of dialogue and learning, says Doraiswami",
-      "url": "https://economictimes.indiatimes.com/news/india/india-china-ties-built-on-centuries-of-dialogue-and-learning-says-doraiswami/articleshow/131550319.cms",
-      "source": "The Times of India",
-      "date": "2026-06-06",
-      "category": "thub"
-    },
-    {
-      "title_ko": "발췌: 인도의 AI 딥페이크 산업 내부와 여성의 정체성을 어떻게 활용하고 있는지",
-      "title_en": "Excerpt: Inside India’s AI deepfake industry and how it’s exploiting identity of women",
-      "url": "https://www.medianama.com/2026/06/223-excerpt-inside-indias-ai-deepfake-industry-and-how-its-exploiting-identity-of-women/",
-      "source": "MediaNama.com",
-      "date": "2026-06-06",
-      "category": "thub"
-    },
-    {
-      "title_ko": "장기적으로 인도의 펀더멘털은 경이롭습니다: Citi의 Vis Raghavan",
-      "title_en": "The fundamentals of India in the long term are phenomenal: Citi’s Vis Raghavan",
-      "url": "https://www.moneycontrol.com/news/business/the-fundamentals-of-india-in-the-long-term-are-phenomenal-citi-s-vis-raghavan-13941553.html",
-      "source": "Moneycontrol",
-      "date": "2026-06-04",
-      "category": "thub"
-    },
-    {
-      "title_ko": "골드만삭스 인도 글로벌 센터장 군잔 삼타니, 2026년 말 은퇴",
-      "title_en": "Goldman Sachs India global centre chief Gunjan Samtani to retire by end of 2026",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/goldman-sachs-india-global-centre-chief-gunjan-samtani-to-retire-by-end-of-2026/articleshow/131509043.cms",
-      "source": "The Times of India",
-      "date": "2026-06-04",
       "category": "thub"
     }
   ]
