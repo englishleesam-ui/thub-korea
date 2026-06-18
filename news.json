@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-18",
   "articles": [
+    {
+      "title_ko": "평범한 땅에 갇힌: 외부 충격으로 인해 인도가 중산층 침체에 빠졌습니다.",
+      "title_en": "Stuck in acres of mediocre: External shocks expose India's slide into middle-income stagnation",
+      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/stuck-in-acres-of-mediocre-external-shocks-expose-indias-slide-into-middle-income-stagnation/articleshow/131778981.cms",
+      "source": "The Times of India",
+      "date": "2026-06-16",
+      "category": "india"
+    },
+    {
+      "title_ko": "외부 스트레스가 인도 국내 경제가 직면한 과제를 무색하게 해서는 안 됩니다.",
+      "title_en": "External stress mustn't overshadow challenges faced by India’s domestic economy",
+      "url": "https://www.livemint.com/opinion/online-views/external-stress-india-domestic-economy-income-wage-stagnation-savings-consumption-11781523727193.html",
+      "source": "Livemint",
+      "date": "2026-06-16",
+      "category": "india"
+    },
+    {
+      "title_ko": "Modi 총리의 북동부 성장은 인도의 가장 큰 성공 사례 중 하나입니다: Sarbananda Sonowal",
+      "title_en": "Northeast’s rise under PM Modi is one of India’s biggest success stories: Sarbananda Sonowal",
+      "url": "https://economictimes.indiatimes.com/news/india/northeasts-rise-under-pm-modi-is-one-of-indias-biggest-success-stories-sarbananda-sonowal/articleshow/131750164.cms",
+      "source": "The Times of India",
+      "date": "2026-06-15",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도의 끝나지 않은 개혁 의제",
+      "title_en": "India’s Unfinished Reform Agenda",
+      "url": "https://www.project-syndicate.org/commentary/energy-climate-trade-shocks-should-push-india-to-finish-implementing-reform-agenda-by-shishir-gupta-2026-06",
+      "source": "Project Syndicate",
+      "date": "2026-06-15",
+      "category": "india"
+    },
+    {
+      "title_ko": "미국-이란 평화 협정: 2년간의 가뭄을 끝내고 FII를 다시 불러오기에 충분합니까?",
+      "title_en": "US-Iran peace deal: Is it enough to end the 2-year drought for Nifty bulls, bring FIIs back?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/us-iran-peace-deal-is-it-enough-to-end-the-2-year-drought-for-nifty-bulls-bring-fiis-back/articleshow/131739664.cms",
+      "source": "The Times of India",
+      "date": "2026-06-15",
+      "category": "india"
+    },
+    {
+      "title_ko": "이란-미국 평화 협정으로 유가가 냉각됨에 따라 Sensex는 1,300포인트 상승하고 Nifty는 24,000포인트를 되찾았습니다.",
+      "title_en": "Sensex jumps 1,300 points, Nifty reclaims 24,000 as Iran-US peace deal cools oil prices",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-jumps-1300-points-nifty-reclaims-24000-as-iran-us-peace-deal-cools-oil-prices/article71103468.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-15",
+      "category": "india"
+    },
+    {
+      "title_ko": "CEA는 인도의 GDP 데이터를 옹호하며 국가는 성장 수치를 부풀리기 위해 방법론 변경을 사용하지 않는다고 말했습니다.",
+      "title_en": "CEA defends India's GDP data, says country does not use methodology changes to inflate growth numbers",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/cea-defends-indias-gdp-data-says-country-does-not-use-methodology-changes-to-inflate-growth-numbers/articleshow/131720544.cms",
+      "source": "The Times of India",
+      "date": "2026-06-14",
+      "category": "india"
+    },
     {
       "title_ko": "UPSC 핵심: 인도-프랑스 관계, 미국 외교관 소환 및 엘니뇨",
       "title_en": "UPSC Key: India-France ties, US diplomat summoned and El Niño",
@@ -10,60 +66,44 @@
       "category": "india"
     },
     {
-      "title_ko": "인도는 식량 생산에서 자급자족을 달성했습니다: CTCRI 이사",
-      "title_en": "India has achieved self-sufficiency in food production: CTCRI director",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/india-has-achieved-self-sufficiency-in-food-production-ctcri-director/article71097779.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-13",
-      "category": "india"
+      "title_ko": "인도 HCLTech, Sarvam AI 지분 10.5% 매입, 스타트업 가치 15억 달러로 평가",
+      "title_en": "India's HCLTech to buy 10.5% stake in Sarvam AI, valuing startup at $1.5 billion",
+      "url": "https://www.channelnewsasia.com/business/indias-hcltech-buy-105-stake-in-sarvam-ai-valuing-startup-15-billion-6184786",
+      "source": "CNA",
+      "date": "2026-06-15",
+      "category": "thub"
     },
     {
-      "title_ko": "인도 유제품 시장: 성장하는 경제력",
-      "title_en": "Indian Dairy Market: A Growing Economic Force",
-      "url": "https://businessnewsthisweek.com/business/the-indian-dairy-market-growth-trends-and-future-opportunities/",
-      "source": "Businessnewsthisweek.com",
-      "date": "2026-06-12",
-      "category": "india"
+      "title_ko": "인도의 AI 모델 개발자 Sarvam은 미화 2억 3,400만 달러를 모금했으며, 그 가치는 미화 15억 달러로 평가됩니다.",
+      "title_en": "Indian AI model developer Sarvam raises US$234 million, valuing it at US$1.5 billion",
+      "url": "https://www.channelnewsasia.com/business/indian-ai-model-developer-sarvam-raises-us234-million-valuing-it-us15-billion-6184786",
+      "source": "CNA",
+      "date": "2026-06-15",
+      "category": "thub"
     },
     {
-      "title_ko": "인도의 경제 성장은 실제인가? Raghuram Rajan이 뭔가 이상하다고 말함",
-      "title_en": "Is India's economic growth real? Raghuram Rajan says something is off",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/is-indias-economic-growth-real-raghuram-rajan-says-something-is-off/articleshow/131676593.cms",
+      "title_ko": "우화 5 모닝콜; 인디언들이 SpaceX 대박을 쫓다",
+      "title_en": "Fable 5 wake-up call; Indians chase SpaceX jackpot",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/fable-5-wake-up-call-indians-chase-spacex-jackpot/articleshow/131730986.cms",
       "source": "The Times of India",
-      "date": "2026-06-12",
-      "category": "india"
+      "date": "2026-06-15",
+      "category": "thub"
     },
     {
-      "title_ko": "인도는 2047년까지 30조 달러 규모의 경제 비전을 달성하기 위해 국제 무역 관계를 확장해야 합니다: Piyush Goyal",
-      "title_en": "India must expand international trade ties to reach $30 trillion economy vision by 2047: Piyush Goyal",
-      "url": "https://www.thehindubusinessline.com/news/india-must-expand-international-trade-ties-to-reach-30-trillion-economy-vision-by-2047-piyush-goyal/article71092163.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-12",
-      "category": "india"
+      "title_ko": "Anthropic의 모델 폐쇄는 인도의 주권 AI 운동에 가장 강력한 주장을 제시했습니다.",
+      "title_en": "Anthropic’s model shutdown just handed India’s sovereign AI movement its strongest argument yet",
+      "url": "https://thenextweb.com/news/india-sovereign-ai-anthropic-fable-suspension-debate/",
+      "source": "The Next Web",
+      "date": "2026-06-14",
+      "category": "thub"
     },
     {
-      "title_ko": "국내의 목표 개혁이 인도를 외부 충격으로부터 구할 수 있을까요?",
-      "title_en": "Can targeted reforms at home save India from external shocks?",
-      "url": "https://economictimes.indiatimes.com/prime/economy-and-policy/can-targeted-reforms-at-home-save-india-from-external-shocks/primearticleshow/131660722.cms",
+      "title_ko": "인도, 제조업 부문에서 프랑스 투자 유치",
+      "title_en": "India seeks French investments in manufacturing",
+      "url": "https://economictimes.indiatimes.com/news/india/india-seeks-french-investments-in-manufacturing/articleshow/131724478.cms",
       "source": "The Times of India",
-      "date": "2026-06-11",
-      "category": "india"
-    },
-    {
-      "title_ko": "NDA가 오늘 12주년이 되었습니다. Narenra Modi가 Jawaharlal Nehru를 통과한 것을 기념하기 위해 만납니다.",
-      "title_en": "NDA turns 12 today, meets to mark Narenra Modi crossing Jawaharlal Nehru stint",
-      "url": "https://indianexpress.com/article/india/nda-turns-12-today-meets-to-mark-narenra-modi-crossing-jawaharlal-nehru-stint-10732136/",
-      "source": "The Indian Express",
-      "date": "2026-06-10",
-      "category": "india"
-    },
-    {
-      "title_ko": "APAC 동료보다 더 나은 위치에 있는 인도 은행: 서아시아 문제에 대한 피치",
-      "title_en": "Indian banks better placed than APAC peers: Fitch on West Asia woes",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-banks-better-placed-than-apac-peers-fitch-on-west-asia-woes/articleshow/131619503.cms",
-      "source": "The Times of India",
-      "date": "2026-06-09",
-      "category": "india"
+      "date": "2026-06-14",
+      "category": "thub"
     },
     {
       "title_ko": "인도는 현재 2.3 lakh 스타트업을 보유하고 있으며 25 lakh 일자리를 창출했습니다: Jitendra Singh 연합 장관",
@@ -87,46 +127,6 @@
       "url": "https://economictimes.indiatimes.com/tech/funding/aum-ventures-plans-to-invest-rs-750-crore-in-innovative-startups-in-5-years/articleshow/131666941.cms",
       "source": "The Times of India",
       "date": "2026-06-11",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Microsoft, 탄소 제거 분야에서 인도의 역할 증가에 맞춰 Alt Carbon 활용 | 테크크런치",
-      "title_en": "Microsoft taps Alt Carbon in sign of India’s growing role in carbon removal | TechCrunch",
-      "url": "https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/",
-      "source": "TechCrunch",
-      "date": "2026-06-11",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Ambani가 지원하는 Addverb는 Unitree 및 Tesla Optimus에 대한 인도의 답변을 구축하기 위해 1억 달러를 원합니다.",
-      "title_en": "Ambani-backed Addverb wants $100 million to build India’s answer to Unitree and Tesla Optimus",
-      "url": "https://thenextweb.com/news/addverb-india-robotics-ambani-100m-humanoid/",
-      "source": "The Next Web",
-      "date": "2026-06-10",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Ambani가 지원하는 로봇 스타트업, 중국 공략 위해 1억 달러 모색",
-      "title_en": "Ambani-backed robot startup seeks $100 million to take on China",
-      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/ambani-backed-robot-startup-seeks-100-million-to-take-on-china/articleshow/131624559.cms",
-      "source": "The Times of India",
-      "date": "2026-06-10",
-      "category": "thub"
-    },
-    {
-      "title_ko": "독일 튀링겐 장관, SAP Labs India 방문, 혁신 및 디지털 변혁 분야에서 인도-독일 협력 강화",
-      "title_en": "Minister-President of Thuringia, Germany Visits SAP Labs India, Reinforcing India–Germany Collaboration in Innovation and Digital Transformation",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/minister-president-of-thuringia-germany-visits-sap-labs-india-reinforcing-indiagermany-collaboration-in-innovation-and-digital-transformation/article71075197.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-08",
-      "category": "thub"
-    },
-    {
-      "title_ko": "미국 회사는 MIT, 스탠포드, 아이비리그에서만 채용한다며 인도 기술자를 거부합니다. 6개월 후 카르마가 미국 회사에 타격을 입힌다",
-      "title_en": "US company rejects Indian techie saying it only hires from MIT, Stanford or Ivy League. 6 months later, karma hits the US company",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/us-company-rejects-indian-techie-saying-it-only-hires-from-mit-stanford-or-ivy-league-6-months-later-karma-hits-the-us-company/articleshow/131580268.cms",
-      "source": "The Times of India",
-      "date": "2026-06-08",
       "category": "thub"
     }
   ]
