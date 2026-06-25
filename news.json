@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-25",
   "articles": [
+    {
+      "title_ko": "인도의 소프트웨어 수출업체들은 AI 우려로 인해 Nifty의 주가가 사상 최저 수준으로 하락할 것으로 보고 있습니다.",
+      "title_en": "India’s software exporters see Nifty share shrink to record low amid AI concerns",
+      "url": "https://cryptobriefing.com/india-it-nifty-share-record-low-ai/",
+      "source": "Crypto Briefing",
+      "date": "2026-06-24",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 중앙은행은 금리를 안정적으로 유지하고 지정학적 안개 속에서 금리 인상 논의는 시기상조라고 말했습니다.",
+      "title_en": "Reserve Bank of India holds rates steady, says rate hike talk is premature amid geopolitical fog",
+      "url": "https://cryptobriefing.com/rbi-holds-rates-premature-rate-hike/",
+      "source": "Crypto Briefing",
+      "date": "2026-06-24",
+      "category": "india"
+    },
+    {
+      "title_ko": "2027 회계연도 인도 성장률은 6.6%로 둔화될 것으로 예상: S&P Global",
+      "title_en": "India’s growth expected to slow to 6.6% in FY27: S&P Global",
+      "url": "https://www.thehindubusinessline.com/economy/indias-growth-expected-to-slow-to-66-in-fy27-says-sp-global/article71140427.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-24",
+      "category": "india"
+    },
+    {
+      "title_ko": "Lubrizol은 인도 CPVC 시장에 1억 5천만 달러를 투자하고 5년 안에 매출을 두 배로 늘릴 계획입니다.",
+      "title_en": "Lubrizol bets $150 million on India CPVC market, eyes doubling revenue in five years",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/lubrizol-bets-150-million-on-india-cpvc-market-eyes-doubling-revenue-in-five-years/articleshow/131949413.cms",
+      "source": "The Times of India",
+      "date": "2026-06-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "CII 회장 R Mukundan은 인도의 7% 성장을 예상하고 개혁을 추진하기 위해 GST 위원회와 같은 기구를 찾고 있습니다.",
+      "title_en": "CII president R Mukundan projects 7% growth for India, seeks GST Council-like body to drive reforms",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/cii-president-r-mukundan-projects-7-growth-for-india-seeks-gst-council-like-body-to-drive-reforms/articleshow/131949462.cms",
+      "source": "The Times of India",
+      "date": "2026-06-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "영국-인도 주간은 IGF Smarter Regions Forum과 함께 West Midlands에서 열립니다.",
+      "title_en": "UK-India Week opens in the West Midlands with IGF Smarter Regions Forum",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/uk-india-week-opens-in-the-west-midlands-with-igf-smarter-regions-forum/article71137437.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "부실한 기업 지배구조가 인도 경제를 저해하고 있다",
+      "title_en": "Poor corporate governance is impeding the Indian economy",
+      "url": "https://biztoc.com/x/3884e1130c547be5",
+      "source": "Biztoc.com",
+      "date": "2026-06-23",
+      "category": "india"
+    },
     {
       "title_ko": "글로벌 불확실성 속에서 인도의 진화하는 경제 상황을 연구하는 의회 패널",
       "title_en": "Amid global uncertainties, parliamentary panel to study evolving economic conditions in India",
@@ -10,60 +66,44 @@
       "category": "india"
     },
     {
-      "title_ko": "세계적 혼란과 성장 우려 속에서 인도 경제를 검토하는 의회 패널",
-      "title_en": "Parliament panel to review India's economy amid global turmoil and growth concerns",
-      "url": "https://economictimes.indiatimes.com/news/india/parliament-panel-to-review-indias-economy-amid-global-turmoil-and-growth-concerns/articleshow/131886437.cms",
+      "title_ko": "Meta의 인도 투자 내부: First Reliance, 현재 Cred",
+      "title_en": "Inside Meta's India investments: First Reliance, now Cred",
+      "url": "https://economictimes.indiatimes.com/tech/technology/inside-metas-india-investments-first-reliance-now-cred/articleshow/131939853.cms",
       "source": "The Times of India",
-      "date": "2026-06-21",
-      "category": "india"
+      "date": "2026-06-23",
+      "category": "thub"
     },
     {
-      "title_ko": "인도, 러시아는 세계 경제 붕괴를 막았습니다: IMEMO 책임자",
-      "title_en": "India, Russia prevented global economy from collapsing: IMEMO chief",
-      "url": "https://economictimes.indiatimes.com/news/india/india-russia-prevented-global-economy-from-collapsing-imemo-chief/articleshow/131880844.cms",
-      "source": "The Times of India",
-      "date": "2026-06-20",
-      "category": "india"
+      "title_ko": "인도 뉴스: 미국의 면제로 이란 석유 구매의 길이 열렸습니다",
+      "title_en": "India news: US waiver clears way for Iran oil purchase",
+      "url": "https://www.dw.com/en/india-news-us-waiver-clears-way-for-iran-oil-purchase/live-77667895",
+      "source": "DW (English)",
+      "date": "2026-06-23",
+      "category": "thub"
     },
     {
-      "title_ko": "2047년까지 인도를 선진국으로 만들기 위해 여성의 기여를 더욱 강화해야 합니다: Mandaviya",
-      "title_en": "Need to further strengthen women's contribution to make India a developed nation by 2047: Mandaviya",
-      "url": "https://www.thehindubusinessline.com/news/national/need-to-further-strengthen-womens-contribution-to-make-india-a-developed-nation-by-2047-mandaviya/article71125712.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-20",
-      "category": "india"
+      "title_ko": "CNBC Daily Open: 테크 토닉 전환인가 아니면 매수 기회인가?",
+      "title_en": "CNBC Daily Open: Tech-tonic shift or buying opportunity?",
+      "url": "https://www.cnbc.com/2026/06/23/daily-open-tech-rout-mag7-brexit-anniversary.html",
+      "source": "CNBC",
+      "date": "2026-06-23",
+      "category": "thub"
     },
     {
-      "title_ko": "RBI MPC 회의록: 서아시아의 불확실성 속에서 정책 실수에 대한 우려로 금리 동결이 발생했습니다.",
-      "title_en": "RBI MPC minutes: Policy misstep fears drove rate pause amid West Asia uncertainty",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-mpc-minutes-policy-misstep-fears-drove-rate-pause-amid-west-asia-uncertainty/articleshow/131861187.cms",
-      "source": "The Times of India",
-      "date": "2026-06-19",
-      "category": "india"
+      "title_ko": "새로운 WhatsApp 사장으로 인도 스타트업 대표 임명",
+      "title_en": "Indian startup head appointed as new WhatsApp boss",
+      "url": "https://biztoc.com/x/7085ecb7c996d56b",
+      "source": "Biztoc.com",
+      "date": "2026-06-23",
+      "category": "thub"
     },
     {
-      "title_ko": "인도 선원들을 살해한 미국의 공습으로 미국과 인도의 신뢰가 시험됐다",
-      "title_en": "US strike that killed Indian mariners tests US-India trust",
-      "url": "https://www.rt.com/india/641816-us-strike-indian-marines-oman/",
-      "source": "RT",
-      "date": "2026-06-19",
-      "category": "india"
-    },
-    {
-      "title_ko": "평범한 땅에 갇힌: 외부 충격으로 인해 인도가 중산층 침체에 빠졌습니다.",
-      "title_en": "Stuck in acres of mediocre: External shocks expose India's slide into middle-income stagnation",
-      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/stuck-in-acres-of-mediocre-external-shocks-expose-indias-slide-into-middle-income-stagnation/articleshow/131778981.cms",
-      "source": "The Times of India",
-      "date": "2026-06-16",
-      "category": "india"
-    },
-    {
-      "title_ko": "외부 스트레스가 인도 국내 경제가 직면한 과제를 무색하게 해서는 안 됩니다.",
-      "title_en": "External stress mustn't overshadow challenges faced by India’s domestic economy",
-      "url": "https://www.livemint.com/opinion/online-views/external-stress-india-domestic-economy-income-wage-stagnation-savings-consumption-11781523727193.html",
-      "source": "Livemint",
-      "date": "2026-06-16",
-      "category": "india"
+      "title_ko": "40억 달러 규모의 인도 스타트업이 Meta의 지원을 받았지만 WhatsApp에 창업자를 잃은 방법",
+      "title_en": "How a $4 billion Indian startup won Meta's backing but lost its founder to WhatsApp",
+      "url": "https://biztoc.com/x/18c40881a283a7d4",
+      "source": "Biztoc.com",
+      "date": "2026-06-23",
+      "category": "thub"
     },
     {
       "title_ko": "화재 발생, 엘리베이터 고장, 지진 발생: 이 인도 스타트업의 발코니 탈출 시스템이 고층 건물에서 생명을 구할 수 있는 방법",
@@ -87,46 +127,6 @@
       "url": "https://www.channelnewsasia.com/business/indias-hcltech-buy-105-stake-in-sarvam-ai-valuing-startup-15-billion-6184786",
       "source": "CNA",
       "date": "2026-06-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도의 AI 모델 개발자 Sarvam은 미화 2억 3,400만 달러를 모금했으며, 그 가치는 미화 15억 달러로 평가됩니다.",
-      "title_en": "Indian AI model developer Sarvam raises US$234 million, valuing it at US$1.5 billion",
-      "url": "https://www.channelnewsasia.com/business/indian-ai-model-developer-sarvam-raises-us234-million-valuing-it-us15-billion-6184786",
-      "source": "CNA",
-      "date": "2026-06-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "우화 5 모닝콜; 인디언들이 SpaceX 대박을 쫓다",
-      "title_en": "Fable 5 wake-up call; Indians chase SpaceX jackpot",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/fable-5-wake-up-call-indians-chase-spacex-jackpot/articleshow/131730986.cms",
-      "source": "The Times of India",
-      "date": "2026-06-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Anthropic의 모델 폐쇄는 인도의 주권 AI 운동에 가장 강력한 주장을 제시했습니다.",
-      "title_en": "Anthropic’s model shutdown just handed India’s sovereign AI movement its strongest argument yet",
-      "url": "https://thenextweb.com/news/india-sovereign-ai-anthropic-fable-suspension-debate/",
-      "source": "The Next Web",
-      "date": "2026-06-14",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도, 제조업 부문에서 프랑스 투자 유치",
-      "title_en": "India seeks French investments in manufacturing",
-      "url": "https://economictimes.indiatimes.com/news/india/india-seeks-french-investments-in-manufacturing/articleshow/131724478.cms",
-      "source": "The Times of India",
-      "date": "2026-06-14",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도는 현재 2.3 lakh 스타트업을 보유하고 있으며 25 lakh 일자리를 창출했습니다: Jitendra Singh 연합 장관",
-      "title_en": "India now has 2.3 lakh startups, generated 25 lakh jobs: Union minister Jitendra Singh",
-      "url": "https://economictimes.indiatimes.com/tech/startups/india-now-has-2-3-lakh-startups-generated-25-lakh-jobs-union-minister-jitendra-singh/articleshow/131707691.cms",
-      "source": "The Times of India",
-      "date": "2026-06-13",
       "category": "thub"
     }
   ]
