@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-29",
   "articles": [
+    {
+      "title_ko": "\"영국-인도 자유 무역 협정은 지금까지 인도의 가장 포괄적인 협정이 될 것입니다\": 2026년 영국-인도 주간의 Piyush Goyal",
+      "title_en": "\"UK-India Free Trade Agreement will be India's most comprehensive agreement so far\": Piyush Goyal at UK-India Week 2026",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/uk-india-free-trade-agreement-will-be-indias-most-comprehensive-agreement-so-far-piyush-goyal-at-uk-india-week-2026/article71156880.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-28",
+      "category": "india"
+    },
+    {
+      "title_ko": "India Inc와 그 투자 기록",
+      "title_en": "India Inc and its capex chronicles",
+      "url": "https://www.thehindubusinessline.com/portfolio/big-story/india-inc-and-its-capex-chronicles/article71151141.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-27",
+      "category": "india"
+    },
+    {
+      "title_ko": "Goldman, EY는 유가 하락으로 인한 인도 성장에 낙관적입니다.",
+      "title_en": "Goldman, EY upbeat on India growth on lower crude prices",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/goldman-ey-upbeat-on-india-growth-on-lower-crude-prices/articleshow/132027357.cms",
+      "source": "The Times of India",
+      "date": "2026-06-27",
+      "category": "india"
+    },
+    {
+      "title_ko": "Goldman Sachs는 인도의 CY26 GDP 성장 예측을 6.8%로 높이고 인플레이션을 낮추고 CAD 추정",
+      "title_en": "Goldman Sachs raises India's CY26 GDP growth forecast to 6.8%, cuts inflation, CAD estimates",
+      "url": "https://www.tribuneindia.com/news/business/goldman-sachs-raises-indias-cy26-gdp-growth-forecast-to-6-8-cuts-inflation-cad-estimates/",
+      "source": "The Tribune India",
+      "date": "2026-06-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "글로벌 평가기관이 인정하지 않는 인도의 성장 스토리: Piyush Goyal",
+      "title_en": "India's growth story not recognised by global rating agencies: Piyush Goyal",
+      "url": "https://economictimes.indiatimes.com/news/india/indias-growth-story-not-recognised-by-global-rating-agencies-piyush-goyal/articleshow/132023790.cms",
+      "source": "The Times of India",
+      "date": "2026-06-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 글로벌 분쟁으로 인한 단기적 위험에도 불구하고 급속한 성장을 위한 준비가 잘 되어 있음: ITC",
+      "title_en": "India well-poised for rapid growth despite near-term risks from global conflicts: ITC",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-well-poised-for-rapid-growth-despite-near-term-risks-from-global-conflicts-itc/articleshow/132019128.cms",
+      "source": "The Times of India",
+      "date": "2026-06-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도-영국 FTA의 변혁적 성장 주요 초점: Piyush Goyal",
+      "title_en": "Transformational growth prime focus of India-UK FTA: Piyush Goyal",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/transformational-growth-prime-focus-of-india-uk-fta-piyush-goyal/articleshow/132017351.cms",
+      "source": "The Times of India",
+      "date": "2026-06-26",
+      "category": "india"
+    },
     {
       "title_ko": "인도의 소프트웨어 수출업체들은 AI 우려로 인해 Nifty의 주가가 사상 최저 수준으로 하락할 것으로 보고 있습니다.",
       "title_en": "India’s software exporters see Nifty share shrink to record low amid AI concerns",
@@ -10,60 +66,52 @@
       "category": "india"
     },
     {
-      "title_ko": "인도 중앙은행은 금리를 안정적으로 유지하고 지정학적 안개 속에서 금리 인상 논의는 시기상조라고 말했습니다.",
-      "title_en": "Reserve Bank of India holds rates steady, says rate hike talk is premature amid geopolitical fog",
-      "url": "https://cryptobriefing.com/rbi-holds-rates-premature-rate-hike/",
-      "source": "Crypto Briefing",
-      "date": "2026-06-24",
-      "category": "india"
+      "title_ko": "Equirus가 ₹1,500 crore 펀드에서 손실을 입는 스타트업을 피하는 이유",
+      "title_en": "Why Equirus is avoiding loss-making startups in its ₹1,500 crore fund",
+      "url": "https://www.livemint.com/companies/news/why-equirus-is-avoiding-loss-making-startups-in-its-1-500-crore-fund-11782469777507.html",
+      "source": "Livemint",
+      "date": "2026-06-27",
+      "category": "thub"
     },
     {
-      "title_ko": "2027 회계연도 인도 성장률은 6.6%로 둔화될 것으로 예상: S&P Global",
-      "title_en": "India’s growth expected to slow to 6.6% in FY27: S&P Global",
-      "url": "https://www.thehindubusinessline.com/economy/indias-growth-expected-to-slow-to-66-in-fy27-says-sp-global/article71140427.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-24",
-      "category": "india"
-    },
-    {
-      "title_ko": "Lubrizol은 인도 CPVC 시장에 1억 5천만 달러를 투자하고 5년 안에 매출을 두 배로 늘릴 계획입니다.",
-      "title_en": "Lubrizol bets $150 million on India CPVC market, eyes doubling revenue in five years",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/lubrizol-bets-150-million-on-india-cpvc-market-eyes-doubling-revenue-in-five-years/articleshow/131949413.cms",
+      "title_ko": "VC가 더 선택적으로 변하면 스타트업 시드 라운드가 두 배로 늘어납니다.",
+      "title_en": "Startup seed rounds double as VCs turn more selective",
+      "url": "https://economictimes.indiatimes.com/tech/startups/startup-seed-rounds-double-as-vcs-turn-more-selective/articleshow/132023936.cms",
       "source": "The Times of India",
-      "date": "2026-06-23",
-      "category": "india"
+      "date": "2026-06-27",
+      "category": "thub"
     },
     {
-      "title_ko": "CII 회장 R Mukundan은 인도의 7% 성장을 예상하고 개혁을 추진하기 위해 GST 위원회와 같은 기구를 찾고 있습니다.",
-      "title_en": "CII president R Mukundan projects 7% growth for India, seeks GST Council-like body to drive reforms",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/cii-president-r-mukundan-projects-7-growth-for-india-seeks-gst-council-like-body-to-drive-reforms/articleshow/131949462.cms",
+      "title_ko": "Amazon CEO Andy Jassy가 인도 스타트업 창업자들을 만나 차세대 AI 물결을 계획합니다.",
+      "title_en": "Amazon CEO Andy Jassy meets Indian startup founders to map out the next wave of AI",
+      "url": "https://www.livemint.com/companies/news/andy-jassy-india-visit-amazon-india-investment-11782404609887.html",
+      "source": "Livemint",
+      "date": "2026-06-25",
+      "category": "thub"
+    },
+    {
+      "title_ko": "인도 스타트업에 대한 Meta의 9억 달러 투자: 일부 사람들이 위험 신호를 제기하는 이유",
+      "title_en": "Meta’s $900 million investment in an Indian startup: Why some are raising red flags",
+      "url": "https://www.rt.com/india/642146-meta-900-mln-investment-cred-india/",
+      "source": "RT",
+      "date": "2026-06-25",
+      "category": "thub"
+    },
+    {
+      "title_ko": "2026년 상반기 인도의 기술 자금은 12% 증가한 72억 달러에 달했습니다: 보고서",
+      "title_en": "India's tech funding rises 12% to $7.2 billion in H1 2026: Report",
+      "url": "https://economictimes.indiatimes.com/tech/funding/india-tech-funding-rises-12-to-7-2-billion-in-h1-2026-report/articleshow/131989035.cms",
       "source": "The Times of India",
-      "date": "2026-06-23",
-      "category": "india"
+      "date": "2026-06-25",
+      "category": "thub"
     },
     {
-      "title_ko": "영국-인도 주간은 IGF Smarter Regions Forum과 함께 West Midlands에서 열립니다.",
-      "title_en": "UK-India Week opens in the West Midlands with IGF Smarter Regions Forum",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/uk-india-week-opens-in-the-west-midlands-with-igf-smarter-regions-forum/article71137437.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-23",
-      "category": "india"
-    },
-    {
-      "title_ko": "부실한 기업 지배구조가 인도 경제를 저해하고 있다",
-      "title_en": "Poor corporate governance is impeding the Indian economy",
-      "url": "https://biztoc.com/x/3884e1130c547be5",
-      "source": "Biztoc.com",
-      "date": "2026-06-23",
-      "category": "india"
-    },
-    {
-      "title_ko": "글로벌 불확실성 속에서 인도의 진화하는 경제 상황을 연구하는 의회 패널",
-      "title_en": "Amid global uncertainties, parliamentary panel to study evolving economic conditions in India",
-      "url": "https://www.thehindubusinessline.com/economy/amid-global-uncertainties-parliamentary-panel-to-study-evolving-economic-conditions-in-india/article71128607.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-21",
-      "category": "india"
+      "title_ko": "Inside India 뉴스레터: 인도가 AI 경쟁에 참여할 방법을 찾으면서 일상적인 작업을 수행하도록 로봇을 가르치는 인간을 만나보세요",
+      "title_en": "Inside India newsletter: Meet the humans teaching robots to perform routine tasks, as India finds a way to enter the AI race",
+      "url": "https://www.cnbc.com/2026/06/25/inside-india-newsletter-humans-are-teaching-robots-to-do-ai.html",
+      "source": "CNBC",
+      "date": "2026-06-25",
+      "category": "thub"
     },
     {
       "title_ko": "Meta의 인도 투자 내부: First Reliance, 현재 Cred",
@@ -79,54 +127,6 @@
       "url": "https://www.dw.com/en/india-news-us-waiver-clears-way-for-iran-oil-purchase/live-77667895",
       "source": "DW (English)",
       "date": "2026-06-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "CNBC Daily Open: 테크 토닉 전환인가 아니면 매수 기회인가?",
-      "title_en": "CNBC Daily Open: Tech-tonic shift or buying opportunity?",
-      "url": "https://www.cnbc.com/2026/06/23/daily-open-tech-rout-mag7-brexit-anniversary.html",
-      "source": "CNBC",
-      "date": "2026-06-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "새로운 WhatsApp 사장으로 인도 스타트업 대표 임명",
-      "title_en": "Indian startup head appointed as new WhatsApp boss",
-      "url": "https://biztoc.com/x/7085ecb7c996d56b",
-      "source": "Biztoc.com",
-      "date": "2026-06-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "40억 달러 규모의 인도 스타트업이 Meta의 지원을 받았지만 WhatsApp에 창업자를 잃은 방법",
-      "title_en": "How a $4 billion Indian startup won Meta's backing but lost its founder to WhatsApp",
-      "url": "https://biztoc.com/x/18c40881a283a7d4",
-      "source": "Biztoc.com",
-      "date": "2026-06-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "화재 발생, 엘리베이터 고장, 지진 발생: 이 인도 스타트업의 발코니 탈출 시스템이 고층 건물에서 생명을 구할 수 있는 방법",
-      "title_en": "Fire broke out, elevators failed, earthquake struck: How this Indian startup’s balcony escape system could save lives in high-rise buildings",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/fire-broke-out-elevators-failed-earthquake-struck-how-this-indian-startups-balcony-escape-system-could-save-lives-in-high-rise-buildings/articleshow/131886118.cms",
-      "source": "The Times of India",
-      "date": "2026-06-21",
-      "category": "thub"
-    },
-    {
-      "title_ko": "IEEE 이벤트에서는 사립 대학이 인도의 기술 리더십을 강화할 수 있는 방법을 탐구합니다.",
-      "title_en": "IEEE Event Explores How Private Universities Can Power India’s Technology Leadership",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/ieee-event-explores-how-private-universities-can-power-indias-technology-leadership/article71112540.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-17",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도 HCLTech, Sarvam AI 지분 10.5% 매입, 스타트업 가치 15억 달러로 평가",
-      "title_en": "India's HCLTech to buy 10.5% stake in Sarvam AI, valuing startup at $1.5 billion",
-      "url": "https://www.channelnewsasia.com/business/indias-hcltech-buy-105-stake-in-sarvam-ai-valuing-startup-15-billion-6184786",
-      "source": "CNA",
-      "date": "2026-06-15",
       "category": "thub"
     }
   ]
