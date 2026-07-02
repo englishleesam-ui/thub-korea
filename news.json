@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-07-02",
   "articles": [
+    {
+      "title_ko": "걱정하지 마십시오. 은행에는 충격 흡수 장치가 있습니다: RBI",
+      "title_en": "Don't worry, banks have shock absorbers: RBI",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/dont-worry-banks-have-shock-absorbers-rbi/articleshow/132103497.cms",
+      "source": "The Times of India",
+      "date": "2026-06-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "유가 완화, 인도에 대한 외부 압력 완화를 위한 공급망: 재무부",
+      "title_en": "Easing oil prices, supply chains to soften external pressures on India: Finance ministry",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/easing-oil-prices-supply-chains-to-soften-external-pressures-on-india-finance-ministry/articleshow/132100894.cms",
+      "source": "The Times of India",
+      "date": "2026-06-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "은행 NPA는 수십 년 만에 최저치인 1.8%를 기록했으며 인도 금융 시스템은 여전히 ​​탄력적입니다: RBI 보고서",
+      "title_en": "Banks NPA at multi-decadal low of 1.8%, Indian financial system remains resilient: RBI report",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-npa-at-multi-decadal-low-of-1-8-indian-financial-system-remains-resilient-rbi-report/articleshow/132097606.cms",
+      "source": "The Times of India",
+      "date": "2026-06-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "글로벌 주식의 급격한 조정, 에너지 가격 충격이 국내 시장으로 파급될 수 있음: RBI",
+      "title_en": "Sharp correction in global equities, energy price shocks could spill over to domestic markets: RBI",
+      "url": "https://www.livemint.com/industry/banking/rbi-sanjay-malhotra-global-equities-energy-price-shocks-domestic-markets-11782832389098.html",
+      "source": "Livemint",
+      "date": "2026-06-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "RBI의 FSR, 서아시아 휴전에도 불구하고 인도에 대한 지정학적 위험 경고",
+      "title_en": "RBI’s FSR flags geopolitical risks to India despite West Asia truce",
+      "url": "https://www.thehindubusinessline.com/economy/rbis-fsr-flags-geopolitical-risks-to-india-despite-west-asia-truce/article71166239.ece",
+      "source": "BusinessLine",
+      "date": "2026-06-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "귀하의 부채 뮤추얼 펀드가 유동성 압박을 견딜 수 있습니까? RBI 금융안정 보고서에서 밝혀진 내용은 다음과 같습니다.",
+      "title_en": "Can your debt mutual fund withstand liquidity pressure? Here's what the RBI financial stability report reveals",
+      "url": "https://www.livemint.com/money/personal-finance/can-your-debt-mutual-fund-withstand-liquidity-pressure-heres-what-the-rbi-financial-stability-report-reveals-11782831120536.html",
+      "source": "Livemint",
+      "date": "2026-06-30",
+      "category": "india"
+    },
+    {
+      "title_ko": "SIP 유입은 시장 변동성에도 불구하고 FY26에 사상 최고치인 ₹32,086 crore를 기록했습니다: RBI FSR | 주요 시사점",
+      "title_en": "SIP inflows hits record high of ₹32,086 crore in FY26 despite market volatility: RBI FSR | Key takeaways",
+      "url": "https://www.livemint.com/money/personal-finance/sip-inflows-hits-record-high-of-32-086-crore-in-fy26-despite-market-volatility-rbi-fsr-key-takeaways-11782830552339.html",
+      "source": "Livemint",
+      "date": "2026-06-30",
+      "category": "india"
+    },
     {
       "title_ko": "\"영국-인도 자유 무역 협정은 지금까지 인도의 가장 포괄적인 협정이 될 것입니다\": 2026년 영국-인도 주간의 Piyush Goyal",
       "title_en": "\"UK-India Free Trade Agreement will be India's most comprehensive agreement so far\": Piyush Goyal at UK-India Week 2026",
@@ -10,60 +66,20 @@
       "category": "india"
     },
     {
-      "title_ko": "India Inc와 그 투자 기록",
-      "title_en": "India Inc and its capex chronicles",
-      "url": "https://www.thehindubusinessline.com/portfolio/big-story/india-inc-and-its-capex-chronicles/article71151141.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-27",
-      "category": "india"
-    },
-    {
-      "title_ko": "Goldman, EY는 유가 하락으로 인한 인도 성장에 낙관적입니다.",
-      "title_en": "Goldman, EY upbeat on India growth on lower crude prices",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/goldman-ey-upbeat-on-india-growth-on-lower-crude-prices/articleshow/132027357.cms",
+      "title_ko": "인도에서 가장 어린 자수성가한 억만장자가 D-Street에서 방을 찾고 있습니다",
+      "title_en": "India's youngest self-made billionaire is looking for a room on D-Street",
+      "url": "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/ritesh-agarwal-oyo-prism-ipo-journey-youngest-billionaire-startup-story-india-global-hospitality-empire-listing-growth/articleshow/132087953.cms",
       "source": "The Times of India",
-      "date": "2026-06-27",
-      "category": "india"
+      "date": "2026-06-30",
+      "category": "thub"
     },
     {
-      "title_ko": "Goldman Sachs는 인도의 CY26 GDP 성장 예측을 6.8%로 높이고 인플레이션을 낮추고 CAD 추정",
-      "title_en": "Goldman Sachs raises India's CY26 GDP growth forecast to 6.8%, cuts inflation, CAD estimates",
-      "url": "https://www.tribuneindia.com/news/business/goldman-sachs-raises-indias-cy26-gdp-growth-forecast-to-6-8-cuts-inflation-cad-estimates/",
-      "source": "The Tribune India",
-      "date": "2026-06-26",
-      "category": "india"
-    },
-    {
-      "title_ko": "글로벌 평가기관이 인정하지 않는 인도의 성장 스토리: Piyush Goyal",
-      "title_en": "India's growth story not recognised by global rating agencies: Piyush Goyal",
-      "url": "https://economictimes.indiatimes.com/news/india/indias-growth-story-not-recognised-by-global-rating-agencies-piyush-goyal/articleshow/132023790.cms",
+      "title_ko": "Niti Aayog는 인도 혁신 지수 연구를 위해 EoI를 초대합니다.",
+      "title_en": "Niti Aayog invites EoI for research on India Innovation Index",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/niti-aayog-invites-eoi-for-research-on-india-innovation-index/articleshow/132075892.cms",
       "source": "The Times of India",
-      "date": "2026-06-26",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도는 글로벌 분쟁으로 인한 단기적 위험에도 불구하고 급속한 성장을 위한 준비가 잘 되어 있음: ITC",
-      "title_en": "India well-poised for rapid growth despite near-term risks from global conflicts: ITC",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-well-poised-for-rapid-growth-despite-near-term-risks-from-global-conflicts-itc/articleshow/132019128.cms",
-      "source": "The Times of India",
-      "date": "2026-06-26",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도-영국 FTA의 변혁적 성장 주요 초점: Piyush Goyal",
-      "title_en": "Transformational growth prime focus of India-UK FTA: Piyush Goyal",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/transformational-growth-prime-focus-of-india-uk-fta-piyush-goyal/articleshow/132017351.cms",
-      "source": "The Times of India",
-      "date": "2026-06-26",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도의 소프트웨어 수출업체들은 AI 우려로 인해 Nifty의 주가가 사상 최저 수준으로 하락할 것으로 보고 있습니다.",
-      "title_en": "India’s software exporters see Nifty share shrink to record low amid AI concerns",
-      "url": "https://cryptobriefing.com/india-it-nifty-share-record-low-ai/",
-      "source": "Crypto Briefing",
-      "date": "2026-06-24",
-      "category": "india"
+      "date": "2026-06-29",
+      "category": "thub"
     },
     {
       "title_ko": "Equirus가 ₹1,500 crore 펀드에서 손실을 입는 스타트업을 피하는 이유",
@@ -111,22 +127,6 @@
       "url": "https://www.cnbc.com/2026/06/25/inside-india-newsletter-humans-are-teaching-robots-to-do-ai.html",
       "source": "CNBC",
       "date": "2026-06-25",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Meta의 인도 투자 내부: First Reliance, 현재 Cred",
-      "title_en": "Inside Meta's India investments: First Reliance, now Cred",
-      "url": "https://economictimes.indiatimes.com/tech/technology/inside-metas-india-investments-first-reliance-now-cred/articleshow/131939853.cms",
-      "source": "The Times of India",
-      "date": "2026-06-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도 뉴스: 미국의 면제로 이란 석유 구매의 길이 열렸습니다",
-      "title_en": "India news: US waiver clears way for Iran oil purchase",
-      "url": "https://www.dw.com/en/india-news-us-waiver-clears-way-for-iran-oil-purchase/live-77667895",
-      "source": "DW (English)",
-      "date": "2026-06-23",
       "category": "thub"
     }
   ]
