@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-06",
   "articles": [
+    {
+      "title_ko": "인도 경제는 글로벌 혼란과 에너지 쇼크 속에서도 안정적으로 유지되고 있습니다.",
+      "title_en": "India’s economy holds steady amid global turmoil, energy shock",
+      "url": "https://www.moneycontrol.com/news/business/economy/india-s-economy-holds-steady-amid-global-turmoil-energy-shock-13965238.html",
+      "source": "Moneycontrol",
+      "date": "2026-07-03",
+      "category": "india"
+    },
+    {
+      "title_ko": "GCC 상업용 부동산 지수는 인도 전역의 안정적인 성장 속에 CY'26년 1분기에 165를 기록했습니다.",
+      "title_en": "GCC commercial property index hits 165 in Q1 CY’26 amid stable pan-India growth",
+      "url": "https://www.thehindubusinessline.com/news/real-estate/gcc-commercial-property-index-hits-165-in-q1-cy26-amid-stable-pan-india-growth/article71174171.ece",
+      "source": "BusinessLine",
+      "date": "2026-07-02",
+      "category": "india"
+    },
+    {
+      "title_ko": "금융 기관의 해외 차입을 늘리기 위한 RBI의 양허성 스왑 시설: S&P",
+      "title_en": "RBI's concessional swap facility to boost financial institutions' overseas borrowing: S&P",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/rbis-concessional-swap-facility-to-boost-financial-institutions-overseas-borrowing-sp/article71173586.ece",
+      "source": "BusinessLine",
+      "date": "2026-07-02",
+      "category": "india"
+    },
+    {
+      "title_ko": "원유 냉각 및 FII 판매 둔화로 7월에 멋진 눈 24,500-24,800; 23,600–23,800 방향으로 하락 매수: Dharmesh Shah",
+      "title_en": "Nifty eyes 24,500-24,800 in July as crude cools and FII selling slows; buy the dip towards 23,600–23,800: Dharmesh Shah",
+      "url": "https://economictimes.indiatimes.com/markets/expert-view/nifty-eyes-24500-24800-in-july-as-crude-cools-and-fii-selling-slows-buy-the-dip-towards-2360023800-dharmesh-shah/articleshow/132135426.cms",
+      "source": "The Times of India",
+      "date": "2026-07-02",
+      "category": "india"
+    },
     {
       "title_ko": "걱정하지 마십시오. 은행에는 충격 흡수 장치가 있습니다: RBI",
       "title_en": "Don't worry, banks have shock absorbers: RBI",
@@ -34,36 +66,12 @@
       "category": "india"
     },
     {
-      "title_ko": "RBI의 FSR, 서아시아 휴전에도 불구하고 인도에 대한 지정학적 위험 경고",
-      "title_en": "RBI’s FSR flags geopolitical risks to India despite West Asia truce",
-      "url": "https://www.thehindubusinessline.com/economy/rbis-fsr-flags-geopolitical-risks-to-india-despite-west-asia-truce/article71166239.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "귀하의 부채 뮤추얼 펀드가 유동성 압박을 견딜 수 있습니까? RBI 금융안정 보고서에서 밝혀진 내용은 다음과 같습니다.",
-      "title_en": "Can your debt mutual fund withstand liquidity pressure? Here's what the RBI financial stability report reveals",
-      "url": "https://www.livemint.com/money/personal-finance/can-your-debt-mutual-fund-withstand-liquidity-pressure-heres-what-the-rbi-financial-stability-report-reveals-11782831120536.html",
-      "source": "Livemint",
-      "date": "2026-06-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "SIP 유입은 시장 변동성에도 불구하고 FY26에 사상 최고치인 ₹32,086 crore를 기록했습니다: RBI FSR | 주요 시사점",
-      "title_en": "SIP inflows hits record high of ₹32,086 crore in FY26 despite market volatility: RBI FSR | Key takeaways",
-      "url": "https://www.livemint.com/money/personal-finance/sip-inflows-hits-record-high-of-32-086-crore-in-fy26-despite-market-volatility-rbi-fsr-key-takeaways-11782830552339.html",
-      "source": "Livemint",
-      "date": "2026-06-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "\"영국-인도 자유 무역 협정은 지금까지 인도의 가장 포괄적인 협정이 될 것입니다\": 2026년 영국-인도 주간의 Piyush Goyal",
-      "title_en": "\"UK-India Free Trade Agreement will be India's most comprehensive agreement so far\": Piyush Goyal at UK-India Week 2026",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/uk-india-free-trade-agreement-will-be-indias-most-comprehensive-agreement-so-far-piyush-goyal-at-uk-india-week-2026/article71156880.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-28",
-      "category": "india"
+      "title_ko": "로켓 보고서: 인도 스타트업이 첫 출시를 앞두고 있습니다. SpaceX의 1000년 이정표",
+      "title_en": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184293054",
+      "source": "Slashdot.org",
+      "date": "2026-07-03",
+      "category": "thub"
     },
     {
       "title_ko": "인도에서 가장 어린 자수성가한 억만장자가 D-Street에서 방을 찾고 있습니다",
@@ -118,14 +126,6 @@
       "title_en": "India's tech funding rises 12% to $7.2 billion in H1 2026: Report",
       "url": "https://economictimes.indiatimes.com/tech/funding/india-tech-funding-rises-12-to-7-2-billion-in-h1-2026-report/articleshow/131989035.cms",
       "source": "The Times of India",
-      "date": "2026-06-25",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Inside India 뉴스레터: 인도가 AI 경쟁에 참여할 방법을 찾으면서 일상적인 작업을 수행하도록 로봇을 가르치는 인간을 만나보세요",
-      "title_en": "Inside India newsletter: Meet the humans teaching robots to perform routine tasks, as India finds a way to enter the AI race",
-      "url": "https://www.cnbc.com/2026/06/25/inside-india-newsletter-humans-are-teaching-robots-to-do-ai.html",
-      "source": "CNBC",
       "date": "2026-06-25",
       "category": "thub"
     }
