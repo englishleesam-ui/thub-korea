@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-09",
   "articles": [
+    {
+      "title_ko": "미국-이란 긴장으로 유가 상승으로 인도 증시는 하락세로 출발",
+      "title_en": "Indian shares to open lower as US-Iran tensions drive oil prices up",
+      "url": "https://cryptobriefing.com/indian-shares-to-open-lower-as-us-iran-tensions-drive-oil-prices-up/",
+      "source": "Crypto Briefing",
+      "date": "2026-07-08",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 사무실 시장은 총 임대 면적이 2,460만 평방피트로 가장 강력한 분기를 기록했습니다.",
+      "title_en": "India's office market recorded its strongest quarter with gross leasing of 24.6 million sq ft",
+      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indias-office-market-hits-record-high-in-q2-2026-with-246-million-sq-ft-of-leasing/articleshow/132235669.cms",
+      "source": "The Times of India",
+      "date": "2026-07-07",
+      "category": "india"
+    },
+    {
+      "title_ko": "보고서는 FDI를 촉진하기 위해 '인도-플러스 기여 스코어카드'를 제안합니다.",
+      "title_en": "Report proposes 'India-Plus Contribution Scorecard' to boost FDI",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/report-proposes-india-plus-contribution-scorecard-to-boost-fdi/articleshow/132234526.cms",
+      "source": "The Times of India",
+      "date": "2026-07-07",
+      "category": "india"
+    },
+    {
+      "title_ko": "주식 시장 상승 마감, 자동차 주식 랠리: Sensex 500포인트 이상 상승, Nifty 24,400 이상 상승",
+      "title_en": "Share Markets Close Higher, Auto Stocks Rally: Sensex Over 500 Points Up, Nifty Above 24,400",
+      "url": "https://news.abplive.com/business/mutual-funds/share-market-closes-higher-auto-stocks-lead-sensex-nifty-1854836",
+      "source": "Abplive.com",
+      "date": "2026-07-06",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도의 6월 소매 자동차 판매는 거의 29% 증가했습니다.",
+      "title_en": "India's retail car sales jump nearly 29% in June",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/indias-retail-car-sales-jump-nearly-29-in-june-fada/articleshow/132206679.cms",
+      "source": "The Times of India",
+      "date": "2026-07-06",
+      "category": "india"
+    },
+    {
+      "title_ko": "격동의 시대를 안정시키는 힘, 타점",
+      "title_en": "RBI, a stabilising force in turbulent times",
+      "url": "https://www.thehindubusinessline.com/opinion/rbi-a-stabilising-force-in-turbulent-times/article71186202.ece",
+      "source": "BusinessLine",
+      "date": "2026-07-05",
+      "category": "india"
+    },
+    {
+      "title_ko": "모디 총리의 인도네시아 방문으로 인도 태평양과 국방 관계에 초점이 맞춰질 것",
+      "title_en": "PM Modi's Indonesia visit puts Indo-Pacific, defence ties in focus",
+      "url": "https://economictimes.indiatimes.com/news/india/pm-modis-indonesia-visit-puts-indo-pacific-defence-ties-in-focus/articleshow/132194685.cms",
+      "source": "The Times of India",
+      "date": "2026-07-05",
+      "category": "india"
+    },
     {
       "title_ko": "인도 경제는 글로벌 혼란과 에너지 쇼크 속에서도 안정적으로 유지되고 있습니다.",
       "title_en": "India’s economy holds steady amid global turmoil, energy shock",
@@ -10,60 +66,12 @@
       "category": "india"
     },
     {
-      "title_ko": "GCC 상업용 부동산 지수는 인도 전역의 안정적인 성장 속에 CY'26년 1분기에 165를 기록했습니다.",
-      "title_en": "GCC commercial property index hits 165 in Q1 CY’26 amid stable pan-India growth",
-      "url": "https://www.thehindubusinessline.com/news/real-estate/gcc-commercial-property-index-hits-165-in-q1-cy26-amid-stable-pan-india-growth/article71174171.ece",
-      "source": "BusinessLine",
-      "date": "2026-07-02",
-      "category": "india"
-    },
-    {
-      "title_ko": "금융 기관의 해외 차입을 늘리기 위한 RBI의 양허성 스왑 시설: S&P",
-      "title_en": "RBI's concessional swap facility to boost financial institutions' overseas borrowing: S&P",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/rbis-concessional-swap-facility-to-boost-financial-institutions-overseas-borrowing-sp/article71173586.ece",
-      "source": "BusinessLine",
-      "date": "2026-07-02",
-      "category": "india"
-    },
-    {
-      "title_ko": "원유 냉각 및 FII 판매 둔화로 7월에 멋진 눈 24,500-24,800; 23,600–23,800 방향으로 하락 매수: Dharmesh Shah",
-      "title_en": "Nifty eyes 24,500-24,800 in July as crude cools and FII selling slows; buy the dip towards 23,600–23,800: Dharmesh Shah",
-      "url": "https://economictimes.indiatimes.com/markets/expert-view/nifty-eyes-24500-24800-in-july-as-crude-cools-and-fii-selling-slows-buy-the-dip-towards-2360023800-dharmesh-shah/articleshow/132135426.cms",
+      "title_ko": "'멋진 이력서는 없지만 그에게는 뭔가가 있습니다...': 1학년 대학생이 영업 인턴으로 한 달에 Rs 4 lakh를 벌고, 스타트업의 최고 성과자가 된 후 전액 유급 태국 여행에 성공했습니다.",
+      "title_en": "'No fancy resume, but he has something...': First-year college student earns Rs 4 lakh a month as sales intern, wins fully paid Thailand trip after becoming startup’s top performer",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/no-fancy-resume-but-he-has-something-first-year-college-student-earns-rs-4-lakh-a-month-as-sales-intern-wins-fully-paid-thailand-trip-after-becoming-startups-top-performer/articleshow/132192274.cms",
       "source": "The Times of India",
-      "date": "2026-07-02",
-      "category": "india"
-    },
-    {
-      "title_ko": "걱정하지 마십시오. 은행에는 충격 흡수 장치가 있습니다: RBI",
-      "title_en": "Don't worry, banks have shock absorbers: RBI",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/dont-worry-banks-have-shock-absorbers-rbi/articleshow/132103497.cms",
-      "source": "The Times of India",
-      "date": "2026-06-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "유가 완화, 인도에 대한 외부 압력 완화를 위한 공급망: 재무부",
-      "title_en": "Easing oil prices, supply chains to soften external pressures on India: Finance ministry",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/easing-oil-prices-supply-chains-to-soften-external-pressures-on-india-finance-ministry/articleshow/132100894.cms",
-      "source": "The Times of India",
-      "date": "2026-06-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "은행 NPA는 수십 년 만에 최저치인 1.8%를 기록했으며 인도 금융 시스템은 여전히 ​​탄력적입니다: RBI 보고서",
-      "title_en": "Banks NPA at multi-decadal low of 1.8%, Indian financial system remains resilient: RBI report",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-npa-at-multi-decadal-low-of-1-8-indian-financial-system-remains-resilient-rbi-report/articleshow/132097606.cms",
-      "source": "The Times of India",
-      "date": "2026-06-30",
-      "category": "india"
-    },
-    {
-      "title_ko": "글로벌 주식의 급격한 조정, 에너지 가격 충격이 국내 시장으로 파급될 수 있음: RBI",
-      "title_en": "Sharp correction in global equities, energy price shocks could spill over to domestic markets: RBI",
-      "url": "https://www.livemint.com/industry/banking/rbi-sanjay-malhotra-global-equities-energy-price-shocks-domestic-markets-11782832389098.html",
-      "source": "Livemint",
-      "date": "2026-06-30",
-      "category": "india"
+      "date": "2026-07-05",
+      "category": "thub"
     },
     {
       "title_ko": "로켓 보고서: 인도 스타트업이 첫 출시를 앞두고 있습니다. SpaceX의 1000년 이정표",
@@ -118,14 +126,6 @@
       "title_en": "Meta’s $900 million investment in an Indian startup: Why some are raising red flags",
       "url": "https://www.rt.com/india/642146-meta-900-mln-investment-cred-india/",
       "source": "RT",
-      "date": "2026-06-25",
-      "category": "thub"
-    },
-    {
-      "title_ko": "2026년 상반기 인도의 기술 자금은 12% 증가한 72억 달러에 달했습니다: 보고서",
-      "title_en": "India's tech funding rises 12% to $7.2 billion in H1 2026: Report",
-      "url": "https://economictimes.indiatimes.com/tech/funding/india-tech-funding-rises-12-to-7-2-billion-in-h1-2026-report/articleshow/131989035.cms",
-      "source": "The Times of India",
       "date": "2026-06-25",
       "category": "thub"
     }
