@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-23",
   "articles": [
+    {
+      "title_ko": "H1B 비자는 어떻게 '인도' 비자가 되었나요?",
+      "title_en": "How did the H1B visa become the 'Indian' visa",
+      "url": "https://numberstation.fm/the-body-shop/",
+      "source": "Numberstation.fm",
+      "date": "2026-07-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 미국과 협력하여 모든 발전을 연구했습니다. 정부는 의회에 말했습니다.",
+      "title_en": "India engaged with the US, studying all the developments: Govt tells Parliament",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-engaged-with-the-us-studying-all-the-developments-govt-tells-parliament/articleshow/132538535.cms",
+      "source": "The Times of India",
+      "date": "2026-07-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "정부는 루피 약세가 경제 약세를 반영한다는 우려를 일축하고 거시경제 펀더멘털이 강하다고 밝혔습니다.",
+      "title_en": "Govt rejects concern that weak rupee reflects weak economy, says macroeconomic fundamentals strong",
+      "url": "https://www.thehindubusinessline.com/economy/govt-rejects-concern-that-weak-rupee-reflects-weak-economy-says-macroeconomic-fundamentals-strong/article71249019.ece",
+      "source": "BusinessLine",
+      "date": "2026-07-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 최대 자산운용사, 10억 달러 IPO 후 조용히 시장 데뷔",
+      "title_en": "India's largest asset management firm makes a muted market debut after a $1 billion IPO",
+      "url": "https://www.cnbc.com/2026/07/21/india-sbi-market-debut-billion-ipo.html",
+      "source": "CNBC",
+      "date": "2026-07-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "Air India: SIA의 자금 요청을 신중하게 평가할 것입니다.",
+      "title_en": "Will carefully weigh funding requests from Air India: SIA",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/will-carefully-weigh-funding-requests-from-air-india-sia/articleshow/132523695.cms",
+      "source": "The Times of India",
+      "date": "2026-07-20",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도, 중간 세력: 미-중 이분법을 넘어서",
+      "title_en": "India, a power in the middle: Beyond the US-China binary",
+      "url": "https://www.livemint.com/opinion/online-views/india-middle-power-strategic-autonomy-us-china-colby-geopolitics-foreign-policy-defence-partnership-11784527405285.html",
+      "source": "Livemint",
+      "date": "2026-07-20",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도의 바퀴벌레 정치는 농담이 아니다",
+      "title_en": "India’s cockroach politics is no joke",
+      "url": "https://www.aljazeera.com/opinions/2026/7/19/indias-cockroach-politics-is-no-joke",
+      "source": "Al Jazeera English",
+      "date": "2026-07-19",
+      "category": "india"
+    },
     {
       "title_ko": "매크로는 강하지만 약한 비, 전쟁이 성장에 타격을 줄 수 있음: RBI Guv Sanjay Malhotra",
       "title_en": "Macros strong, but weak rains, war can hit growth: RBI Guv Sanjay Malhotra",
@@ -10,60 +66,28 @@
       "category": "india"
     },
     {
-      "title_ko": "인도의 FCNR 제도는 NRI로부터 700~800억 달러를 유치할 가능성이 있습니다.",
-      "title_en": "India’s FCNR scheme has potential to attract $70-80 billion from NRIs",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/indias-fcnr-scheme-has-potential-to-attract-70-80-billion-from-nris/article71232882.ece",
-      "source": "BusinessLine",
-      "date": "2026-07-17",
-      "category": "india"
+      "title_ko": "인도 가정부, 인스턴트 서비스 붐으로 온라인 이용",
+      "title_en": "India's domestic workers go online as instant services boom",
+      "url": "https://biztoc.com/x/e289d75b1de8efce",
+      "source": "Biztoc.com",
+      "date": "2026-07-22",
+      "category": "thub"
     },
     {
-      "title_ko": "산자이 말호트라 RBI 총재는 이란 전쟁과 몬순이 인도 경제의 주요 위험이라고 말했습니다.",
-      "title_en": "Iran war and monsoons key risk for Indian economy, says RBI Governor Sanjay Malhotra",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/iran-war-and-monsoons-key-risk-for-indian-economy-says-rbi-governor-sanjay-malhotra/articleshow/132453681.cms",
+      "title_ko": "Snabbit, Urban Company, 인도 가사 부문 조직화 추진 주도",
+      "title_en": "Snabbit, Urban Company lead push to organise India's domestic work sector",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/snabbit-urban-company-lead-push-to-organise-indias-domestic-work-sector/articleshow/132549826.cms",
       "source": "The Times of India",
-      "date": "2026-07-17",
-      "category": "india"
+      "date": "2026-07-22",
+      "category": "thub"
     },
     {
-      "title_ko": "올해 인도 최대 IPO, 제도적 열풍에 힘입어 310억 달러 규모의 입찰 유치",
-      "title_en": "India's biggest IPO this year rakes in bids worth $31 billion, powered by institutional frenzy",
-      "url": "https://www.cnbc.com/2026/07/17/indias-biggest-ipo-this-year-rakes-in-bids-worth-31-billion-powered-by-institutional-frenzy.html",
-      "source": "CNBC",
-      "date": "2026-07-17",
-      "category": "india"
-    },
-    {
-      "title_ko": "석유가 다시 원유입니다! 95달러는 새로운 표준이며 인도 투자자들에게는 어떤 의미입니까?",
-      "title_en": "Oil is crude once again! Is $95 the new normal and what it means for Indian investors?",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-is-crude-once-again-is-95-the-new-normal-and-what-it-means-for-indian-investors/articleshow/132430022.cms",
-      "source": "The Times of India",
-      "date": "2026-07-16",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도, 3900만명의 사용자가 21억 달러 규모의 디지털 자산 보유하고 있어 암호화폐 수익에 30% 세금 부과",
-      "title_en": "India imposes 30% tax on crypto gains as 39 million users hold $2.1 billion in digital assets",
-      "url": "https://cryptobriefing.com/india-30-percent-crypto-tax-39m-users/",
-      "source": "Crypto Briefing",
-      "date": "2026-07-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "영국-인도 무역 협정 '금본위제'와 규칙 기반 질서에 대한 강력한 메시지: 영국 특사 린디 카메론",
-      "title_en": "UK-India trade pact 'gold standard' and powerful message for rules-based order: UK envoy Lindy Cameron",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/uk-india-trade-pact-gold-standard-and-powerful-message-for-rules-based-order-uk-envoy-lindy-cameron/articleshow/132419128.cms",
-      "source": "The Times of India",
-      "date": "2026-07-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "1년 안에 27,000을 달성하는 것이 멋지나요? PL 캐피털은 중동 위기로 인해 엘니뇨가 망신을 당할 수 있다고 말했습니다. 상위 15개 추천",
-      "title_en": "Nifty to hit 27,000 in one year? PL Capital says Middle East crisis, El Nino can play a spoil sport; names 15 top picks",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-to-hit-27000-in-one-year-pl-capital-says-middle-east-crisis-el-nino-can-play-a-spoil-sport-names-15-top-picks/articleshow/132415415.cms",
-      "source": "The Times of India",
-      "date": "2026-07-15",
-      "category": "india"
+      "title_ko": "스타트업, 인도를 엘리트 우주 클럽에 넣다",
+      "title_en": "Startup puts India in elite space club",
+      "url": "https://www.rt.com/india/643251-india-vikram-rocket-skyroot/",
+      "source": "RT",
+      "date": "2026-07-20",
+      "category": "thub"
     },
     {
       "title_ko": "인도와 EU는 제3차 TTC에서 전략적 파트너십을 강화합니다. AI·반도체·청정기술 분야 협력 발표",
@@ -103,30 +127,6 @@
       "url": "https://financialpost.com/globe-newswire/firan-technology-group-corporation-ftg-announces-second-quarter-2026-financial-results",
       "source": "Financial Post",
       "date": "2026-07-08",
-      "category": "thub"
-    },
-    {
-      "title_ko": "'멋진 이력서는 없지만 그에게는 뭔가가 있습니다...': 1학년 대학생이 영업 인턴으로 한 달에 Rs 4 lakh를 벌고, 스타트업의 최고 성과자가 된 후 전액 유급 태국 여행에 성공했습니다.",
-      "title_en": "'No fancy resume, but he has something...': First-year college student earns Rs 4 lakh a month as sales intern, wins fully paid Thailand trip after becoming startup’s top performer",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/no-fancy-resume-but-he-has-something-first-year-college-student-earns-rs-4-lakh-a-month-as-sales-intern-wins-fully-paid-thailand-trip-after-becoming-startups-top-performer/articleshow/132192274.cms",
-      "source": "The Times of India",
-      "date": "2026-07-05",
-      "category": "thub"
-    },
-    {
-      "title_ko": "로켓 보고서: 인도 스타트업이 첫 출시를 앞두고 있습니다. SpaceX의 1000년 이정표",
-      "title_en": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184293054",
-      "source": "Slashdot.org",
-      "date": "2026-07-03",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도에서 가장 어린 자수성가한 억만장자가 D-Street에서 방을 찾고 있습니다",
-      "title_en": "India's youngest self-made billionaire is looking for a room on D-Street",
-      "url": "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/ritesh-agarwal-oyo-prism-ipo-journey-youngest-billionaire-startup-story-india-global-hospitality-empire-listing-growth/articleshow/132087953.cms",
-      "source": "The Times of India",
-      "date": "2026-06-30",
       "category": "thub"
     }
   ]
