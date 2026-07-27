@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-27",
   "articles": [
+    {
+      "title_ko": "바도히(Bhadohi)에서 브루클린까지: 인도의 작은 마을들이 세계화될 예정입니다",
+      "title_en": "From Bhadohi to Brooklyn: India's small towns are set to go global",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-ecommerce-exports-msme-exports-districts-as-export-hubs-from-bhadohi-to-brooklyn-indias-small-towns-are-set-to-go-global-odop-amazon-flipkart-fdi/articleshow/132601167.cms",
+      "source": "The Times of India",
+      "date": "2026-07-24",
+      "category": "india"
+    },
+    {
+      "title_ko": "PRISM의 프리미엄 호텔 추진은 IPO를 앞두고 인도 성장의 다음 단계로 등장",
+      "title_en": "PRISM's premium hotel push emerges as next leg of India growth ahead of IPO",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/prisms-premium-hotel-push-emerges-as-next-leg-of-india-growth-ahead-of-ipo/articleshow/132562158.cms",
+      "source": "The Times of India",
+      "date": "2026-07-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "RBI는 지난 5월 석유 가격 하락세를 보인 인도 루피를 방어하기 위해 60억 달러를 매도했다고 데이터에 나와 있습니다.",
+      "title_en": "RBI sold $6 billion in May to defend oil-hit Indian rupee, data shows",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-sold-6-billion-in-may-to-defend-oil-hit-indian-rupee-data-shows/articleshow/132560366.cms",
+      "source": "The Times of India",
+      "date": "2026-07-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "지정학적 불확실성에도 불구하고 외부 부문은 안정세: RBI",
+      "title_en": "External sectors steady despite geopolitical uncertainties: RBI",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/external-sectors-steady-despite-geopolitical-uncertainties-rbi/articleshow/132560229.cms",
+      "source": "The Times of India",
+      "date": "2026-07-22",
+      "category": "india"
+    },
     {
       "title_ko": "H1B 비자는 어떻게 '인도' 비자가 되었나요?",
       "title_en": "How did the H1B visa become the 'Indian' visa",
@@ -34,36 +66,28 @@
       "category": "india"
     },
     {
-      "title_ko": "Air India: SIA의 자금 요청을 신중하게 평가할 것입니다.",
-      "title_en": "Will carefully weigh funding requests from Air India: SIA",
-      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/will-carefully-weigh-funding-requests-from-air-india-sia/articleshow/132523695.cms",
+      "title_ko": "농업 배경이 없는 두 명의 토목 기술자가 Rs 565 crore 규모의 가축 스타트업을 설립했습니다. 그들의 주말 프로젝트는 인도의 가장 오래된 무역 문제 중 하나를 해결했습니다",
+      "title_en": "Two Civil Engineers with no agriculture background built a Rs 565 crore cattle startup; their weekend project has solved one of India's oldest trade problems",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/two-civil-engineers-with-no-agriculture-background-built-a-rs-565-crore-cattle-startup-their-weekend-project-has-solved-one-of-indias-oldest-trade-problems/articleshow/132597940.cms",
       "source": "The Times of India",
-      "date": "2026-07-20",
-      "category": "india"
+      "date": "2026-07-24",
+      "category": "thub"
     },
     {
-      "title_ko": "인도, 중간 세력: 미-중 이분법을 넘어서",
-      "title_en": "India, a power in the middle: Beyond the US-China binary",
-      "url": "https://www.livemint.com/opinion/online-views/india-middle-power-strategic-autonomy-us-china-colby-geopolitics-foreign-policy-defence-partnership-11784527405285.html",
-      "source": "Livemint",
-      "date": "2026-07-20",
-      "category": "india"
+      "title_ko": "인도 내부 뉴스레터: 스카이루트 로켓으로 인도가 미국, 중국과 함께 민간 궤도 발사에 나섰습니다.",
+      "title_en": "Inside India newsletter: Skyroot rocket puts India alongside U.S., China in private orbital launch",
+      "url": "https://www.cnbc.com/2026/07/23/india-skyroot-rocket-us-china-spacex.html",
+      "source": "CNBC",
+      "date": "2026-07-23",
+      "category": "thub"
     },
     {
-      "title_ko": "인도의 바퀴벌레 정치는 농담이 아니다",
-      "title_en": "India’s cockroach politics is no joke",
-      "url": "https://www.aljazeera.com/opinions/2026/7/19/indias-cockroach-politics-is-no-joke",
-      "source": "Al Jazeera English",
-      "date": "2026-07-19",
-      "category": "india"
-    },
-    {
-      "title_ko": "매크로는 강하지만 약한 비, 전쟁이 성장에 타격을 줄 수 있음: RBI Guv Sanjay Malhotra",
-      "title_en": "Macros strong, but weak rains, war can hit growth: RBI Guv Sanjay Malhotra",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/macros-strong-but-weak-rains-war-can-hit-growth-rbi-guv-sanjay-malhotra/articleshow/132469379.cms",
-      "source": "The Times of India",
-      "date": "2026-07-17",
-      "category": "india"
+      "title_ko": "인도의 4분의 1 스타트업은 이제 AI 회사입니다: Tracxn 보고서 2026",
+      "title_en": "One fourth startups in India is now an AI company: Tracxn Report 2026",
+      "url": "https://india.entrepreneur.com/technology/one-fourth-startups-in-india-is-now-an-ai-company-tracxn-report-2026",
+      "source": "Entrepreneur",
+      "date": "2026-07-22",
+      "category": "thub"
     },
     {
       "title_ko": "인도 가정부, 인스턴트 서비스 붐으로 온라인 이용",
@@ -103,30 +127,6 @@
       "url": "https://thenextweb.com/news/udaan-160-million-funding-india-ipo/",
       "source": "The Next Web",
       "date": "2026-07-14",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도-중국 무역은 첫 6개월 동안 917억 2천만 달러로 증가하고 무역 적자는 671억 달러로 확대됩니다.",
-      "title_en": "India, China trade rises to USD 91.72 bn in first 6-month, trade deficit widens to USD 67.1 bn",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-china-trade-rises-to-usd-91-72-bn-in-first-6-month-trade-deficit-widens-to-usd-67-1-bn/articleshow/132391346.cms",
-      "source": "The Times of India",
-      "date": "2026-07-14",
-      "category": "thub"
-    },
-    {
-      "title_ko": "이스라엘-인도 기술 파트너십을 추진하기 위해 DRISHTI 2.0 출시",
-      "title_en": "DRISHTI 2.0 launched to push Israel-India tech partnership",
-      "url": "https://www.thehindubusinessline.com/news/national/drishti-20-launched-to-push-israel-india-tech-partnership/article71217937.ece",
-      "source": "BusinessLine",
-      "date": "2026-07-14",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Firan Technology Group Corporation(“FTG”), 2026년 2분기 재무 결과 발표",
-      "title_en": "Firan Technology Group Corporation (“FTG”) Announces Second Quarter 2026 Financial Results",
-      "url": "https://financialpost.com/globe-newswire/firan-technology-group-corporation-ftg-announces-second-quarter-2026-financial-results",
-      "source": "Financial Post",
-      "date": "2026-07-08",
       "category": "thub"
     }
   ]
