@@ -1,69 +1,77 @@
 {
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-13",
   "articles": [
     {
-      "title_ko": "인도는 Diageo에게 자사 위스키의 '미국산 오크통에서 숙성'이라는 주장이 오해의 소지가 있다고 경고했습니다.",
-      "title_en": "India warned Diageo that its whisky's 'matured in American oak casks' claim was misleading",
-      "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/india-warned-diageo-that-its-whiskys-matured-in-american-oak-casks-claim-was-misleading/articleshow/133049662.cms",
+      "title_ko": "자금, 냉각 및 의료: 전문가들이 인도의 새로운 폭염 재해 상태를 분석합니다.",
+      "title_en": "Funding, cooling and healthcare: Experts break down India's new heatwave disaster status",
+      "url": "https://economictimes.indiatimes.com/news/india/funding-cooling-and-healthcare-experts-break-down-indias-new-heatwave-disaster-status/articleshow/133168287.cms",
       "source": "The Times of India",
-      "date": "2026-08-08",
+      "date": "2026-08-12",
       "category": "india"
     },
     {
-      "title_ko": "새로운 100% 미국 관세 위협으로 인해 인도의 인플레이션과 CAD 압력이 가중될 수 있음: CareEdge",
-      "title_en": "Fresh 100% US tariff threat could add to India's inflation, CAD pressures: CareEdge",
-      "url": "https://www.thehindubusinessline.com/economy/fresh-100-us-tariff-threat-could-add-to-indias-inflation-cad-pressures-careedge/article71321062.ece",
+      "title_ko": "인도의 'BBB-' 등급은 변함 없음: 피치는 에너지 충격, 재정 약화를 언급하지만 성장을 칭찬함",
+      "title_en": "India's 'BBB-' rating unchanged: Fitch cites energy shocks, fiscal weakness, but praises growth",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-bbb-rating-unchanged-fitch-cites-energy-shocks-fiscal-weakness-but-praises-growth/articleshow/133164460.cms",
+      "source": "The Times of India",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "피치, 인도의 국가 신용등급 BBB-를 확인하고 전망은 안정적으로 유지",
+      "title_en": "Fitch affirms India's BBB- sovereign rating, retains stable outlook",
+      "url": "https://www.business-standard.com/economy/news/fitch-affirms-india-s-bbb-sovereign-rating-retains-stable-outlook-126081101694_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "TVS SCS는 인도 성장에 큰 투자를 하고 있으며 FY30까지 매출 ₹17,000를 목표로 하고 있습니다.",
+      "title_en": "TVS SCS bets big on India growth, eyes around ₹17K cr revenue by FY30",
+      "url": "https://www.business-standard.com/companies/quarterly-results/tvs-scs-bets-big-on-india-growth-eyes-around-17k-cr-revenue-by-fy30-126081101672_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "SBI 리서치 보고서에 따르면 인도의 2027 회계연도 1분기 GDP 성장률은 8%로 예상됩니다.",
+      "title_en": "India's Q1 FY27 GDP growth projected at 8%, says SBI Research report",
+      "url": "https://www.business-standard.com/economy/news/india-s-q1-fy27-gdp-growth-projected-at-8-says-sbi-research-report-126081101611_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 몬순, 다음 주 동안 서쪽과 남쪽에서 약해질 것",
+      "title_en": "India's monsoon to weaken over west, south in next fortnight",
+      "url": "https://economictimes.indiatimes.com/news/india/indias-monsoon-to-weaken-over-west-south-in-next-fortnight/articleshow/133154264.cms",
+      "source": "The Times of India",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 GDP가 3.92조 달러로 세계 6위 경제 대국: 정부가 Parl에 전함",
+      "title_en": "India 6th-largest economy in world with $3.92 trn GDP: Govt tells Parl",
+      "url": "https://www.business-standard.com/economy/news/india-6th-largest-economy-in-world-with-3-92-trn-gdp-govt-tells-parl-126081101053_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 FY26 명목 GDP 3조 9200억 달러로 6위 경제 규모: 정부",
+      "title_en": "India sixth-largest economy at $3.92 trillion nominal GDP in FY26: Government",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-sixth-largest-economy-at-3-92-trillion-nominal-gdp-in-fy26-government/articleshow/133149565.cms",
+      "source": "The Times of India",
+      "date": "2026-08-11",
+      "category": "india"
+    },
+    {
+      "title_ko": "젊은 로봇 공학 혁신가들이 인도 STEM 재단과 국립 과학 박물관 협의회가 공동 주최하는 WRO 인도 뭄바이 지역 챔피언십에서 중심 무대를 차지합니다.",
+      "title_en": "Young Robotics Innovators Take Centre Stage at WRO India Mumbai Regional Championship jointly hosted by India STEM Foundation and National Council of Science Museums",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/young-robotics-innovators-take-centre-stage-at-wro-india-mumbai-regional-championship-jointly-hosted-by-india-stem-foundation-andnational-council-of-science-museums/article71316519.ece",
       "source": "BusinessLine",
-      "date": "2026-08-08",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도 성장에 힘입어 Diageo, 지역에 '독립형' 태그 부여",
-      "title_en": "High on India growth, Diageo gives region 'Standalone' tag",
-      "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/high-on-india-growth-diageo-gives-region-standalone-tag/articleshow/133041841.cms",
-      "source": "The Times of India",
-      "date": "2026-08-07",
-      "category": "india"
-    },
-    {
-      "title_ko": "반복되는 글로벌 쇼크 속에서 인도의 공급 측면 잠재력 강화: CEA Nageswaran",
-      "title_en": "India’s supply-side potential strengthened amid repeated global shocks: CEA Nageswaran",
-      "url": "https://www.thehindubusinessline.com/economy/indias-supply-side-potential-strengthened-amid-repeated-global-shocks-cea-nageswaran/article71317569.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-07",
-      "category": "india"
-    },
-    {
-      "title_ko": "RBI의 금리 일시 중지로 주거용 부동산의 꾸준한 모멘텀 유지",
-      "title_en": "RBI's Rate Pause Sustains Steady Momentum in Residential Real Estate",
-      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/rbis-rate-pause-sustains-steady-momentum-in-residential-real-estate/articleshow/133031598.cms",
-      "source": "The Times of India",
-      "date": "2026-08-07",
-      "category": "india"
-    },
-    {
-      "title_ko": "뭄바이 고급 주택 판매는 H1에 Rs 18,512 crore 기록을 세웠으며 성장은 둔화될 것 같습니다: 보고서",
-      "title_en": "Mumbai luxury home sales hit record Rs 18,512 crore in H1, growth likely to moderate: Report",
-      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/mumbai-luxury-home-sales-hit-record-rs-18512-crore-in-h1-growth-likely-to-moderate-report/articleshow/133031547.cms",
-      "source": "The Times of India",
-      "date": "2026-08-07",
-      "category": "india"
-    },
-    {
-      "title_ko": "ETMarkets 스마트톡 | AI 소프트웨어뿐만 아니라 AI 인프라가 인도의 다음 부의 순환을 주도할 것입니다: Amit Joshi",
-      "title_en": "ETMarkets Smart Talk | AI infrastructure, not just AI software, will drive India's next wealth cycle: Amit Joshi",
-      "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-ai-infrastructure-not-just-ai-software-will-drive-indias-next-wealth-cycle-amit-joshi/articleshow/133018918.cms",
-      "source": "The Times of India",
-      "date": "2026-08-07",
-      "category": "india"
-    },
-    {
-      "title_ko": "Bajaj General Insurance, Swiss Re, 인도 상업 보험 계약 체결",
-      "title_en": "Bajaj General Insurance, Swiss Re team up for commercial insurance in India",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/bajaj-general-insurance-swiss-re-team-up-for-commercial-insurance-in-india/article71313121.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-06",
-      "category": "india"
+      "date": "2026-08-10",
+      "category": "thub"
     },
     {
       "title_ko": "Saudi Aramco, 인도의 Mitti Labs를 지원하여 아시아의 벼농사가 물에 대한 회복력을 더욱 강화하도록 지원 | 테크크런치",
@@ -118,14 +126,6 @@
       "title_en": "India's domestic workers go online as instant services boom",
       "url": "https://biztoc.com/x/e289d75b1de8efce",
       "source": "Biztoc.com",
-      "date": "2026-07-22",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Snabbit, Urban Company, 인도 가사 부문 조직화 추진 주도",
-      "title_en": "Snabbit, Urban Company lead push to organise India's domestic work sector",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/snabbit-urban-company-lead-push-to-organise-indias-domestic-work-sector/articleshow/132549826.cms",
-      "source": "The Times of India",
       "date": "2026-07-22",
       "category": "thub"
     }
