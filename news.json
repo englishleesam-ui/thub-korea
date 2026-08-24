@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-24",
   "articles": [
+    {
+      "title_ko": "How Indians can make international investments part of their portfolio",
+      "title_en": "How Indians can make international investments part of their portfolio",
+      "url": "https://www.business-standard.com/finance/personal-finance/how-indians-can-make-international-investments-part-of-their-portfolio-126081401886_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "‘We have to do business with China too’: Jaishankar says India can’t ignore Beijing, must become self-reliant",
+      "title_en": "‘We have to do business with China too’: Jaishankar says India can’t ignore Beijing, must become self-reliant",
+      "url": "https://economictimes.indiatimes.com/news/india/jaishankar-india-china-beijing-business-self-reliance-manufacturing-world-leaders-forum/articleshow/133421859.cms",
+      "source": "The Times of India",
+      "date": "2026-08-22",
+      "category": "india"
+    },
+    {
+      "title_ko": "CabSec seeks programmes in colleges to build an advanced Indian economy",
+      "title_en": "CabSec seeks programmes in colleges to build an advanced Indian economy",
+      "url": "https://www.business-standard.com/economy/news/cabsec-seeks-programmes-in-colleges-to-build-an-advanced-indian-economy-126082101387_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "ET World Leaders Forum 2026: The heartbeat of India lives in Tier-2, Tier-3, rural areas, says Google India MD Preeti Lobana",
+      "title_en": "ET World Leaders Forum 2026: The heartbeat of India lives in Tier-2, Tier-3, rural areas, says Google India MD Preeti Lobana",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/et-world-leaders-forum-2026-the-heartbeat-of-india-lives-in-tier-2-tier-3-rural-india-google-india-md-preeti-lobana/articleshow/133395560.cms",
+      "source": "The Times of India",
+      "date": "2026-08-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "Carlsberg India posts strong volume growth in H1, IPO process underway: Global CEO Aarup-Andersen.",
+      "title_en": "Carlsberg India posts strong volume growth in H1, IPO process underway: Global CEO Aarup-Andersen.",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/carlsberg-india-posts-strong-volume-growth-in-h1-ipo-process-underway-global-ceo-aarup-andersen-/articleshow/133396666.cms",
+      "source": "The Times of India",
+      "date": "2026-08-21",
+      "category": "india"
+    },
+    {
+      "title_ko": "7.5% growth is a given, India should aspire for more: RBI Deputy Governor",
+      "title_en": "7.5% growth is a given, India should aspire for more: RBI Deputy Governor",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/75-per-cent-growth-is-a-given-india-should-aspire-for-more-rbi-deputy-governor/article71369287.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-20",
+      "category": "india"
+    },
     {
       "title_ko": "기업이 보다 풍부한 고객 대화로 전환함에 따라 인도의 RCS 채택이 108% 급증하고 Infobip이 밝혔습니다.",
       "title_en": "India’s RCS Adoption Surges 108% as Businesses Shift to Richer Customer Conversations, Reveals Infobip",
@@ -18,52 +66,28 @@
       "category": "india"
     },
     {
-      "title_ko": "Skoda는 수익성 있는 인도 성장을 목표로 하고 CNG와 틈새 디젤 수익에 무게를 두고 있습니다.",
-      "title_en": "Skoda targets profitable India growth, weighs CNG and niche diesel return",
-      "url": "https://www.business-standard.com/companies/news/skoda-targets-profitable-india-growth-weighs-cng-and-niche-diesel-return-126081801198_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-18",
-      "category": "india"
+      "title_ko": "Indian startup aims to compete with OpenAI in crowded voice arena",
+      "title_en": "Indian startup aims to compete with OpenAI in crowded voice arena",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/india-startup-aims-to-compete-with-openai-in-crowded-voice-arena",
+      "source": "Bloomberg",
+      "date": "2026-08-20",
+      "category": "thub"
     },
     {
-      "title_ko": "Dalal Street는 Sensex가 490포인트 하락하고 멋진 테스트 24,200으로 하락 마감",
-      "title_en": "Dalal Street Ends Lower As Sensex Declines 490 Points, Nifty Tests 24,200",
-      "url": "https://news.abplive.com/business/stock-markets-closing-bell-today-nifty-sensex-oil-price-iran-us-war-asian-markets-global-markets-1862689",
-      "source": "Abplive.com",
-      "date": "2026-08-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "자유화, 집중 및 다양화: 인도의 비즈니스 그룹, 2000-2020- 데이터 리소스",
-      "title_en": "Liberalisation, concentration and diversification: Business Groups in India, 2000-2020- Data Resources",
-      "url": "https://researchonline.lse.ac.uk/id/eprint/140672/",
-      "source": "Lse.ac.uk",
-      "date": "2026-08-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "서아시아 위기와 엘니뇨 영향으로 인해 FY27에 인도의 경제 성장은 6.8%로 둔화될 것입니다: Re",
-      "title_en": "India's economic growth to slow to 6.8% in FY27 amid West Asia crisis, El Nino impact: Re",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economic-growth-to-slow-to-6-8-in-fy27-amid-west-asia-crisis-el-nino-impact/articleshow/133315404.cms",
+      "title_ko": "Charles Schwab opens first India tech capability centre in Hyderabad with plans to grow to 2000 by 2027",
+      "title_en": "Charles Schwab opens first India tech capability centre in Hyderabad with plans to grow to 2000 by 2027",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/charles-schwab-opens-first-india-tech-capability-centre-in-hyderabad-with-plans-to-grow-to-2000-by-2027/articleshow/133340696.cms",
       "source": "The Times of India",
-      "date": "2026-08-18",
-      "category": "india"
+      "date": "2026-08-19",
+      "category": "thub"
     },
     {
-      "title_ko": "유통되는 현금이 증가하여 RBI의 통화 계획이 복잡해짐: SC Murmu",
-      "title_en": "Cash in circulation rises, complicating RBI's currency planning: SC Murmu",
-      "url": "https://www.business-standard.com/finance/news/rbi-cash-demand-digital-payments-currency-circulation-murmu-126081800521_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도는 e스포츠에 대해 '어떤 국가보다 더 큰 잠재력'을 가지고 있습니다: Esports Foundation",
-      "title_en": "India has 'more potential than any country' for esports: Esports Foundation",
-      "url": "https://www.rediff.com/sports/report/esports-foundation-bets-big-on-indias-potential-as-global-growth-story/20260815.htm",
-      "source": "Rediff.com",
-      "date": "2026-08-15",
-      "category": "india"
+      "title_ko": "Charles Schwab to scale India tech centre workforce to 2,000 by 2027, source says",
+      "title_en": "Charles Schwab to scale India tech centre workforce to 2,000 by 2027, source says",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/charles-schwab-to-scale-india-tech-centre-workforce-to-2000-by-2027-source-says/articleshow/133338202.cms",
+      "source": "The Times of India",
+      "date": "2026-08-19",
+      "category": "thub"
     },
     {
       "title_ko": "회사에서 3D 프린팅된 완전 극저온 재사용 로켓 엔진을 시험 발사했습니다. 인도 스타트업은 SLM 프린팅을 활용하여 최초의 작동 가능한 프로토타입을 제작했습니다.",
@@ -103,30 +127,6 @@
       "url": "https://www.thehindubusinessline.com/brandhub/pr-release/young-robotics-innovators-take-centre-stage-at-wro-india-mumbai-regional-championship-jointly-hosted-by-india-stem-foundation-andnational-council-of-science-museums/article71316519.ece",
       "source": "BusinessLine",
       "date": "2026-08-10",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Saudi Aramco, 인도의 Mitti Labs를 지원하여 아시아의 벼농사가 물에 대한 회복력을 더욱 강화하도록 지원 | 테크크런치",
-      "title_en": "Saudi Aramco backs India's Mitti Labs to make Asia's rice farming more water-resilient | TechCrunch",
-      "url": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/",
-      "source": "TechCrunch",
-      "date": "2026-08-05",
-      "category": "thub"
-    },
-    {
-      "title_ko": "SpaceX의 기록적인 IPO는 궤도를 목표로 하고 지구를 넘어 광대한 새로운 시장을 개척하려는 스타트업의 새로운 물결을 촉진하는 데 도움이 되고 있습니다.",
-      "title_en": "SpaceX’s record IPO is helping spur a new wave of startups aiming for orbit and opening a vast new market beyond Earth",
-      "url": "https://fortune.com/2026/08/02/spacex-ipo-wave-space-startups-fund-raising-commercial-market/",
-      "source": "Fortune",
-      "date": "2026-08-02",
-      "category": "thub"
-    },
-    {
-      "title_ko": "이 스타트업의 차세대 엔진은 인도의 국방 야망을 강화할 수 있습니다",
-      "title_en": "This startup's next-gen engine may power India's defence ambitions",
-      "url": "https://www.livemint.com/companies/d-propulse-rotating-detonation-engine-rde-india-defence-startup-11785302153442.html",
-      "source": "Livemint",
-      "date": "2026-07-30",
       "category": "thub"
     }
   ]
