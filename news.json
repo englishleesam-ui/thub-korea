@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-27",
   "articles": [
+    {
+      "title_ko": "인도는 PSU 은행을 고쳤습니다. 이제 더 야심찬 부분이 다가옵니다.",
+      "title_en": "India has fixed its PSU banks. Now comes the more ambitious part",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/india-bank-mergers-big-bank-consolidation-india-has-fixed-its-psu-state-run-banks-now-comes-the-more-ambitious-part-for-lenders/articleshow/133536596.cms",
+      "source": "The Times of India",
+      "date": "2026-08-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 경제는 역풍에도 불구하고 계속 강세를 보이고 있습니다: RBI 게시판",
+      "title_en": "Indian economy continues to display strength despite headwinds: RBI Bulletin",
+      "url": "https://www.thehindubusinessline.com/economy/indian-economy-continuesto-display-strength-despite-headwinds-rbi-bulletin/article71389131.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 경제는 내수 호조 속에 강세를 지속했다.",
+      "title_en": "Indian economy continued to display strength amid buoyant domestic demand buoyant",
+      "url": "https://www.business-standard.com/markets/capital-market-news/indian-economy-continued-to-display-strength-amid-buoyant-domestic-demand-buoyant-126082501015_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "오늘 센섹스 | 주식 시장 하이라이트: Sensex는 286포인트 상승, Nifty는 24,334포인트 상승",
+      "title_en": "Sensex today | Stock Market Highlights: Sensex settles 286 points higher, Nifty touches 24,334",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-25-august-2026/article71384173.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "SBI는 RBI 스왑 창 폐쇄를 앞두고 NRI와 외국인 투자자로부터 100억 달러를 주목하고 있습니다.",
+      "title_en": "SBI eyes $10 billion from NRIs, foreign investors ahead of RBI swap window closure",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/sbi-eyes-10-billion-from-nris-foreign-investors-ahead-of-rbi-swap-window-closure/article71388124.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도, 2030년까지 항공 화물 1천만 톤 목표: 장관",
+      "title_en": "India targets 10 million tonnes of air cargo by 2030: Minister",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/india-targets-10-million-tonnes-of-air-cargo-by-2030-minister/article71388177.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도 경제는 AI, 일출 부문을 활용하여 2047년까지 55조 달러에 도달할 수 있습니다: Ex-CEA Subramanian",
+      "title_en": "Indian economy can reach $55 trillion by 2047 by tapping AI, sunrise sectors: Ex-CEA Subramanian",
+      "url": "https://www.thehindubusinessline.com/economy/indian-economy-can-reach-55-trillion-by-2047-by-tapping-ai-sunrise-sectors-ex-cea-subramanian/article71388061.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-25",
+      "category": "india"
+    },
     {
       "title_ko": "How Indians can make international investments part of their portfolio",
       "title_en": "How Indians can make international investments part of their portfolio",
@@ -10,60 +66,36 @@
       "category": "india"
     },
     {
-      "title_ko": "‘We have to do business with China too’: Jaishankar says India can’t ignore Beijing, must become self-reliant",
-      "title_en": "‘We have to do business with China too’: Jaishankar says India can’t ignore Beijing, must become self-reliant",
-      "url": "https://economictimes.indiatimes.com/news/india/jaishankar-india-china-beijing-business-self-reliance-manufacturing-world-leaders-forum/articleshow/133421859.cms",
+      "title_ko": "인도의 에어바운드(Airbound), 로켓형 드론을 탑재한 트럭에 3,700만 달러 지원",
+      "title_en": "India’s Airbound bags $37M to take on trucks with rocket-like drones",
+      "url": "https://biztoc.com/x/71cf440773ca7685",
+      "source": "Biztoc.com",
+      "date": "2026-08-25",
+      "category": "thub"
+    },
+    {
+      "title_ko": "GLP-1 추세가 상승함에 따라 미국 영양 스타트업 Berry Street가 인도의 Healthify와 합병",
+      "title_en": "US nutrition startup Berry Street merges with India’s Healthify as GLP-1 trends upwards",
+      "url": "https://biztoc.com/x/edf306491f103344",
+      "source": "Biztoc.com",
+      "date": "2026-08-24",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Google India의 부사장 겸 국가 관리자인 Preeti Lobana는 컴퓨팅 용량이 AI 시대의 기반 인프라라고 말합니다.",
+      "title_en": "Compute capacity is foundational infra of the AI era, says Preeti Lobana, vice-president and country manager at Google India",
+      "url": "https://economictimes.indiatimes.com/news/india/compute-capacity-is-foundational-infra-of-the-ai-era-says-preeti-lobana-vice-president-and-country-manager-at-google-india/articleshow/133446051.cms",
       "source": "The Times of India",
-      "date": "2026-08-22",
-      "category": "india"
+      "date": "2026-08-23",
+      "category": "thub"
     },
     {
-      "title_ko": "CabSec seeks programmes in colleges to build an advanced Indian economy",
-      "title_en": "CabSec seeks programmes in colleges to build an advanced Indian economy",
-      "url": "https://www.business-standard.com/economy/news/cabsec-seeks-programmes-in-colleges-to-build-an-advanced-indian-economy-126082101387_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-21",
-      "category": "india"
-    },
-    {
-      "title_ko": "ET World Leaders Forum 2026: The heartbeat of India lives in Tier-2, Tier-3, rural areas, says Google India MD Preeti Lobana",
-      "title_en": "ET World Leaders Forum 2026: The heartbeat of India lives in Tier-2, Tier-3, rural areas, says Google India MD Preeti Lobana",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/et-world-leaders-forum-2026-the-heartbeat-of-india-lives-in-tier-2-tier-3-rural-india-google-india-md-preeti-lobana/articleshow/133395560.cms",
+      "title_ko": "모디 총리는 인도가 우주 인재를 끌어들일 수 있는 '아우라 생성'을 원합니다. 스타트업에 글로벌 비즈니스 구축 촉구",
+      "title_en": "PM Modi wants India to ‘create an aura’ that can draw space talent; urges startups to build global businesses",
+      "url": "https://economictimes.indiatimes.com/news/science/national-space-day-2026-pm-modi-wants-india-to-create-an-aura-that-can-draw-space-talent-urges-startups-to-build-global-businesses/articleshow/133434648.cms",
       "source": "The Times of India",
-      "date": "2026-08-21",
-      "category": "india"
-    },
-    {
-      "title_ko": "Carlsberg India posts strong volume growth in H1, IPO process underway: Global CEO Aarup-Andersen.",
-      "title_en": "Carlsberg India posts strong volume growth in H1, IPO process underway: Global CEO Aarup-Andersen.",
-      "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/carlsberg-india-posts-strong-volume-growth-in-h1-ipo-process-underway-global-ceo-aarup-andersen-/articleshow/133396666.cms",
-      "source": "The Times of India",
-      "date": "2026-08-21",
-      "category": "india"
-    },
-    {
-      "title_ko": "7.5% growth is a given, India should aspire for more: RBI Deputy Governor",
-      "title_en": "7.5% growth is a given, India should aspire for more: RBI Deputy Governor",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/75-per-cent-growth-is-a-given-india-should-aspire-for-more-rbi-deputy-governor/article71369287.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-20",
-      "category": "india"
-    },
-    {
-      "title_ko": "기업이 보다 풍부한 고객 대화로 전환함에 따라 인도의 RCS 채택이 108% 급증하고 Infobip이 밝혔습니다.",
-      "title_en": "India’s RCS Adoption Surges 108% as Businesses Shift to Richer Customer Conversations, Reveals Infobip",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/indias-rcs-adoption-surges-108-as-businesses-shift-to-richer-customer-conversations-reveals-infobip/article71360070.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "멋진 50개 기업이 성별 임금 평등에서 낮은 점수를 받았습니다.",
-      "title_en": "Nifty 50 firms get dismal score on gender pay parity",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/nifty-50-firms-get-dismal-score-on-gender-pay-parity/articleshow/133330932.cms",
-      "source": "The Times of India",
-      "date": "2026-08-18",
-      "category": "india"
+      "date": "2026-08-23",
+      "category": "thub"
     },
     {
       "title_ko": "Indian startup aims to compete with OpenAI in crowded voice arena",
@@ -95,38 +127,6 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185035844",
       "source": "Slashdot.org",
       "date": "2026-08-18",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Kaynes Semicon은 인도 기술 추진에서 포토닉스, 양자 보안 및 뉴로모픽 칩을 주목하고 있습니다.",
-      "title_en": "Kaynes Semicon eyes photonics, quantum security and neuromorphic chips in India tech push",
-      "url": "https://www.digitimes.com/news/a20260816VL200/kaynes-semicon-india-siph-cpo-chips-security.html",
-      "source": "Digitimes",
-      "date": "2026-08-17",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Standard Chartered는 AI가 확장됨에 따라 인도 기술 허브 역할도 커질 것으로 예상합니다.",
-      "title_en": "Standard Chartered expects India tech hub roles to grow as AI expands",
-      "url": "https://www.business-standard.com/companies/news/standard-chartered-expects-india-tech-hub-roles-to-grow-as-ai-expands-126081200764_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-12",
-      "category": "thub"
-    },
-    {
-      "title_ko": "아니 IIT, IIM. Techie는 월 37,000루피에서 LPA 꿈의 직업인 Rs 37,000으로 어떻게 성장했는지 공개합니다. '나는 오지 않습니다...'",
-      "title_en": "No IIT, IIM. Techie reveals how he went from Rs 37K per month to Rs 2.2 crore LPA dream job: ‘I don’t come…’",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/no-iit-iim-techie-reveals-how-he-went-from-rs-37k-per-month-to-rs-2-2-crore-lpa-dream-job-i-dont-come/articleshow/133170497.cms",
-      "source": "The Times of India",
-      "date": "2026-08-12",
-      "category": "thub"
-    },
-    {
-      "title_ko": "젊은 로봇 공학 혁신가들이 인도 STEM 재단과 국립 과학 박물관 협의회가 공동 주최하는 WRO 인도 뭄바이 지역 챔피언십에서 중심 무대를 차지합니다.",
-      "title_en": "Young Robotics Innovators Take Centre Stage at WRO India Mumbai Regional Championship jointly hosted by India STEM Foundation and National Council of Science Museums",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/young-robotics-innovators-take-centre-stage-at-wro-india-mumbai-regional-championship-jointly-hosted-by-india-stem-foundation-andnational-council-of-science-museums/article71316519.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-10",
       "category": "thub"
     }
   ]
