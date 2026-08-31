@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-31",
   "articles": [
+    {
+      "title_ko": "IGL은 LNG 가격 급등으로 델리에서 CNG 가격을 kg당 Rs 3.89 인상했습니다.",
+      "title_en": "IGL raises CNG price by Rs 3.89 per kg in Delhi as LNG costs surge",
+      "url": "https://www.business-standard.com/economy/news/igl-raises-cng-price-by-rs-3-89-per-kg-in-delhi-as-lng-costs-surge-126082900349_1.html",
+      "source": "Business Standard",
+      "date": "2026-08-29",
+      "category": "india"
+    },
+    {
+      "title_ko": "S&P, 인도 국가신용등급 'BBB' 유지",
+      "title_en": "S&P retains India’s sovereign rating at 'BBB'",
+      "url": "https://www.thehindubusinessline.com/economy/sp-retains-indias-sovereign-rating-at-bbb/article71396541.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-27",
+      "category": "india"
+    },
+    {
+      "title_ko": "오늘 센섹스 | 주식 시장 하이라이트: Sensex는 77,000 아래로 하락하고 Nifty는 시장 변동성 속에서 24,091로 마감",
+      "title_en": "Sensex today | Stock Market Highlights: Sensex slips below 77,000, Nifty ends at 24,091 amid market volatility",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-27th-august-2026/article71392989.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-27",
+      "category": "india"
+    },
+    {
+      "title_ko": "Nirmala Sitharaman은 캐나다 금융 회사에 인도 성장 기회를 제시합니다.",
+      "title_en": "Nirmala Sitharaman pitches India growth opportunities to Canadian financial firms",
+      "url": "https://www.thehindubusinessline.com/economy/nirmala-sitharaman-pitches-india-growth-opportunities-to-canadian-financial-firms/article71395114.ece",
+      "source": "BusinessLine",
+      "date": "2026-08-27",
+      "category": "india"
+    },
+    {
+      "title_ko": "Inside India 뉴스레터: 미국과 러시아가 세계 3위의 에너지 시장에서 더 큰 부분을 차지하기 위해 경쟁하고 있습니다.",
+      "title_en": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market",
+      "url": "https://www.cnbc.com/2026/08/27/india-us-russia-energy-oil-market.html",
+      "source": "CNBC",
+      "date": "2026-08-27",
+      "category": "india"
+    },
     {
       "title_ko": "인도는 PSU 은행을 고쳤습니다. 이제 더 야심찬 부분이 다가옵니다.",
       "title_en": "India has fixed its PSU banks. Now comes the more ambitious part",
@@ -26,44 +66,12 @@
       "category": "india"
     },
     {
-      "title_ko": "오늘 센섹스 | 주식 시장 하이라이트: Sensex는 286포인트 상승, Nifty는 24,334포인트 상승",
-      "title_en": "Sensex today | Stock Market Highlights: Sensex settles 286 points higher, Nifty touches 24,334",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-25-august-2026/article71384173.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "SBI는 RBI 스왑 창 폐쇄를 앞두고 NRI와 외국인 투자자로부터 100억 달러를 주목하고 있습니다.",
-      "title_en": "SBI eyes $10 billion from NRIs, foreign investors ahead of RBI swap window closure",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/sbi-eyes-10-billion-from-nris-foreign-investors-ahead-of-rbi-swap-window-closure/article71388124.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도, 2030년까지 항공 화물 1천만 톤 목표: 장관",
-      "title_en": "India targets 10 million tonnes of air cargo by 2030: Minister",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/india-targets-10-million-tonnes-of-air-cargo-by-2030-minister/article71388177.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도 경제는 AI, 일출 부문을 활용하여 2047년까지 55조 달러에 도달할 수 있습니다: Ex-CEA Subramanian",
-      "title_en": "Indian economy can reach $55 trillion by 2047 by tapping AI, sunrise sectors: Ex-CEA Subramanian",
-      "url": "https://www.thehindubusinessline.com/economy/indian-economy-can-reach-55-trillion-by-2047-by-tapping-ai-sunrise-sectors-ex-cea-subramanian/article71388061.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "How Indians can make international investments part of their portfolio",
-      "title_en": "How Indians can make international investments part of their portfolio",
-      "url": "https://www.business-standard.com/finance/personal-finance/how-indians-can-make-international-investments-part-of-their-portfolio-126081401886_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-23",
-      "category": "india"
+      "title_ko": "Runable은 AI 에이전트가 비즈니스 구축에서 성장으로 나아갈 수 있다고 확신하며 2,100만 달러를 기록했습니다 | 테크크런치",
+      "title_en": "Runable hits $21M to bet AI agents can go from building businesses to growing them | TechCrunch",
+      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+      "source": "TechCrunch",
+      "date": "2026-08-26",
+      "category": "thub"
     },
     {
       "title_ko": "인도의 에어바운드(Airbound), 로켓형 드론을 탑재한 트럭에 3,700만 달러 지원",
@@ -119,14 +127,6 @@
       "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/charles-schwab-to-scale-india-tech-centre-workforce-to-2000-by-2027-source-says/articleshow/133338202.cms",
       "source": "The Times of India",
       "date": "2026-08-19",
-      "category": "thub"
-    },
-    {
-      "title_ko": "회사에서 3D 프린팅된 완전 극저온 재사용 로켓 엔진을 시험 발사했습니다. 인도 스타트업은 SLM 프린팅을 활용하여 최초의 작동 가능한 프로토타입을 제작했습니다.",
-      "title_en": "Firm test-fires 3D-printed, fully cryogenic reusable rocket engine — Indian startup leverages SLM printing to create its first working prototype",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185035844",
-      "source": "Slashdot.org",
-      "date": "2026-08-18",
       "category": "thub"
     }
   ]
