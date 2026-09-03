@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-03",
   "articles": [
+    {
+      "title_ko": "니르말라 시타라만 IMF 총재가 인도의 성장 궤적과 세계 경제 전망에 대해 논의합니다.",
+      "title_en": "Nirmala Sitharaman, IMF chief discuss India’s growth trajectory, global economic outlook",
+      "url": "https://economictimes.indiatimes.com/news/india/nirmala-sitharaman-imf-chief-discuss-indias-growth-trajectory-global-economic-outlook/articleshow/133695283.cms",
+      "source": "The Times of India",
+      "date": "2026-09-02",
+      "category": "india"
+    },
+    {
+      "title_ko": "경주가 시작되었습니다! 인도, 곧 500만 대의 자동차를 도로에 운행할 예정",
+      "title_en": "Race is On! India set to put 5 million cars on the road soon",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/race-is-on-india-set-to-put-5-million-cars-on-the-road-soon/articleshow/133691331.cms",
+      "source": "The Times of India",
+      "date": "2026-09-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "일본의 30년 만기 높은 채권 수익률이 인도 주식 시장 투자자들을 걱정해야 하는 이유",
+      "title_en": "Why Japan's 30-year high bond yields should worry Indian stock market investors",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/why-japans-30-year-high-bond-yields-should-worry-indian-stock-market-investors/articleshow/133680711.cms",
+      "source": "The Times of India",
+      "date": "2026-09-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "모디 총리, 국민들에게 해외 휴가와 불필요한 금 구매를 피하라고 촉구",
+      "title_en": "PM Modi urges people to shun foreign holidays, unnecessary gold purchases",
+      "url": "https://www.business-standard.com/india-news/pm-modi-urges-people-to-shun-foreign-holidays-unnecessary-gold-purchases-126090100939_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "라훌 간디는 인도 경제에 거짓을 퍼뜨린 것에 대해 사과해야 한다: BJP",
+      "title_en": "Rahul Gandhi should apologise for spreading falsehood on Indian economy: BJP",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-should-apologise-for-spreading-falsehood-on-indian-economy-bjp/articleshow/133679409.cms",
+      "source": "The Times of India",
+      "date": "2026-09-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "Kharge는 Modi의 GDP 비디오를 '경제 홍보'라고 일축하고 물가 상승, 실업을 표시합니다.",
+      "title_en": "Kharge dismisses Modi's GDP video as 'PR on economy', flags rise in prices, joblessness",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/kharge-dismisses-modis-gdp-video-as-pr-on-economy-flags-rise-in-prices-joblessness/articleshow/133675143.cms",
+      "source": "The Times of India",
+      "date": "2026-09-01",
+      "category": "india"
+    },
+    {
+      "title_ko": "Uday Kotak은 GDP 탄력성을 보고 인도에 경계를 늦추지 말라고 경고했습니다.",
+      "title_en": "Uday Kotak sees GDP resilience, warns India not to lower guard",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/uday-kotak-sees-gdp-resilience-warns-india-not-to-lower-guard/articleshow/133670546.cms",
+      "source": "The Times of India",
+      "date": "2026-09-01",
+      "category": "india"
+    },
     {
       "title_ko": "IGL은 LNG 가격 급등으로 델리에서 CNG 가격을 kg당 Rs 3.89 인상했습니다.",
       "title_en": "IGL raises CNG price by Rs 3.89 per kg in Delhi as LNG costs surge",
@@ -10,60 +66,28 @@
       "category": "india"
     },
     {
-      "title_ko": "S&P, 인도 국가신용등급 'BBB' 유지",
-      "title_en": "S&P retains India’s sovereign rating at 'BBB'",
-      "url": "https://www.thehindubusinessline.com/economy/sp-retains-indias-sovereign-rating-at-bbb/article71396541.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-27",
-      "category": "india"
+      "title_ko": "Lachy Groom, 1년 동안 항공기 비행 유지를 목표로 하는 인도 스타트업 지원 | 테크크런치",
+      "title_en": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year | TechCrunch",
+      "url": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
+      "source": "TechCrunch",
+      "date": "2026-09-01",
+      "category": "thub"
     },
     {
-      "title_ko": "오늘 센섹스 | 주식 시장 하이라이트: Sensex는 77,000 아래로 하락하고 Nifty는 시장 변동성 속에서 24,091로 마감",
-      "title_en": "Sensex today | Stock Market Highlights: Sensex slips below 77,000, Nifty ends at 24,091 amid market volatility",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-27th-august-2026/article71392989.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-27",
-      "category": "india"
+      "title_ko": "TechCrunch Mobility: 로봇택시의 숨겨진 인적 비용 | 테크크런치",
+      "title_en": "TechCrunch Mobility: The hidden human cost of robotaxis | TechCrunch",
+      "url": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
+      "source": "TechCrunch",
+      "date": "2026-08-30",
+      "category": "thub"
     },
     {
-      "title_ko": "Nirmala Sitharaman은 캐나다 금융 회사에 인도 성장 기회를 제시합니다.",
-      "title_en": "Nirmala Sitharaman pitches India growth opportunities to Canadian financial firms",
-      "url": "https://www.thehindubusinessline.com/economy/nirmala-sitharaman-pitches-india-growth-opportunities-to-canadian-financial-firms/article71395114.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-27",
-      "category": "india"
-    },
-    {
-      "title_ko": "Inside India 뉴스레터: 미국과 러시아가 세계 3위의 에너지 시장에서 더 큰 부분을 차지하기 위해 경쟁하고 있습니다.",
-      "title_en": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market",
-      "url": "https://www.cnbc.com/2026/08/27/india-us-russia-energy-oil-market.html",
-      "source": "CNBC",
-      "date": "2026-08-27",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도는 PSU 은행을 고쳤습니다. 이제 더 야심찬 부분이 다가옵니다.",
-      "title_en": "India has fixed its PSU banks. Now comes the more ambitious part",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/india-bank-mergers-big-bank-consolidation-india-has-fixed-its-psu-state-run-banks-now-comes-the-more-ambitious-part-for-lenders/articleshow/133536596.cms",
-      "source": "The Times of India",
-      "date": "2026-08-26",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도 경제는 역풍에도 불구하고 계속 강세를 보이고 있습니다: RBI 게시판",
-      "title_en": "Indian economy continues to display strength despite headwinds: RBI Bulletin",
-      "url": "https://www.thehindubusinessline.com/economy/indian-economy-continuesto-display-strength-despite-headwinds-rbi-bulletin/article71389131.ece",
-      "source": "BusinessLine",
-      "date": "2026-08-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "인도 경제는 내수 호조 속에 강세를 지속했다.",
-      "title_en": "Indian economy continued to display strength amid buoyant domestic demand buoyant",
-      "url": "https://www.business-standard.com/markets/capital-market-news/indian-economy-continued-to-display-strength-amid-buoyant-domestic-demand-buoyant-126082501015_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-25",
-      "category": "india"
+      "title_ko": "5개의 혁신 테마 펀드가 1년 만에 15% 이상의 수익률을 기록했으며 Bandhan이 선두를 달리고 있습니다. 빨간색 계획은 없습니다",
+      "title_en": "5 innovation thematic funds posted over 15% returns in 1 year, with Bandhan leading the category; no scheme in the red",
+      "url": "https://www.livemint.com/money/personal-finance/5-innovation-thematic-funds-posted-over-15-returns-in-1-year-with-bandhan-leading-the-category-no-scheme-in-the-red-11787505111165.html",
+      "source": "Livemint",
+      "date": "2026-08-30",
+      "category": "thub"
     },
     {
       "title_ko": "Runable은 AI 에이전트가 비즈니스 구축에서 성장으로 나아갈 수 있다고 확신하며 2,100만 달러를 기록했습니다 | 테크크런치",
@@ -103,30 +127,6 @@
       "url": "https://economictimes.indiatimes.com/news/science/national-space-day-2026-pm-modi-wants-india-to-create-an-aura-that-can-draw-space-talent-urges-startups-to-build-global-businesses/articleshow/133434648.cms",
       "source": "The Times of India",
       "date": "2026-08-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Indian startup aims to compete with OpenAI in crowded voice arena",
-      "title_en": "Indian startup aims to compete with OpenAI in crowded voice arena",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/india-startup-aims-to-compete-with-openai-in-crowded-voice-arena",
-      "source": "Bloomberg",
-      "date": "2026-08-20",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Charles Schwab opens first India tech capability centre in Hyderabad with plans to grow to 2000 by 2027",
-      "title_en": "Charles Schwab opens first India tech capability centre in Hyderabad with plans to grow to 2000 by 2027",
-      "url": "https://timesofindia.indiatimes.com/city/hyderabad/charles-schwab-opens-first-india-tech-capability-centre-in-hyderabad-with-plans-to-grow-to-2000-by-2027/articleshow/133340696.cms",
-      "source": "The Times of India",
-      "date": "2026-08-19",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Charles Schwab to scale India tech centre workforce to 2,000 by 2027, source says",
-      "title_en": "Charles Schwab to scale India tech centre workforce to 2,000 by 2027, source says",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/charles-schwab-to-scale-india-tech-centre-workforce-to-2000-by-2027-source-says/articleshow/133338202.cms",
-      "source": "The Times of India",
-      "date": "2026-08-19",
       "category": "thub"
     }
   ]
