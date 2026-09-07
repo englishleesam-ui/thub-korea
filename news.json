@@ -1,69 +1,101 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-07",
   "articles": [
     {
-      "title_ko": "니르말라 시타라만 IMF 총재가 인도의 성장 궤적과 세계 경제 전망에 대해 논의합니다.",
-      "title_en": "Nirmala Sitharaman, IMF chief discuss India’s growth trajectory, global economic outlook",
-      "url": "https://economictimes.indiatimes.com/news/india/nirmala-sitharaman-imf-chief-discuss-indias-growth-trajectory-global-economic-outlook/articleshow/133695283.cms",
+      "title_ko": "How will Nifty, Sensex behave on Monday? US Fed rate hike bets, among 4 factors to drive D-Street action",
+      "title_en": "How will Nifty, Sensex behave on Monday? US Fed rate hike bets, among 4 factors to drive D-Street action",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-will-nifty-sensex-behave-on-monday-us-fed-rate-hike-bets-among-4-factors-to-drive-d-street-action/articleshow/133825763.cms",
       "source": "The Times of India",
+      "date": "2026-09-06",
+      "category": "india"
+    },
+    {
+      "title_ko": "PM Modi calls SRCC alumni ‘OGs’, felicitated at centenary event after Metro ride",
+      "title_en": "PM Modi calls SRCC alumni ‘OGs’, felicitated at centenary event after Metro ride",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/pm-modi-calls-srcc-alumni-ogs-felicitated-at-centenary-event-after-metro-ride/articleshow/133804981.cms",
+      "source": "The Times of India",
+      "date": "2026-09-05",
+      "category": "india"
+    },
+    {
+      "title_ko": "FIIs are coming back: Can Indian stocks sustain buying for 3rd consecutive month in September?",
+      "title_en": "FIIs are coming back: Can Indian stocks sustain buying for 3rd consecutive month in September?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-are-coming-back-can-indian-stocks-sustain-buying-for-3rd-consecutive-month-in-september/articleshow/133798249.cms",
+      "source": "The Times of India",
+      "date": "2026-09-05",
+      "category": "india"
+    },
+    {
+      "title_ko": "Q. Would you consider eighteenth century in India an era of ‘Dark Age’, or a period of economic growth? Elucidate. [UPSC- 2026]",
+      "title_en": "Q. Would you consider eighteenth century in India an era of ‘Dark Age’, or a period of economic growth? Elucidate. [UPSC- 2026]",
+      "url": "https://selfstudyhistory.com/2026/09/05/q-would-you-consider-eighteenth-century-in-india-an-era-of-dark-age-or-a-period-of-economic-growth-elucidate-upsc-2026/",
+      "source": "Selfstudyhistory.com",
+      "date": "2026-09-05",
+      "category": "india"
+    },
+    {
+      "title_ko": "Risk v reward: Was the NSW premier's trade mission to India worth it?",
+      "title_en": "Risk v reward: Was the NSW premier's trade mission to India worth it?",
+      "url": "https://www.abc.net.au/news/2026-09-05/was-nsw-premiers-trade-mission-to-india-worth-it/107115358",
+      "source": "ABC News (AU)",
+      "date": "2026-09-04",
+      "category": "india"
+    },
+    {
+      "title_ko": "India grew 7.8%, but did the common folk benefit?",
+      "title_en": "India grew 7.8%, but did the common folk benefit?",
+      "url": "https://www.thehindubusinessline.com/opinion/india-grew-78-but-did-the-common-folk-benefit/article71429217.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-04",
+      "category": "india"
+    },
+    {
+      "title_ko": "World Bank's Mishra Pushes Back on India Growth Doubts",
+      "title_en": "World Bank's Mishra Pushes Back on India Growth Doubts",
+      "url": "https://biztoc.com/x/06087e98d26f0353",
+      "source": "Biztoc.com",
+      "date": "2026-09-04",
+      "category": "india"
+    },
+    {
+      "title_ko": "Apparel Group Redefines India's Retail Landscape with Carrefour's Ambitious Entry",
+      "title_en": "Apparel Group Redefines India's Retail Landscape with Carrefour's Ambitious Entry",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/apparel-group-redefines-indias-retail-landscape-with-carrefours-ambitious-entry/article71427547.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-04",
+      "category": "india"
+    },
+    {
+      "title_ko": "Jio eyes global market with India-built technology across connectivity, AI",
+      "title_en": "Jio eyes global market with India-built technology across connectivity, AI",
+      "url": "https://www.thehindubusinessline.com/info-tech/jio-eyes-global-market-with-india-built-technology-across-connectivity-ai/article71433109.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-05",
+      "category": "thub"
+    },
+    {
+      "title_ko": "After 10 years of India feat, Jio sets its sights on global market",
+      "title_en": "After 10 years of India feat, Jio sets its sights on global market",
+      "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/after-10-years-of-india-feat-jio-sets-its-sights-on-global-market/articleshow/133808067.cms",
+      "source": "The Times of India",
+      "date": "2026-09-05",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers | TechCrunch",
+      "title_en": "Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/",
+      "source": "TechCrunch",
+      "date": "2026-09-03",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Adobe acquires Peak XV-backed AI marketing automation startup Rilo",
+      "title_en": "Adobe acquires Peak XV-backed AI marketing automation startup Rilo",
+      "url": "https://www.moneycontrol.com/artificial-intelligence/adobe-acquires-peak-xv-backed-indian-ai-marketing-startup-rilo-article-14021238.html",
+      "source": "Moneycontrol",
       "date": "2026-09-02",
-      "category": "india"
-    },
-    {
-      "title_ko": "경주가 시작되었습니다! 인도, 곧 500만 대의 자동차를 도로에 운행할 예정",
-      "title_en": "Race is On! India set to put 5 million cars on the road soon",
-      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/race-is-on-india-set-to-put-5-million-cars-on-the-road-soon/articleshow/133691331.cms",
-      "source": "The Times of India",
-      "date": "2026-09-01",
-      "category": "india"
-    },
-    {
-      "title_ko": "일본의 30년 만기 높은 채권 수익률이 인도 주식 시장 투자자들을 걱정해야 하는 이유",
-      "title_en": "Why Japan's 30-year high bond yields should worry Indian stock market investors",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/why-japans-30-year-high-bond-yields-should-worry-indian-stock-market-investors/articleshow/133680711.cms",
-      "source": "The Times of India",
-      "date": "2026-09-01",
-      "category": "india"
-    },
-    {
-      "title_ko": "모디 총리, 국민들에게 해외 휴가와 불필요한 금 구매를 피하라고 촉구",
-      "title_en": "PM Modi urges people to shun foreign holidays, unnecessary gold purchases",
-      "url": "https://www.business-standard.com/india-news/pm-modi-urges-people-to-shun-foreign-holidays-unnecessary-gold-purchases-126090100939_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-01",
-      "category": "india"
-    },
-    {
-      "title_ko": "라훌 간디는 인도 경제에 거짓을 퍼뜨린 것에 대해 사과해야 한다: BJP",
-      "title_en": "Rahul Gandhi should apologise for spreading falsehood on Indian economy: BJP",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-should-apologise-for-spreading-falsehood-on-indian-economy-bjp/articleshow/133679409.cms",
-      "source": "The Times of India",
-      "date": "2026-09-01",
-      "category": "india"
-    },
-    {
-      "title_ko": "Kharge는 Modi의 GDP 비디오를 '경제 홍보'라고 일축하고 물가 상승, 실업을 표시합니다.",
-      "title_en": "Kharge dismisses Modi's GDP video as 'PR on economy', flags rise in prices, joblessness",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/kharge-dismisses-modis-gdp-video-as-pr-on-economy-flags-rise-in-prices-joblessness/articleshow/133675143.cms",
-      "source": "The Times of India",
-      "date": "2026-09-01",
-      "category": "india"
-    },
-    {
-      "title_ko": "Uday Kotak은 GDP 탄력성을 보고 인도에 경계를 늦추지 말라고 경고했습니다.",
-      "title_en": "Uday Kotak sees GDP resilience, warns India not to lower guard",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/uday-kotak-sees-gdp-resilience-warns-india-not-to-lower-guard/articleshow/133670546.cms",
-      "source": "The Times of India",
-      "date": "2026-09-01",
-      "category": "india"
-    },
-    {
-      "title_ko": "IGL은 LNG 가격 급등으로 델리에서 CNG 가격을 kg당 Rs 3.89 인상했습니다.",
-      "title_en": "IGL raises CNG price by Rs 3.89 per kg in Delhi as LNG costs surge",
-      "url": "https://www.business-standard.com/economy/news/igl-raises-cng-price-by-rs-3-89-per-kg-in-delhi-as-lng-costs-surge-126082900349_1.html",
-      "source": "Business Standard",
-      "date": "2026-08-29",
-      "category": "india"
+      "category": "thub"
     },
     {
       "title_ko": "Lachy Groom, 1년 동안 항공기 비행 유지를 목표로 하는 인도 스타트업 지원 | 테크크런치",
@@ -95,38 +127,6 @@
       "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
       "source": "TechCrunch",
       "date": "2026-08-26",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도의 에어바운드(Airbound), 로켓형 드론을 탑재한 트럭에 3,700만 달러 지원",
-      "title_en": "India’s Airbound bags $37M to take on trucks with rocket-like drones",
-      "url": "https://biztoc.com/x/71cf440773ca7685",
-      "source": "Biztoc.com",
-      "date": "2026-08-25",
-      "category": "thub"
-    },
-    {
-      "title_ko": "GLP-1 추세가 상승함에 따라 미국 영양 스타트업 Berry Street가 인도의 Healthify와 합병",
-      "title_en": "US nutrition startup Berry Street merges with India’s Healthify as GLP-1 trends upwards",
-      "url": "https://biztoc.com/x/edf306491f103344",
-      "source": "Biztoc.com",
-      "date": "2026-08-24",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Google India의 부사장 겸 국가 관리자인 Preeti Lobana는 컴퓨팅 용량이 AI 시대의 기반 인프라라고 말합니다.",
-      "title_en": "Compute capacity is foundational infra of the AI era, says Preeti Lobana, vice-president and country manager at Google India",
-      "url": "https://economictimes.indiatimes.com/news/india/compute-capacity-is-foundational-infra-of-the-ai-era-says-preeti-lobana-vice-president-and-country-manager-at-google-india/articleshow/133446051.cms",
-      "source": "The Times of India",
-      "date": "2026-08-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "모디 총리는 인도가 우주 인재를 끌어들일 수 있는 '아우라 생성'을 원합니다. 스타트업에 글로벌 비즈니스 구축 촉구",
-      "title_en": "PM Modi wants India to ‘create an aura’ that can draw space talent; urges startups to build global businesses",
-      "url": "https://economictimes.indiatimes.com/news/science/national-space-day-2026-pm-modi-wants-india-to-create-an-aura-that-can-draw-space-talent-urges-startups-to-build-global-businesses/articleshow/133434648.cms",
-      "source": "The Times of India",
-      "date": "2026-08-23",
       "category": "thub"
     }
   ]
