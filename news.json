@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-10",
   "articles": [
+    {
+      "title_ko": "Bharat NCAP가 안전 경주를 확대함에 따라 인도 자동차에 Gestamp의 핫 스탬핑 강철이 6배 급증했습니다.",
+      "title_en": "Gestamp’s hot-stamped steel in Indian cars surges sixfold as Bharat NCAP widens safety race",
+      "url": "https://www.thehindubusinessline.com/companies/gestamps-hot-stamped-steel-in-indian-cars-surges-sixfold-as-bharat-ncap-widens-safety-race/article71442746.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-08",
+      "category": "india"
+    },
+    {
+      "title_ko": "페레로 로쉐, 두 자릿수 인도 성장 기대하며 프리미엄화에 투자",
+      "title_en": "Ferrero Rocher eyes double-digit India growth, bets on premiumisation",
+      "url": "https://www.business-standard.com/companies/news/ferrero-rocher-eyes-double-digit-india-growth-bets-on-premiumisation-126090801380_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-08",
+      "category": "india"
+    },
+    {
+      "title_ko": "인도는 2035년까지 160,000명의 건설 프로젝트 관리자가 필요합니다: 보고서",
+      "title_en": "India needs 1,60,000 construction project managers by 2035: Report",
+      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/india-needs-160000-construction-project-managers-by-2035-report/articleshow/133925049.cms",
+      "source": "The Times of India",
+      "date": "2026-09-08",
+      "category": "india"
+    },
+    {
+      "title_ko": "영국, 탄소세 경감을 위한 인도의 탄소 배출권 제도 인정",
+      "title_en": "UK recognises India’s carbon credit scheme for carbon tax relief",
+      "url": "https://www.thehindubusinessline.com/economy/uk-recognises-indias-carbon-credit-scheme-for-carbon-tax-relief/article71441090.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-08",
+      "category": "india"
+    },
     {
       "title_ko": "How will Nifty, Sensex behave on Monday? US Fed rate hike bets, among 4 factors to drive D-Street action",
       "title_en": "How will Nifty, Sensex behave on Monday? US Fed rate hike bets, among 4 factors to drive D-Street action",
@@ -34,36 +66,36 @@
       "category": "india"
     },
     {
-      "title_ko": "Risk v reward: Was the NSW premier's trade mission to India worth it?",
-      "title_en": "Risk v reward: Was the NSW premier's trade mission to India worth it?",
-      "url": "https://www.abc.net.au/news/2026-09-05/was-nsw-premiers-trade-mission-to-india-worth-it/107115358",
-      "source": "ABC News (AU)",
-      "date": "2026-09-04",
-      "category": "india"
+      "title_ko": "인도 스타트업, 재사용 가능한 로켓 단계 검증을 위한 테스트 및 제조 허브 공개",
+      "title_en": "Indian startup unveils testing & manufacturing hubs to validate reusable rocket stages",
+      "url": "https://timesofindia.indiatimes.com/science/indian-startup-agnikul-cosmos-unveils-testing-manufacturing-hubs-in-chennai-to-validate-reusable-rocket-stages/articleshow/133922997.cms",
+      "source": "The Times of India",
+      "date": "2026-09-08",
+      "category": "thub"
     },
     {
-      "title_ko": "India grew 7.8%, but did the common folk benefit?",
-      "title_en": "India grew 7.8%, but did the common folk benefit?",
-      "url": "https://www.thehindubusinessline.com/opinion/india-grew-78-but-did-the-common-folk-benefit/article71429217.ece",
-      "source": "BusinessLine",
-      "date": "2026-09-04",
-      "category": "india"
+      "title_ko": "GalaxEye, 위성 영상 기술에 대한 미국 특허를 획득한 최초의 스타트업",
+      "title_en": "GalaxEye becomes first startup to win US patent for satellite imaging tech",
+      "url": "https://www.business-standard.com/companies/start-ups/galaxeye-becomes-first-startup-to-win-us-patent-for-satellite-imaging-tech-126090701111_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-08",
+      "category": "thub"
     },
     {
-      "title_ko": "World Bank's Mishra Pushes Back on India Growth Doubts",
-      "title_en": "World Bank's Mishra Pushes Back on India Growth Doubts",
-      "url": "https://biztoc.com/x/06087e98d26f0353",
-      "source": "Biztoc.com",
-      "date": "2026-09-04",
-      "category": "india"
+      "title_ko": "일본 무역회사 미쓰이, 인도 전기버스 아프리카에 수출",
+      "title_en": "Japan trading house Mitsui exports Indian electric buses to Africa",
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-trading-house-mitsui-exports-indian-electric-buses-to-africa",
+      "source": "Nikkei.com",
+      "date": "2026-09-07",
+      "category": "thub"
     },
     {
-      "title_ko": "Apparel Group Redefines India's Retail Landscape with Carrefour's Ambitious Entry",
-      "title_en": "Apparel Group Redefines India's Retail Landscape with Carrefour's Ambitious Entry",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/apparel-group-redefines-indias-retail-landscape-with-carrefours-ambitious-entry/article71427547.ece",
-      "source": "BusinessLine",
-      "date": "2026-09-04",
-      "category": "india"
+      "title_ko": "인도의 우주 기술 스타트업이 1억 달러를 모금하여 국내 위성 생산량을 4배로 늘리고 미국으로 확장 - CNBC TV18",
+      "title_en": "Indian space-tech startup raises $100 million, to 4x satellite production at home, expand in US - CNBC TV18",
+      "url": "https://www.cnbctv18.com/business/startup/indian-space-tech-startup-pixxel-funding-satellite-production-honeybee-us-expansion-19985192.htm",
+      "source": "CNBCTV18",
+      "date": "2026-09-07",
+      "category": "thub"
     },
     {
       "title_ko": "Jio eyes global market with India-built technology across connectivity, AI",
@@ -95,38 +127,6 @@
       "url": "https://www.moneycontrol.com/artificial-intelligence/adobe-acquires-peak-xv-backed-indian-ai-marketing-startup-rilo-article-14021238.html",
       "source": "Moneycontrol",
       "date": "2026-09-02",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Lachy Groom, 1년 동안 항공기 비행 유지를 목표로 하는 인도 스타트업 지원 | 테크크런치",
-      "title_en": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year | TechCrunch",
-      "url": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
-      "source": "TechCrunch",
-      "date": "2026-09-01",
-      "category": "thub"
-    },
-    {
-      "title_ko": "TechCrunch Mobility: 로봇택시의 숨겨진 인적 비용 | 테크크런치",
-      "title_en": "TechCrunch Mobility: The hidden human cost of robotaxis | TechCrunch",
-      "url": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
-      "source": "TechCrunch",
-      "date": "2026-08-30",
-      "category": "thub"
-    },
-    {
-      "title_ko": "5개의 혁신 테마 펀드가 1년 만에 15% 이상의 수익률을 기록했으며 Bandhan이 선두를 달리고 있습니다. 빨간색 계획은 없습니다",
-      "title_en": "5 innovation thematic funds posted over 15% returns in 1 year, with Bandhan leading the category; no scheme in the red",
-      "url": "https://www.livemint.com/money/personal-finance/5-innovation-thematic-funds-posted-over-15-returns-in-1-year-with-bandhan-leading-the-category-no-scheme-in-the-red-11787505111165.html",
-      "source": "Livemint",
-      "date": "2026-08-30",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Runable은 AI 에이전트가 비즈니스 구축에서 성장으로 나아갈 수 있다고 확신하며 2,100만 달러를 기록했습니다 | 테크크런치",
-      "title_en": "Runable hits $21M to bet AI agents can go from building businesses to growing them | TechCrunch",
-      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "source": "TechCrunch",
-      "date": "2026-08-26",
       "category": "thub"
     }
   ]
