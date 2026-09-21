@@ -1,69 +1,101 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-21",
   "articles": [
     {
-      "title_ko": "Indian economy at inflection point, needs growth rethink: CEA Nageswaran",
-      "title_en": "Indian economy at inflection point, needs growth rethink: CEA Nageswaran",
-      "url": "https://www.business-standard.com/economy/news/indian-economy-at-inflection-point-needs-growth-rethink-cea-nageswaran-126091600288_1.html",
+      "title_ko": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
+      "title_en": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
+      "url": "https://economictimes.indiatimes.com/markets/expert-view/1-5-trillion-wealth-transfer-is-coming-how-indias-next-gen-hnis-are-rebuilding-family-portfolios/articleshow/134363752.cms",
+      "source": "The Times of India",
+      "date": "2026-09-20",
+      "category": "india"
+    },
+    {
+      "title_ko": "Fujifilm bets on semiconductors to drive India growth; inks pact with Tata Electronics",
+      "title_en": "Fujifilm bets on semiconductors to drive India growth; inks pact with Tata Electronics",
+      "url": "https://economictimes.indiatimes.com/tech/technology/fujifilm-bets-on-semiconductors-to-drive-india-growth-inks-pact-with-tata-electronics/articleshow/134350286.cms",
+      "source": "The Times of India",
+      "date": "2026-09-19",
+      "category": "india"
+    },
+    {
+      "title_ko": "Uday Kotak calls for fiscal discipline, reforms to make India developed nation by 2047",
+      "title_en": "Uday Kotak calls for fiscal discipline, reforms to make India developed nation by 2047",
+      "url": "https://www.thehindubusinessline.com/economy/uday-kotak-calls-for-fiscal-discipline-reforms-to-make-india-developed-nation-by-2047/article71483574.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-19",
+      "category": "india"
+    },
+    {
+      "title_ko": "Moody's raises India FY27 growth forecast to 7%, flags inflation risks",
+      "title_en": "Moody's raises India FY27 growth forecast to 7%, flags inflation risks",
+      "url": "https://www.business-standard.com/economy/news/moody-s-raises-india-fy27-growth-forecast-to-7-flags-inflation-risks-126091801027_1.html",
       "source": "Business Standard",
+      "date": "2026-09-18",
+      "category": "india"
+    },
+    {
+      "title_ko": "Nifty settles above 23,300 as Moody's GDP upgrade, easing oil support sentiment",
+      "title_en": "Nifty settles above 23,300 as Moody's GDP upgrade, easing oil support sentiment",
+      "url": "https://www.business-standard.com/markets/capital-market-news/nifty-settles-above-23-300-as-moody-s-gdp-upgrade-easing-oil-support-sentiment-126091800939_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-18",
+      "category": "india"
+    },
+    {
+      "title_ko": "The mood, as per Moody's: Shocks keep coming, India keeps growing",
+      "title_en": "The mood, as per Moody's: Shocks keep coming, India keeps growing",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-gdp-growth-forecast-economy-moodys-raises-fy27-growth-to-7-amid-middle-east-conflict-oil-shock/articleshow/134330579.cms",
+      "source": "The Times of India",
+      "date": "2026-09-18",
+      "category": "india"
+    },
+    {
+      "title_ko": "Nifty regains 23,300 mark, midcaps, smallcaps gain",
+      "title_en": "Nifty regains 23,300 mark, midcaps, smallcaps gain",
+      "url": "https://www.business-standard.com/markets/capital-market-news/nifty-regains-23-300-mark-midcaps-smallcaps-gain-126091800476_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-18",
+      "category": "india"
+    },
+    {
+      "title_ko": "Moody's raises India GDP growth forecast to 7% for current fiscal",
+      "title_en": "Moody's raises India GDP growth forecast to 7% for current fiscal",
+      "url": "https://www.business-standard.com/economy/news/moody-s-raises-india-gdp-growth-forecast-to-7-for-current-fiscal-126091800196_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-18",
+      "category": "india"
+    },
+    {
+      "title_ko": "KDEM to host Mangaluru Technovanza on Sept 22-23",
+      "title_en": "KDEM to host Mangaluru Technovanza on Sept 22-23",
+      "url": "https://www.thehindubusinessline.com/news/national/kdem-to-host-mangaluru-technovanza-on-sept-22-23/article71476328.ece",
+      "source": "BusinessLine",
+      "date": "2026-09-17",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Adidas cuts nearly 50% workforce at Gurugram Tech Hub, calls it a 'challenging choice'",
+      "title_en": "Adidas cuts nearly 50% workforce at Gurugram Tech Hub, calls it a 'challenging choice'",
+      "url": "https://www.tribuneindia.com/news/business/adidas-cuts-nearly-50-workforce-at-gurugram-tech-hub-calls-it-a-challenging-choice/",
+      "source": "The Tribune India",
+      "date": "2026-09-17",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Adidas begins layoffs at India Tech Hub in Gurgaon, over 350 employees affected",
+      "title_en": "Adidas begins layoffs at India Tech Hub in Gurgaon, over 350 employees affected",
+      "url": "https://economictimes.indiatimes.com/industry/services/retail/adidas-begins-layoffs-at-india-tech-hub-in-gurgaon-over-350-employees-affected/articleshow/134290498.cms",
+      "source": "The Times of India",
       "date": "2026-09-16",
-      "category": "india"
+      "category": "thub"
     },
     {
-      "title_ko": "'Indian economy more likely to be resilient rather than becoming more vulnerable': CEA V. Anantha Nageswaran",
-      "title_en": "'Indian economy more likely to be resilient rather than becoming more vulnerable': CEA V. Anantha Nageswaran",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/indian-economy-more-likely-to-be-resilient-rather-than-becoming-more-vulnerable-cea-v-anantha-nageswaran/articleshow/134265186.cms",
-      "source": "The Times of India",
-      "date": "2026-09-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "India's middle-income trap has a problem money may fix",
-      "title_en": "India's middle-income trap has a problem money may fix",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-can-avoid-middle-income-trap-with-huge-investment-in-education-infra-economist-piketty/articleshow/134254509.cms",
-      "source": "The Times of India",
-      "date": "2026-09-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "'India can escape middle-income trap with investment in education, health'",
-      "title_en": "'India can escape middle-income trap with investment in education, health'",
-      "url": "https://www.business-standard.com/economy/news/india-can-escape-middle-income-trap-with-investment-in-education-health-126091500291_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-15",
-      "category": "india"
-    },
-    {
-      "title_ko": "As private wallets begin to open, India's big future bet takes off",
-      "title_en": "As private wallets begin to open, India's big future bet takes off",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/as-private-wallets-begin-to-open-indias-big-future-bet-takes-off-antler-bertelsmann-kae-capital/articleshow/134236238.cms",
-      "source": "The Times of India",
-      "date": "2026-09-14",
-      "category": "india"
-    },
-    {
-      "title_ko": "Capital formation uptick: is India on the verge of an investment supercycle after a long wait?",
-      "title_en": "Capital formation uptick: is India on the verge of an investment supercycle after a long wait?",
-      "url": "https://www.livemint.com/opinion/online-views/capital-formation-india-on-the-verge-of-an-investment-supercycle-gdp-growth-11789047404442.html",
+      "title_ko": "Adidas layoffs: Nearly half of India Tech Hub workforce in Gurgaon let go, says report. Who was affected?",
+      "title_en": "Adidas layoffs: Nearly half of India Tech Hub workforce in Gurgaon let go, says report. Who was affected?",
+      "url": "https://www.livemint.com/companies/news/adidas-layoffs-nearly-half-of-india-tech-hub-workforce-in-gurgaon-let-go-says-report-who-was-affected-11789566213054.html",
       "source": "Livemint",
-      "date": "2026-09-14",
-      "category": "india"
-    },
-    {
-      "title_ko": "India must sell 'peace of mind': Anand Mahindra wants Goa, Vizag to become India's next medical tourism hub",
-      "title_en": "India must sell 'peace of mind': Anand Mahindra wants Goa, Vizag to become India's next medical tourism hub",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/india-must-sell-peace-of-mind-anand-mahindra-wants-goa-vizag-to-become-indias-next-medical-tourism-hub/articleshow/134118021.cms",
-      "source": "The Times of India",
-      "date": "2026-09-12",
-      "category": "india"
-    },
-    {
-      "title_ko": "India-China trade: The numbers behind the relationship as Xi visits Delhi",
-      "title_en": "India-China trade: The numbers behind the relationship as Xi visits Delhi",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-china-trade-the-numbers-behind-the-relationship-as-xi-visits-delhi/articleshow/134114107.cms",
-      "source": "The Times of India",
-      "date": "2026-09-12",
-      "category": "india"
+      "date": "2026-09-16",
+      "category": "thub"
     },
     {
       "title_ko": "MUFG's Dragon Funds to deepen India-Japan, Asia-Pacific focus; eyes $600 mn fund",
@@ -95,38 +127,6 @@
       "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/landmark-nse-ipo-threatens-to-hollow-out-india-shadow-market/articleshow/134250443.cms",
       "source": "The Times of India",
       "date": "2026-09-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Bourses and brokers may win from India’s proposed auction revamp",
-      "title_en": "Bourses and brokers may win from India’s proposed auction revamp",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bourses-and-brokers-may-win-from-indias-proposed-auction-revamp/articleshow/134249897.cms",
-      "source": "The Times of India",
-      "date": "2026-09-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "AI restraint debate lifts outlook for India tech services stocks",
-      "title_en": "AI restraint debate lifts outlook for India tech services stocks",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-restraint-debate-lifts-outlook-for-india-tech-services-stocks/articleshow/134249766.cms",
-      "source": "The Times of India",
-      "date": "2026-09-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs | TechCrunch",
-      "title_en": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs | TechCrunch",
-      "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/",
-      "source": "TechCrunch",
-      "date": "2026-09-10",
-      "category": "thub"
-    },
-    {
-      "title_ko": "인도 스타트업, 재사용 가능한 로켓 단계 검증을 위한 테스트 및 제조 허브 공개",
-      "title_en": "Indian startup unveils testing & manufacturing hubs to validate reusable rocket stages",
-      "url": "https://timesofindia.indiatimes.com/science/indian-startup-agnikul-cosmos-unveils-testing-manufacturing-hubs-in-chennai-to-validate-reusable-rocket-stages/articleshow/133922997.cms",
-      "source": "The Times of India",
-      "date": "2026-09-08",
       "category": "thub"
     }
   ]
