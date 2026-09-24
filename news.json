@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-24",
   "articles": [
+    {
+      "title_ko": "Fitch raises India FY27 GDP growth forecast to 6.9% from 6.4%, sees 25 bps RBI rate hike in October",
+      "title_en": "Fitch raises India FY27 GDP growth forecast to 6.9% from 6.4%, sees 25 bps RBI rate hike in October",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/fitch-raises-india-fy27-gdp-growth-forecast-to-6-9-from-6-4-sees-25-bps-rbi-rate-hike-in-october/articleshow/134426158.cms",
+      "source": "The Times of India",
+      "date": "2026-09-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "'Growth prompting world to re-rate India'",
+      "title_en": "'Growth prompting world to re-rate India'",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/growth-prompting-world-to-re-rate-india/articleshow/134425367.cms",
+      "source": "The Times of India",
+      "date": "2026-09-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "360 ONE WAM shares in focus after appointing Jefferies India Head and MD as new CEO",
+      "title_en": "360 ONE WAM shares in focus after appointing Jefferies India Head and MD as new CEO",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/360-one-wam-shares-in-focus-after-appointing-jefferies-india-head-and-md-as-new-ceo/articleshow/134425059.cms",
+      "source": "The Times of India",
+      "date": "2026-09-23",
+      "category": "india"
+    },
+    {
+      "title_ko": "CCI approves L’Oreal India’s acquisition of personal care firm Onesto Labs",
+      "title_en": "CCI approves L’Oreal India’s acquisition of personal care firm Onesto Labs",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/cci-approves-loreal-indias-acquisition-of-personal-care-firm-onesto-labs/articleshow/134417248.cms",
+      "source": "The Times of India",
+      "date": "2026-09-22",
+      "category": "india"
+    },
     {
       "title_ko": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
       "title_en": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
@@ -34,36 +66,20 @@
       "category": "india"
     },
     {
-      "title_ko": "Nifty settles above 23,300 as Moody's GDP upgrade, easing oil support sentiment",
-      "title_en": "Nifty settles above 23,300 as Moody's GDP upgrade, easing oil support sentiment",
-      "url": "https://www.business-standard.com/markets/capital-market-news/nifty-settles-above-23-300-as-moody-s-gdp-upgrade-easing-oil-support-sentiment-126091800939_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-18",
-      "category": "india"
+      "title_ko": "Why a unified compliance stack could unlock India’s startup potential",
+      "title_en": "Why a unified compliance stack could unlock India’s startup potential",
+      "url": "https://www.livemint.com/opinion/columns/indias-startups-ecosystem-solving-regulatory-friction-for-global-growth-11789982980882.html",
+      "source": "Livemint",
+      "date": "2026-09-23",
+      "category": "thub"
     },
     {
-      "title_ko": "The mood, as per Moody's: Shocks keep coming, India keeps growing",
-      "title_en": "The mood, as per Moody's: Shocks keep coming, India keeps growing",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-gdp-growth-forecast-economy-moodys-raises-fy27-growth-to-7-amid-middle-east-conflict-oil-shock/articleshow/134330579.cms",
-      "source": "The Times of India",
-      "date": "2026-09-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "Nifty regains 23,300 mark, midcaps, smallcaps gain",
-      "title_en": "Nifty regains 23,300 mark, midcaps, smallcaps gain",
-      "url": "https://www.business-standard.com/markets/capital-market-news/nifty-regains-23-300-mark-midcaps-smallcaps-gain-126091800476_1.html",
+      "title_ko": "205 unicorns abroad, 102 in India: The $560-billion Indian founder story",
+      "title_en": "205 unicorns abroad, 102 in India: The $560-billion Indian founder story",
+      "url": "https://www.business-standard.com/finance/personal-finance/205-unicorns-abroad-102-in-india-the-560-billion-indian-founder-story-126092101392_1.html",
       "source": "Business Standard",
-      "date": "2026-09-18",
-      "category": "india"
-    },
-    {
-      "title_ko": "Moody's raises India GDP growth forecast to 7% for current fiscal",
-      "title_en": "Moody's raises India GDP growth forecast to 7% for current fiscal",
-      "url": "https://www.business-standard.com/economy/news/moody-s-raises-india-gdp-growth-forecast-to-7-for-current-fiscal-126091800196_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-18",
-      "category": "india"
+      "date": "2026-09-22",
+      "category": "thub"
     },
     {
       "title_ko": "KDEM to host Mangaluru Technovanza on Sept 22-23",
@@ -111,22 +127,6 @@
       "url": "https://www.livemint.com/opinion/columns/india-startup-innovation-index-measuring-jobs-patents-exports-11789371010725.html",
       "source": "Livemint",
       "date": "2026-09-16",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Infosys, HCLTech, TCS, other IT stocks soar up to 6%; Nifty IT rallies 5% as global AI slowdown calls boost sentiment",
-      "title_en": "Infosys, HCLTech, TCS, other IT stocks soar up to 6%; Nifty IT rallies 5% as global AI slowdown calls boost sentiment",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-hcltech-tcs-other-it-stocks-soar-up-to-6-nifty-it-rallies-5-as-global-ai-slowdown-calls-boost-sentiment/articleshow/134251675.cms",
-      "source": "The Times of India",
-      "date": "2026-09-15",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Landmark NSE IPO threatens to hollow out India shadow market",
-      "title_en": "Landmark NSE IPO threatens to hollow out India shadow market",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/landmark-nse-ipo-threatens-to-hollow-out-india-shadow-market/articleshow/134250443.cms",
-      "source": "The Times of India",
-      "date": "2026-09-15",
       "category": "thub"
     }
   ]
