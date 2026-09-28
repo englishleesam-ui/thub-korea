@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-28",
   "articles": [
+    {
+      "title_ko": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
+      "title_en": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
+      "url": "https://www.livemint.com/money/bond-market-performed-well-equities-less-so-rbi-deputy-governor-poonam-gupta-on-what-lies-ahead-11790392083806.html",
+      "source": "Livemint",
+      "date": "2026-09-26",
+      "category": "india"
+    },
+    {
+      "title_ko": "Indian economy doing well amid global headwinds, says RBI",
+      "title_en": "Indian economy doing well amid global headwinds, says RBI",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-economy-doing-well-amid-global-headwinds-says-rbi/articleshow/134492276.cms",
+      "source": "The Times of India",
+      "date": "2026-09-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "RBI bulletin: India's financial, external sectors continue to draw strength from resilient domestic economy",
+      "title_en": "RBI bulletin: India's financial, external sectors continue to draw strength from resilient domestic economy",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-bulletin-indias-financial-external-sectors-continue-to-draw-strength-from-resilient-domestic-economy/articleshow/134490507.cms",
+      "source": "The Times of India",
+      "date": "2026-09-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "Rupee gains on FCNR(B) deposits reverse amid crude price spike: RBI report",
+      "title_en": "Rupee gains on FCNR(B) deposits reverse amid crude price spike: RBI report",
+      "url": "https://www.business-standard.com/finance/news/rupee-gains-on-fcnr-b-deposits-reverse-amid-crude-price-spike-rbi-report-126092501094_1.html",
+      "source": "Business Standard",
+      "date": "2026-09-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "Delhi government to shift rented anganwadi centres to MCD schools, CM Rekha Gupta announces",
+      "title_en": "Delhi government to shift rented anganwadi centres to MCD schools, CM Rekha Gupta announces",
+      "url": "https://timesofindia.indiatimes.com/education/news/delhi-government-to-shift-rented-anganwadi-centres-to-mcd-schools-cm-rekha-gupta-announces/articleshow/134480894.cms",
+      "source": "The Times of India",
+      "date": "2026-09-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "CEA flags 3 'near term' headwinds for Indian economy: US ties, energy prices & absence of AI play",
+      "title_en": "CEA flags 3 'near term' headwinds for Indian economy: US ties, energy prices & absence of AI play",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/cea-flags-3-near-term-headwinds-for-indian-economy-us-ties-energy-prices-absence-of-ai-play/articleshow/134480225.cms",
+      "source": "The Times of India",
+      "date": "2026-09-25",
+      "category": "india"
+    },
+    {
+      "title_ko": "Ingram Micro bets on small businesses to drive India growth",
+      "title_en": "Ingram Micro bets on small businesses to drive India growth",
+      "url": "https://www.livemint.com/companies/news/ingram-micro-bets-on-small-businesses-to-drive-india-growth-11790258682503.html",
+      "source": "Livemint",
+      "date": "2026-09-25",
+      "category": "india"
+    },
     {
       "title_ko": "Fitch raises India FY27 GDP growth forecast to 6.9% from 6.4%, sees 25 bps RBI rate hike in October",
       "title_en": "Fitch raises India FY27 GDP growth forecast to 6.9% from 6.4%, sees 25 bps RBI rate hike in October",
@@ -10,60 +66,60 @@
       "category": "india"
     },
     {
-      "title_ko": "'Growth prompting world to re-rate India'",
-      "title_en": "'Growth prompting world to re-rate India'",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/growth-prompting-world-to-re-rate-india/articleshow/134425367.cms",
+      "title_ko": "Assam CM launches Northeast Seva First Innovation Challenge 2026 to turn real world problems into innovation opportunities",
+      "title_en": "Assam CM launches Northeast Seva First Innovation Challenge 2026 to turn real world problems into innovation opportunities",
+      "url": "https://economictimes.indiatimes.com/news/india/assam-cm-launches-northeast-seva-first-innovation-challenge-2026-to-turn-real-world-problems-into-innovation-opportunities/articleshow/134488965.cms",
       "source": "The Times of India",
-      "date": "2026-09-23",
-      "category": "india"
+      "date": "2026-09-25",
+      "category": "thub"
     },
     {
-      "title_ko": "360 ONE WAM shares in focus after appointing Jefferies India Head and MD as new CEO",
-      "title_en": "360 ONE WAM shares in focus after appointing Jefferies India Head and MD as new CEO",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/360-one-wam-shares-in-focus-after-appointing-jefferies-india-head-and-md-as-new-ceo/articleshow/134425059.cms",
+      "title_ko": "India’s startup cash keeps finding one address, with $4.4 billion going to Bengaluru",
+      "title_en": "India’s startup cash keeps finding one address, with $4.4 billion going to Bengaluru",
+      "url": "https://economictimes.indiatimes.com/news/india/indias-startup-cash-keeps-finding-one-address-with-4-4-billion-going-to-bengaluru/articleshow/134479307.cms",
       "source": "The Times of India",
-      "date": "2026-09-23",
-      "category": "india"
+      "date": "2026-09-25",
+      "category": "thub"
     },
     {
-      "title_ko": "CCI approves L’Oreal India’s acquisition of personal care firm Onesto Labs",
-      "title_en": "CCI approves L’Oreal India’s acquisition of personal care firm Onesto Labs",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/cci-approves-loreal-indias-acquisition-of-personal-care-firm-onesto-labs/articleshow/134417248.cms",
+      "title_ko": "At $4.4bn, B’luru tech funding this yr nearly equals next 5 cities combined",
+      "title_en": "At $4.4bn, B’luru tech funding this yr nearly equals next 5 cities combined",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/at-4-4bn-bluru-tech-funding-this-yr-nearly-equals-next-5-cities-combined/articleshow/134469675.cms",
       "source": "The Times of India",
-      "date": "2026-09-22",
-      "category": "india"
+      "date": "2026-09-24",
+      "category": "thub"
     },
     {
-      "title_ko": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
-      "title_en": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
-      "url": "https://economictimes.indiatimes.com/markets/expert-view/1-5-trillion-wealth-transfer-is-coming-how-indias-next-gen-hnis-are-rebuilding-family-portfolios/articleshow/134363752.cms",
-      "source": "The Times of India",
-      "date": "2026-09-20",
-      "category": "india"
-    },
-    {
-      "title_ko": "Fujifilm bets on semiconductors to drive India growth; inks pact with Tata Electronics",
-      "title_en": "Fujifilm bets on semiconductors to drive India growth; inks pact with Tata Electronics",
-      "url": "https://economictimes.indiatimes.com/tech/technology/fujifilm-bets-on-semiconductors-to-drive-india-growth-inks-pact-with-tata-electronics/articleshow/134350286.cms",
-      "source": "The Times of India",
-      "date": "2026-09-19",
-      "category": "india"
-    },
-    {
-      "title_ko": "Uday Kotak calls for fiscal discipline, reforms to make India developed nation by 2047",
-      "title_en": "Uday Kotak calls for fiscal discipline, reforms to make India developed nation by 2047",
-      "url": "https://www.thehindubusinessline.com/economy/uday-kotak-calls-for-fiscal-discipline-reforms-to-make-india-developed-nation-by-2047/article71483574.ece",
+      "title_ko": "India tech funding rises 7% to $10.3 billion in 9M 2026",
+      "title_en": "India tech funding rises 7% to $10.3 billion in 9M 2026",
+      "url": "https://www.thehindubusinessline.com/info-tech/india-tech-funding-rises-7-to-103-billion-in-9m-2026/article71504500.ece",
       "source": "BusinessLine",
-      "date": "2026-09-19",
-      "category": "india"
+      "date": "2026-09-24",
+      "category": "thub"
     },
     {
-      "title_ko": "Moody's raises India FY27 growth forecast to 7%, flags inflation risks",
-      "title_en": "Moody's raises India FY27 growth forecast to 7%, flags inflation risks",
-      "url": "https://www.business-standard.com/economy/news/moody-s-raises-india-fy27-growth-forecast-to-7-flags-inflation-risks-126091801027_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-18",
-      "category": "india"
+      "title_ko": "India tech funding hits $10.3 billion despite fewer deals: Where is the money going?",
+      "title_en": "India tech funding hits $10.3 billion despite fewer deals: Where is the money going?",
+      "url": "https://www.livemint.com/companies/news/india-tech-funding-hits-10-3-billion-despite-fewer-deals-where-is-the-money-going-11790244671385.html",
+      "source": "Livemint",
+      "date": "2026-09-24",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Info Edge shares plunge 7% as bloodbath in PB Fintech shares wipes off Rs 1,809 crore from recruiter's stake. What lies ahead?",
+      "title_en": "Info Edge shares plunge 7% as bloodbath in PB Fintech shares wipes off Rs 1,809 crore from recruiter's stake. What lies ahead?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/info-edge-shares-plunge-7-as-bloodbath-in-pb-fintech-shares-wipes-off-rs-1809-crore-from-recruiters-stake-what-lies-ahead/articleshow/134456914.cms",
+      "source": "The Times of India",
+      "date": "2026-09-24",
+      "category": "thub"
+    },
+    {
+      "title_ko": "Manufacturing, transport firms overtake banks to lead India’s GCC boom",
+      "title_en": "Manufacturing, transport firms overtake banks to lead India’s GCC boom",
+      "url": "https://www.livemint.com/companies/news/manufacturing-automotive-gcc-in-india-global-capability-centres-11790161173032.html",
+      "source": "Livemint",
+      "date": "2026-09-24",
+      "category": "thub"
     },
     {
       "title_ko": "Why a unified compliance stack could unlock India’s startup potential",
@@ -71,62 +127,6 @@
       "url": "https://www.livemint.com/opinion/columns/indias-startups-ecosystem-solving-regulatory-friction-for-global-growth-11789982980882.html",
       "source": "Livemint",
       "date": "2026-09-23",
-      "category": "thub"
-    },
-    {
-      "title_ko": "205 unicorns abroad, 102 in India: The $560-billion Indian founder story",
-      "title_en": "205 unicorns abroad, 102 in India: The $560-billion Indian founder story",
-      "url": "https://www.business-standard.com/finance/personal-finance/205-unicorns-abroad-102-in-india-the-560-billion-indian-founder-story-126092101392_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-22",
-      "category": "thub"
-    },
-    {
-      "title_ko": "KDEM to host Mangaluru Technovanza on Sept 22-23",
-      "title_en": "KDEM to host Mangaluru Technovanza on Sept 22-23",
-      "url": "https://www.thehindubusinessline.com/news/national/kdem-to-host-mangaluru-technovanza-on-sept-22-23/article71476328.ece",
-      "source": "BusinessLine",
-      "date": "2026-09-17",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Adidas cuts nearly 50% workforce at Gurugram Tech Hub, calls it a 'challenging choice'",
-      "title_en": "Adidas cuts nearly 50% workforce at Gurugram Tech Hub, calls it a 'challenging choice'",
-      "url": "https://www.tribuneindia.com/news/business/adidas-cuts-nearly-50-workforce-at-gurugram-tech-hub-calls-it-a-challenging-choice/",
-      "source": "The Tribune India",
-      "date": "2026-09-17",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Adidas begins layoffs at India Tech Hub in Gurgaon, over 350 employees affected",
-      "title_en": "Adidas begins layoffs at India Tech Hub in Gurgaon, over 350 employees affected",
-      "url": "https://economictimes.indiatimes.com/industry/services/retail/adidas-begins-layoffs-at-india-tech-hub-in-gurgaon-over-350-employees-affected/articleshow/134290498.cms",
-      "source": "The Times of India",
-      "date": "2026-09-16",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Adidas layoffs: Nearly half of India Tech Hub workforce in Gurgaon let go, says report. Who was affected?",
-      "title_en": "Adidas layoffs: Nearly half of India Tech Hub workforce in Gurgaon let go, says report. Who was affected?",
-      "url": "https://www.livemint.com/companies/news/adidas-layoffs-nearly-half-of-india-tech-hub-workforce-in-gurgaon-let-go-says-report-who-was-affected-11789566213054.html",
-      "source": "Livemint",
-      "date": "2026-09-16",
-      "category": "thub"
-    },
-    {
-      "title_ko": "MUFG's Dragon Funds to deepen India-Japan, Asia-Pacific focus; eyes $600 mn fund",
-      "title_en": "MUFG's Dragon Funds to deepen India-Japan, Asia-Pacific focus; eyes $600 mn fund",
-      "url": "https://www.livemint.com/companies/news/dragon-funds-mufg-600-million-second-fund-india-japan-startups-growth-equity-11789526229334.html",
-      "source": "Livemint",
-      "date": "2026-09-16",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Beyond the unicorn: why India needs a real innovation index",
-      "title_en": "Beyond the unicorn: why India needs a real innovation index",
-      "url": "https://www.livemint.com/opinion/columns/india-startup-innovation-index-measuring-jobs-patents-exports-11789371010725.html",
-      "source": "Livemint",
-      "date": "2026-09-16",
       "category": "thub"
     }
   ]
