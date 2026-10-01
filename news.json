@@ -1,133 +1,37 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-01",
   "articles": [
     {
-      "title_ko": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
-      "title_en": "Bond market performed well, equities less so: RBI Deputy Governor Poonam Gupta on what lies ahead",
-      "url": "https://www.livemint.com/money/bond-market-performed-well-equities-less-so-rbi-deputy-governor-poonam-gupta-on-what-lies-ahead-11790392083806.html",
-      "source": "Livemint",
-      "date": "2026-09-26",
-      "category": "india"
+      "category": "ai-ax",
+      "title_ko": "텔랑가나 AI 서밋, 기업의 AI 도입과 디지털 전환 방향 논의",
+      "summary_ko": "CII Telangana는 9월 23일 하이데라바드에서 AI Summit 2026을 개최했다. 기업의 AI 도입, 책임 있는 AI, 디지털 인프라와 인재 육성을 논의했으며, 텔랑가나 주정부는 AI 활용을 넘어 세계 시장을 겨냥한 제품과 지식재산 개발을 추진하겠다는 방향을 제시했다.",
+      "source": "City Air News",
+      "date": "2026-09-24",
+      "url": "https://www.cityairnews.com/content/telangana-calls-on-industry-to-build-innovate-and-invest-as-state-drives-ai-ambition-towards-global-impact-telangana-chief-secretary-sanjay-jaju"
     },
     {
-      "title_ko": "Indian economy doing well amid global headwinds, says RBI",
-      "title_en": "Indian economy doing well amid global headwinds, says RBI",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-economy-doing-well-amid-global-headwinds-says-rbi/articleshow/134492276.cms",
-      "source": "The Times of India",
-      "date": "2026-09-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "RBI bulletin: India's financial, external sectors continue to draw strength from resilient domestic economy",
-      "title_en": "RBI bulletin: India's financial, external sectors continue to draw strength from resilient domestic economy",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-bulletin-indias-financial-external-sectors-continue-to-draw-strength-from-resilient-domestic-economy/articleshow/134490507.cms",
-      "source": "The Times of India",
-      "date": "2026-09-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "Rupee gains on FCNR(B) deposits reverse amid crude price spike: RBI report",
-      "title_en": "Rupee gains on FCNR(B) deposits reverse amid crude price spike: RBI report",
-      "url": "https://www.business-standard.com/finance/news/rupee-gains-on-fcnr-b-deposits-reverse-amid-crude-price-spike-rbi-report-126092501094_1.html",
-      "source": "Business Standard",
-      "date": "2026-09-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "Delhi government to shift rented anganwadi centres to MCD schools, CM Rekha Gupta announces",
-      "title_en": "Delhi government to shift rented anganwadi centres to MCD schools, CM Rekha Gupta announces",
-      "url": "https://timesofindia.indiatimes.com/education/news/delhi-government-to-shift-rented-anganwadi-centres-to-mcd-schools-cm-rekha-gupta-announces/articleshow/134480894.cms",
-      "source": "The Times of India",
-      "date": "2026-09-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "CEA flags 3 'near term' headwinds for Indian economy: US ties, energy prices & absence of AI play",
-      "title_en": "CEA flags 3 'near term' headwinds for Indian economy: US ties, energy prices & absence of AI play",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cea-flags-3-near-term-headwinds-for-indian-economy-us-ties-energy-prices-absence-of-ai-play/articleshow/134480225.cms",
-      "source": "The Times of India",
-      "date": "2026-09-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "Ingram Micro bets on small businesses to drive India growth",
-      "title_en": "Ingram Micro bets on small businesses to drive India growth",
-      "url": "https://www.livemint.com/companies/news/ingram-micro-bets-on-small-businesses-to-drive-india-growth-11790258682503.html",
-      "source": "Livemint",
-      "date": "2026-09-25",
-      "category": "india"
-    },
-    {
-      "title_ko": "Fitch raises India FY27 GDP growth forecast to 6.9% from 6.4%, sees 25 bps RBI rate hike in October",
-      "title_en": "Fitch raises India FY27 GDP growth forecast to 6.9% from 6.4%, sees 25 bps RBI rate hike in October",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/fitch-raises-india-fy27-gdp-growth-forecast-to-6-9-from-6-4-sees-25-bps-rbi-rate-hike-in-october/articleshow/134426158.cms",
-      "source": "The Times of India",
+      "category": "ai-ax",
+      "title_ko": "Brahma AI, 기업용 시청각 콘텐츠 AI 사업에 1억5천만 달러 조달",
+      "summary_ko": "로스앤젤레스·런던·뭄바이에서 사업을 전개하는 Brahma AI가 우선주 발행을 통한 1억5천만 달러 조달을 발표했다. 이 가운데 Multiples의 투자액은 1억 달러이며, 회사는 미디어·스포츠·의료·광고 분야의 기업용 콘텐츠 AI 연구개발과 글로벌 사업 확대에 자금을 활용할 계획이다.",
+      "source": "Brahma AI 공식 발표",
       "date": "2026-09-23",
-      "category": "india"
+      "url": "https://www.brahma.io/news/brahma-ai-raises-150-million-round-led-by-multiples"
     },
     {
-      "title_ko": "Assam CM launches Northeast Seva First Innovation Challenge 2026 to turn real world problems into innovation opportunities",
-      "title_en": "Assam CM launches Northeast Seva First Innovation Challenge 2026 to turn real world problems into innovation opportunities",
-      "url": "https://economictimes.indiatimes.com/news/india/assam-cm-launches-northeast-seva-first-innovation-challenge-2026-to-turn-real-world-problems-into-innovation-opportunities/articleshow/134488965.cms",
-      "source": "The Times of India",
-      "date": "2026-09-25",
-      "category": "thub"
+      "category": "ai-ax",
+      "title_ko": "CoRover·Tech Mahindra, 인도산 AI의 기업·공공 부문 확산 위해 협력",
+      "summary_ko": "CoRover와 Tech Mahindra가 소버린 AI, 기업용·에이전트 AI, 디지털 공공 인프라 분야의 협력을 발표했다. BharatGPT와 Project Indus·TechM Orion을 결합해 현지 언어와 업무 환경에 맞는 솔루션을 개발하고, 인도에서 축적한 AI 역량을 해외 시장으로 확장한다는 구상이다.",
+      "source": "Tech Mahindra / PR Newswire",
+      "date": "2026-09-22",
+      "url": "https://www.prnewswire.com/news-releases/coroverai-tech-mahindra-partner-to-accelerate-india-origin-ai-solutions-for-global-markets-302886112.html"
     },
     {
-      "title_ko": "India’s startup cash keeps finding one address, with $4.4 billion going to Bengaluru",
-      "title_en": "India’s startup cash keeps finding one address, with $4.4 billion going to Bengaluru",
-      "url": "https://economictimes.indiatimes.com/news/india/indias-startup-cash-keeps-finding-one-address-with-4-4-billion-going-to-bengaluru/articleshow/134479307.cms",
-      "source": "The Times of India",
-      "date": "2026-09-25",
-      "category": "thub"
-    },
-    {
-      "title_ko": "At $4.4bn, B’luru tech funding this yr nearly equals next 5 cities combined",
-      "title_en": "At $4.4bn, B’luru tech funding this yr nearly equals next 5 cities combined",
-      "url": "https://timesofindia.indiatimes.com/city/bengaluru/at-4-4bn-bluru-tech-funding-this-yr-nearly-equals-next-5-cities-combined/articleshow/134469675.cms",
-      "source": "The Times of India",
-      "date": "2026-09-24",
-      "category": "thub"
-    },
-    {
-      "title_ko": "India tech funding rises 7% to $10.3 billion in 9M 2026",
-      "title_en": "India tech funding rises 7% to $10.3 billion in 9M 2026",
-      "url": "https://www.thehindubusinessline.com/info-tech/india-tech-funding-rises-7-to-103-billion-in-9m-2026/article71504500.ece",
-      "source": "BusinessLine",
-      "date": "2026-09-24",
-      "category": "thub"
-    },
-    {
-      "title_ko": "India tech funding hits $10.3 billion despite fewer deals: Where is the money going?",
-      "title_en": "India tech funding hits $10.3 billion despite fewer deals: Where is the money going?",
-      "url": "https://www.livemint.com/companies/news/india-tech-funding-hits-10-3-billion-despite-fewer-deals-where-is-the-money-going-11790244671385.html",
-      "source": "Livemint",
-      "date": "2026-09-24",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Info Edge shares plunge 7% as bloodbath in PB Fintech shares wipes off Rs 1,809 crore from recruiter's stake. What lies ahead?",
-      "title_en": "Info Edge shares plunge 7% as bloodbath in PB Fintech shares wipes off Rs 1,809 crore from recruiter's stake. What lies ahead?",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/info-edge-shares-plunge-7-as-bloodbath-in-pb-fintech-shares-wipes-off-rs-1809-crore-from-recruiters-stake-what-lies-ahead/articleshow/134456914.cms",
-      "source": "The Times of India",
-      "date": "2026-09-24",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Manufacturing, transport firms overtake banks to lead India’s GCC boom",
-      "title_en": "Manufacturing, transport firms overtake banks to lead India’s GCC boom",
-      "url": "https://www.livemint.com/companies/news/manufacturing-automotive-gcc-in-india-global-capability-centres-11790161173032.html",
-      "source": "Livemint",
-      "date": "2026-09-24",
-      "category": "thub"
-    },
-    {
-      "title_ko": "Why a unified compliance stack could unlock India’s startup potential",
-      "title_en": "Why a unified compliance stack could unlock India’s startup potential",
-      "url": "https://www.livemint.com/opinion/columns/indias-startups-ecosystem-solving-regulatory-friction-for-global-growth-11789982980882.html",
-      "source": "Livemint",
-      "date": "2026-09-23",
-      "category": "thub"
+      "category": "ai-ax",
+      "title_ko": "카카티야대학교·T-Hub, 텔랑가나 전 지역 참여 해커톤 추진 논의",
+      "summary_ko": "카카티야대학교와 T-Hub가 텔랑가나 각 지역의 학생·청년·기술인력이 참여하는 대규모 해커톤 개최 방안을 논의했다. 주 교육부와의 협력도 구상 중이며, 보도 시점에는 개최일과 모집 일정이 확정되지 않은 준비 단계다.",
+      "source": "Hindudayashankar",
+      "date": "2026-09-21",
+      "url": "https://hindudayashankar.com/education/kakatiya-university-to-collaborate-with-t-hub-to-host-the-countrys-largest-hackathon/"
     }
   ]
 }

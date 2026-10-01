@@ -631,6 +631,7 @@
       font-size: .95rem; font-weight: 700; color: var(--navy);
       line-height: 1.5; margin-bottom: 8px; word-break: keep-all;
     }
+    .news-card-summary { margin: 10px 0 12px; color: var(--muted); font-size: 15px; line-height: 1.8; overflow-wrap: anywhere; }
     .news-card-meta {
       display: flex; align-items: center; gap: 12px;
       font-size: .75rem; color: var(--muted);
@@ -1372,19 +1373,10 @@
   <div class="container">
     <div class="section-header">
       <div class="section-tag">News</div>
-      <h2 class="section-title">인도·T-HUB 최신 소식</h2>
-      <p class="section-desc">인도 경제와 T-HUB의 활동을 글로벌 미디어의 시각으로 전합니다.</p>
+      <h2 class="section-title">인도 AI, AX 뉴스</h2>
+      <p class="section-desc">인도의 AI·AX·DX와 스타트업 동향을 한글 요약과 원문으로 만나보세요.</p>
     </div>
-    <div class="news-tabs">
-      <button class="ntab active" onclick="showNewsTab(0)">인도 경제 뉴스</button>
-      <button class="ntab" onclick="showNewsTab(1)">인도 스타트업·테크</button>
-    </div>
-    <div class="news-panel active" id="npanel-0">
-      <div class="news-list" id="news-india"><div class="news-empty">뉴스를 불러오는 중...</div></div>
-    </div>
-    <div class="news-panel" id="npanel-1">
-      <div class="news-list" id="news-thub"><div class="news-empty">뉴스를 불러오는 중...</div></div>
-    </div>
+    <div class="news-list" id="news-ai" aria-live="polite"><div class="news-empty">뉴스를 불러오는 중...</div></div>
     <div class="news-updated" id="news-updated"></div>
   </div>
 </section>
@@ -1499,65 +1491,59 @@
 <button id="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">TOP</button>
 
 <script>
-  // ── 뉴스 탭 ──────────────────────────────────────────
-  function showNewsTab(idx) {
-    document.querySelectorAll('.ntab').forEach((t, i) => t.classList.toggle('active', i === idx));
-    document.querySelectorAll('.news-panel').forEach((p, i) => p.classList.toggle('active', i === idx));
-  }
-
-  function renderNews(articles, category, elId) {
-    const el = document.getElementById(elId);
-    const filtered = articles.filter(a => a.category === category);
-    if (!filtered.length) {
-      el.innerHTML = '<div class="news-empty">현재 등록된 뉴스가 없습니다.</div>';
-      return;
+  // Public news uses the same verified sources as the email briefing.
+  function renderPublicNews(data) {
+    const list = document.getElementById('news-ai');
+    list.replaceChildren();
+    const articles = Array.isArray(data.articles) ? data.articles : [];
+    const seen = new Set();
+    for (const article of articles) {
+      if (article.category !== 'ai-ax' || !article.title_ko || !article.summary_ko) continue;
+      let url;
+      try { url = new URL(article.url); } catch { continue; }
+      if (url.protocol !== 'https:' || seen.has(url.href)) continue;
+      seen.add(url.href);
+      const card = document.createElement('article');
+      card.className = 'news-card';
+      const number = document.createElement('div');
+      number.className = 'news-card-num';
+      number.textContent = String(seen.size).padStart(2, '0');
+      const body = document.createElement('div');
+      body.className = 'news-card-body';
+      const title = document.createElement('h3');
+      title.className = 'news-card-title';
+      title.textContent = article.title_ko;
+      const summary = document.createElement('p');
+      summary.className = 'news-card-summary';
+      summary.textContent = article.summary_ko;
+      const meta = document.createElement('div');
+      meta.className = 'news-card-meta';
+      const source = document.createElement('span');
+      source.className = 'news-card-source';
+      source.textContent = article.source;
+      const date = document.createElement('time');
+      date.textContent = article.date;
+      date.dateTime = article.date;
+      meta.append(source, date);
+      body.append(title, summary, meta);
+      const link = document.createElement('a');
+      link.className = 'news-card-link';
+      link.href = url.href;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = '원문 읽기 ↗';
+      link.setAttribute('aria-label', article.title_ko + ' 원문 읽기 (새 탭)');
+      card.append(number, body, link);
+      list.append(card);
     }
-    el.innerHTML = filtered.map((a, i) => `
-      <div class="news-card">
-        <div class="news-card-num">${String(i + 1).padStart(2, '0')}</div>
-        <div class="news-card-body">
-          <div class="news-card-title">${a.title_ko}</div>
-          <div class="news-card-meta">
-            <span class="news-card-source">${a.source}</span>
-            <span>${a.date}</span>
-          </div>
-        </div>
-        <a class="news-card-link" href="${a.url}" target="_blank" rel="noopener">원문 보기</a>
-      </div>`).join('');
+    if (!seen.size) list.textContent = '새로운 AI·AX·DX 및 스타트업 소식을 준비하고 있습니다.';
+    if (seen.size && data.last_updated) document.getElementById('news-updated').textContent = '최종 업데이트: ' + data.last_updated;
   }
+  fetch('./news.json', { cache: 'no-cache' })
+    .then(response => { if (!response.ok) throw new Error('News unavailable'); return response.json(); })
+    .then(renderPublicNews)
+    .catch(() => { document.getElementById('news-ai').textContent = '뉴스를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.'; });
 
-  fetch('./news.json')
-    .then(r => r.json())
-    .then(data => {
-      renderNews(data.articles, 'india', 'news-india');
-      renderNews(data.articles, 'thub',  'news-thub');
-      if (data.last_updated) {
-        document.getElementById('news-updated').textContent = '최종 업데이트: ' + data.last_updated;
-      }
-    })
-    .catch(() => {
-      const fallback = (links) => links.map((l, i) => `
-        <div class="news-card">
-          <div class="news-card-num">${String(i + 1).padStart(2, '0')}</div>
-          <div class="news-card-body">
-            <div class="news-card-title">${l.title}</div>
-            <div class="news-card-meta"><span class="news-card-source">${l.source}</span></div>
-          </div>
-          <a class="news-card-link" href="${l.url}" target="_blank" rel="noopener">바로가기</a>
-        </div>`).join('');
-      document.getElementById('news-india').innerHTML = fallback([
-        { title: '인도 경제 최신 뉴스 — The Economic Times', source: 'Economic Times', url: 'https://economictimes.indiatimes.com/news/economy' },
-        { title: '인도 비즈니스 뉴스 — Business Standard', source: 'Business Standard', url: 'https://www.business-standard.com/economy' },
-        { title: 'KOTRA 인도 시장 뉴스', source: 'KOTRA 해외시장뉴스', url: 'https://dream.kotra.or.kr/kotranews/index.do' },
-      ]);
-      document.getElementById('news-thub').innerHTML = fallback([
-        { title: 'T-HUB 공식 뉴스룸', source: 'T-HUB', url: 'https://t-hub.co/media/' },
-        { title: '인도 스타트업 뉴스 — YourStory', source: 'YourStory', url: 'https://yourstory.com' },
-        { title: '인도 테크 뉴스 — Inc42', source: 'Inc42', url: 'https://inc42.com' },
-      ]);
-    });
-
-  // ─────────────────────────────────────────────────────
   function toggleMenu() {
     document.getElementById('mobile-menu').classList.toggle('open');
   }
@@ -1641,3 +1627,4 @@
 </script>
 </body>
 </html>
+
