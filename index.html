@@ -298,6 +298,23 @@
       font-size: 2rem; font-weight: 900; color: var(--navy); display: block;
     }
     .stat-box .lbl { font-size: .7rem; color: var(--muted); margin-top: 6px; font-weight: 600; letter-spacing: .03em; }
+    .campus-showcase {
+      position: relative; min-height: 350px; margin-top: 52px; overflow: hidden;
+      border-radius: 6px; background: linear-gradient(115deg, #071426 0%, #0d2946 62%, #1b4268 100%);
+      box-shadow: 0 18px 46px rgba(10,30,54,.18);
+    }
+    .campus-showcase::before {
+      content: ''; position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+      background-size: 34px 34px; opacity: .45;
+    }
+    .campus-copy {
+      position: relative; z-index: 1; width: 47%; padding: 58px 0 54px 56px; color: white;
+    }
+    .campus-kicker { color: #f09a63; font-size: .72rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 17px; }
+    .campus-copy h4 { font-size: clamp(1.45rem, 2.4vw, 2.15rem); line-height: 1.3; letter-spacing: -.025em; margin-bottom: 14px; }
+    .campus-copy p { max-width: 355px; color: rgba(255,255,255,.7); font-size: .9rem; line-height: 1.75; word-break: keep-all; }
+    .campus-photo { position: absolute; z-index: 1; width: 66%; height: 100%; right: -2%; bottom: -1%; object-fit: contain; object-position: right bottom; filter: drop-shadow(-12px 18px 18px rgba(0,0,0,.24)); }
 
     /* ── 왜 인도인가 ──────────────────────────── */
     #why { background: var(--light); }
@@ -681,6 +698,7 @@
       .nav-links, .nav-cta { display: none; }
       .nav-hamburger { display: flex; }
       .about-grid, .coop-grid { grid-template-columns: 1fr; gap: 44px; }
+      .campus-copy { width: 51%; }
       .why-grid { grid-template-columns: 1fr 1fr; }
       .tpanel.active { grid-template-columns: 1fr; }
       .prog-grid { grid-template-columns: 1fr; }
@@ -690,6 +708,10 @@
       section { padding: 68px 20px; }
       .why-grid { grid-template-columns: 1fr; }
       .stats-grid { grid-template-columns: 1fr 1fr; }
+      .campus-showcase { min-height: 450px; margin-top: 36px; }
+      .campus-copy { width: auto; padding: 38px 30px 0; }
+      .campus-copy p { max-width: 300px; }
+      .campus-photo { width: 112%; height: 280px; right: -16%; bottom: 0; object-position: right bottom; }
       .hero-stats { flex-direction: column; padding-top: 28px; gap: 20px; }
       .hstat { border-right: none; padding: 0; }
       .tpanel-kpi { grid-template-columns: 1fr 1fr; }
@@ -805,10 +827,10 @@
       <em>T-HUB</em>
     </h1>
     <p class="hero-sub">
-      T-HUB는 인도 텔랑가나 주정부와 명문 대학들이 공동 설립한
-      세계 최대 규모의 혁신 캠퍼스입니다.<br>
-      2,300개 이상의 스타트업을 지원해 온 검증된 생태계가
-      이제 한국의 기업·기관·대학과 만납니다.
+      T-HUB는 텔랑가나의 공공·민간·학계가 함께 만든
+      인도 대표 스타트업·혁신 플랫폼입니다.<br>
+      3,300개 이상의 스타트업과 200개 이상의 투자자를 연결해 온 생태계가
+      한국의 기업·기관·대학에 인도의 실제 협력 경로를 제시합니다.
     </p>
     <div class="hero-btns">
       <a class="btn-primary" href="#contact">협력 문의하기</a>
@@ -816,24 +838,24 @@
     </div>
     <div class="hero-stats">
       <div class="hstat">
-        <span class="hstat-num">2,300<span>+</span></span>
+        <span class="hstat-num">3,300<span>+</span></span>
         <div class="hstat-label">지원 스타트업</div>
       </div>
       <div class="hstat">
-        <span class="hstat-num">$2B<span>+</span></span>
-        <div class="hstat-label">누적 투자 유치</div>
+        <span class="hstat-num">200<span>+</span></span>
+        <div class="hstat-label">투자자 네트워크</div>
       </div>
       <div class="hstat">
         <span class="hstat-num">290<span>+</span></span>
         <div class="hstat-label">전문 멘토</div>
       </div>
       <div class="hstat">
-        <span class="hstat-num" style="font-size:1.4rem">세계 최대</span>
-        <div class="hstat-label">스타트업 허브 면적</div>
+        <span class="hstat-num">80<span>+</span></span>
+        <div class="hstat-label">기업 파트너</div>
       </div>
       <div class="hstat">
-        <span class="hstat-num">100<span>+</span></span>
-        <div class="hstat-label">글로벌 프로그램</div>
+        <span class="hstat-num">15<span>+</span></span>
+        <div class="hstat-label">국제 파트너</div>
       </div>
     </div>
   </div>
@@ -849,15 +871,14 @@
                alt="T-HUB Logo"
                onerror="this.style.display='none'">
         </div>
-        <h3>인도를 넘어 세계를 이끄는<br>혁신 생태계의 중심</h3>
+        <h3>인도 시장 진입부터<br>공동사업까지 연결하는 혁신 플랫폼</h3>
         <p>
-          T-HUB는 2015년 인도 텔랑가나 주정부와 IIIT 하이데라바드, ISB, NALSAR가 공동 설립한
-          <strong>세계 최대 규모의 스타트업 허브</strong>입니다. 공공과 민간이 함께 만드는 인도형 혁신 생태계 모델로,
-          스타트업·대기업·정부·투자자·학계를 하나의 플랫폼으로 연결합니다.
+          T-HUB는 2015년 설립된 <strong>Section 8 비영리 조직</strong>으로, 텔랑가나의 공공·민간 파트너십을 기반으로 운영됩니다.
+          스타트업, 대기업, 투자자, 멘토, 대학, 정부기관을 한 플랫폼에서 연결해 아이디어 검증부터 시장 진출과 투자 연계까지 지원합니다.
         </p>
         <p>
-          프랑스 Station F의 1.5배에 달하는 <strong>572,000 sq ft(약 53,000㎡)</strong> 규모에
-          인도 최초의 Google for Startups Hub를 운영하며 글로벌 혁신의 최전선을 이끌고 있습니다.
+          하이데라바드의 <strong>572,000 sq ft(약 53,000㎡)</strong> 캠퍼스에는 스타트업, 투자자, 은행, 기업 파트너와
+          대형 행사 공간이 집적되어 있습니다. 단순한 입주 공간이 아니라, 기술 검증·고객 발굴·투자·국제 협력을 함께 설계하는 실행 기반입니다.
         </p>
         <p>
           2022년 인도 국가 스타트업 어워드 <strong>최우수 인큐베이터</strong>,
@@ -865,19 +886,19 @@
         </p>
         <div class="about-badges">
           <div class="badge">Best Incubator in India 2022</div>
-          <div class="badge">Google for Startups Hub 운영</div>
+          <div class="badge">공공-민간 혁신 모델</div>
           <div class="badge">2015년 설립 · 10년 역사</div>
-          <div class="badge">세계 3위 스타트업 생태계</div>
+          <div class="badge">11개국 이상 · 15개 이상 국제 파트너</div>
         </div>
       </div>
       <div class="stats-grid">
         <div class="stat-box">
-          <span class="num">2,300+</span>
+          <span class="num">3,300+</span>
           <div class="lbl">지원 스타트업</div>
         </div>
         <div class="stat-box">
-          <span class="num">$2B+</span>
-          <div class="lbl">누적 투자 유치 (20억 달러)</div>
+          <span class="num">80+</span>
+          <div class="lbl">기업 파트너</div>
         </div>
         <div class="stat-box">
           <span class="num">290+</span>
@@ -892,11 +913,19 @@
           <div class="lbl">혁신 파트너</div>
         </div>
         <div class="stat-box">
-          <span class="num">2,000+</span>
-          <div class="lbl">개최 이벤트</div>
+          <span class="num">200+</span>
+          <div class="lbl">가치 제공 파트너</div>
         </div>
       </div>
     </div>
+    <figure class="campus-showcase">
+      <figcaption class="campus-copy">
+        <div class="campus-kicker">Hyderabad Campus</div>
+        <h4>현장에서 시작되는<br>인도 혁신 협력</h4>
+        <p>하이데라바드에 위치한 T-HUB 본사입니다. 스타트업, 기업, 투자자, 멘토와 국제 파트너가 이 공간에서 만나 아이디어를 시장의 실행 과제로 전환합니다.</p>
+      </figcaption>
+      <img class="campus-photo" src="assets/t-hub-hyderabad-campus.png" alt="하이데라바드 T-HUB 본사 전경" loading="lazy">
+    </figure>
   </div>
 </section>
 
@@ -977,7 +1006,7 @@
       <div class="why-card">
         <div class="why-num">06</div>
         <h4>AI·딥테크 혁신의 중심</h4>
-        <p>Google, Microsoft, AWS가 인도를 <span class="hl">글로벌 AI 핵심 거점</span>으로 집중 투자 중. T-HUB의 MATH AI 센터를 통해 세계 수준의 AI·ML 기술 스타트업과 직접 연결됩니다.</p>
+        <p>인도는 AI, 소프트웨어, 데이터 기술을 빠르게 사업화하는 시장입니다. T-HUB는 AI를 포함해 10개 이상의 산업 분야에서 활동하는 스타트업·기업·투자자 네트워크를 연결합니다.</p>
       </div>
     </div>
   </div>
@@ -1011,22 +1040,22 @@
           IT 기업만을 위한 곳이 아닙니다. 제조, 콘텐츠, 소비재, 서비스 —
           업종과 관계없이 14억 인도 시장의 문을 두드리는 한국 기업에게,
           가장 어려운 과제는 늘 같습니다: <strong style="color:var(--navy)">"믿을 수 있는 현지 파트너를 어떻게 찾는가."</strong>
-          주정부가 함께 설립·운영하는 T-HUB의 검증된 생태계가
-          그 첫 단추를 안전하게 끼워드립니다.
+          T-HUB의 현지 생태계는 시장 검증, 파트너 탐색, 현지 네트워크 구축이라는
+          첫 단추를 체계적으로 설계하도록 돕습니다.
         </p>
         <div class="benefit-list">
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
               <strong>소프트랜딩 지원</strong>
-              <span>인도 현지 사무공간, 법인 설립, 규제 자문 등 초기 정착 전 과정 지원</span>
+              <span>시장 진단, 현지 이해관계자 연결, 실행 경로 설계를 프로그램 범위에 맞추어 지원</span>
             </div>
           </div>
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
               <strong>현지 파트너 매칭</strong>
-              <span>T-HUB 네트워크 내 200개 이상 기업 및 투자자와의 비즈니스 매칭 서비스</span>
+              <span>80개 이상 기업 파트너와 200개 이상 투자자 네트워크를 활용한 맞춤형 연결</span>
             </div>
           </div>
           <div class="benefit-item">
@@ -1053,8 +1082,8 @@
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>T-Bridge 프로그램 연계</strong>
-              <span>T-HUB 공식 국제화 프로그램을 통한 체계적인 글로벌 진출 지원</span>
+              <strong>IMAP 연계</strong>
+              <span>India Market Access Program을 통한 시장 이해, 파트너 발굴, 현지 실행 준비</span>
             </div>
           </div>
         </div>
@@ -1064,8 +1093,8 @@
         <div class="tpanel-kpi">
           <div class="tpanel-kpi-item"><div class="k-num">14억</div><div class="k-lbl">소비자 시장 인구</div></div>
           <div class="tpanel-kpi-item"><div class="k-num">7.2%</div><div class="k-lbl">GDP 성장률 (2024)</div></div>
-          <div class="tpanel-kpi-item"><div class="k-num">200+</div><div class="k-lbl">T-HUB 입주 대기업</div></div>
-          <div class="tpanel-kpi-item"><div class="k-num">100+</div><div class="k-lbl">국제 협력 프로그램</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">80+</div><div class="k-lbl">기업 파트너</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">15+</div><div class="k-lbl">국제 파트너</div></div>
         </div>
         <div class="tpanel-quote">
           T-HUB는 스타트업·대기업·정부·투자자를 하나로 연결하는 통합 플랫폼입니다. 검증된 현지 네트워크를 통해 한국 기업의 시행착오를 최소화합니다.
@@ -1079,16 +1108,16 @@
         <div class="tpanel-label">Tech Collaboration</div>
         <h3>인도 최첨단 IT 기술로<br>혁신을 가속하세요</h3>
         <p class="sub">
-          AI, 핀테크, 헬스테크, IoT 분야에서 세계 수준의 기술을 보유한 인도 스타트업과
-          T-HUB를 통해 직접 연결하세요. 2,300개 이상의 스타트업 풀에서
-          최적의 기술 파트너를 찾아드립니다.
+          AI, 헬스케어, 모빌리티·EV, 반도체, 지속가능성, 우주기술 등 폭넓은 분야의 스타트업과
+          연결할 수 있습니다. 3,300개 이상의 스타트업 생태계에서 과제와 시장성에 맞는
+          기술 파트너 발굴 과정을 설계합니다.
         </p>
         <div class="benefit-list">
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>AI · ML 기술 매칭</strong>
-              <span>MATH AI 센터를 통한 인도 최고 수준의 AI·머신러닝 스타트업 연결</span>
+              <strong>분야별 기술 매칭</strong>
+              <span>기업의 기술·사업 과제에 맞는 스타트업, 멘토, 투자자 및 실증 파트너 탐색</span>
             </div>
           </div>
           <div class="benefit-item">
@@ -1108,8 +1137,8 @@
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>공동 R&D 프로젝트</strong>
-              <span>한국 기업과 인도 스타트업의 공동 기술 개발 및 지식재산권 공유 협약 지원</span>
+              <strong>공동 실증 및 사업개발</strong>
+              <span>시장 검증, 파일럿, 공동 사업개발의 가능성을 검토하고 실행 파트너를 연결</span>
             </div>
           </div>
         </div>
@@ -1118,12 +1147,12 @@
         <h4>인도 IT 기술 현황</h4>
         <div class="tpanel-kpi">
           <div class="tpanel-kpi-item"><div class="k-num">150만</div><div class="k-lbl">연간 IT 인재 배출</div></div>
-          <div class="tpanel-kpi-item"><div class="k-num">2,300+</div><div class="k-lbl">기술 스타트업</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">3,300+</div><div class="k-lbl">스타트업 생태계</div></div>
           <div class="tpanel-kpi-item"><div class="k-num">글로벌 1위</div><div class="k-lbl">IT 아웃소싱</div></div>
-          <div class="tpanel-kpi-item"><div class="k-num">MATH</div><div class="k-lbl">AI·ML 혁신 센터</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">10+</div><div class="k-lbl">산업 분야 포트폴리오</div></div>
         </div>
         <div class="tpanel-quote">
-          Google, Microsoft, AWS가 인도를 글로벌 AI 핵심 거점으로 두고 투자를 확대하고 있습니다. T-HUB는 이 혁신 생태계의 중심에서 한국 기업의 기술 파트너를 연결합니다.
+          T-HUB는 스타트업의 기술 역량만이 아니라 기업, 투자자, 멘토, 연구기관을 함께 연결합니다. 기술 도입 검토부터 공동 실증의 다음 단계까지 하나의 흐름으로 설계할 수 있습니다.
         </div>
       </div>
     </div>
@@ -1189,36 +1218,35 @@
         <div class="tpanel-label">Academia</div>
         <h3>한국 대학교를 위한<br>글로벌 혁신 교육의 창구</h3>
         <p class="sub">
-          IIIT 하이데라바드, ISB 등 세계 수준의 인도 대학 및 연구기관과 협력하는
-          T-HUB를 통해 한국 대학교의 글로벌 혁신 교육과 연구 역량을 강화하세요.
+          T-HUB의 대학·스타트업·기업 네트워크를 통해 한국 대학의 교육, 창업, 현장학습을 인도 현지 과제와 연결할 수 있습니다.
         </p>
         <div class="benefit-list">
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>공동 연구 프로젝트</strong>
-              <span>AI, 바이오테크, 우주항공 등 첨단 분야 한-인도 공동 연구 및 논문 협력</span>
+              <strong>교원 역량 강화</strong>
+              <span>인큐베이션, 멘토링, 펀딩, 스타트업 생태계 운영을 주제로 한 워크숍과 현장 방문</span>
             </div>
           </div>
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>학생 · 교수 교류 프로그램</strong>
-              <span>T-HUB 인턴십, 교환학생, 창업 캠프 등 인도 현지 체험 프로그램 연계</span>
+              <strong>학생 몰입·인턴십</strong>
+              <span>인도 혁신 생태계 소개, 창업가·기업 만남, 현지 스타트업 실무 경험을 결합한 프로그램</span>
             </div>
           </div>
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>스타트업 창업 프로그램</strong>
-              <span>대학 내 T-HUB 연계 창업 교육 및 인도 시장을 겨냥한 스타트업 인큐베이팅</span>
+              <strong>창업·시장진입 프로그램</strong>
+              <span>학생·대학 스타트업을 위한 India Immersion, 시장 검증, 파트너 발굴 과정 설계</span>
             </div>
           </div>
           <div class="benefit-item">
             <div class="bi-check">→</div>
             <div class="bi-text">
-              <strong>글로벌 네트워크 확장</strong>
-              <span>T-HUB를 통한 200개 이상 글로벌 파트너 대학 및 연구기관 네트워크 접근</span>
+              <strong>공동 커리큘럼 개발</strong>
+              <span>EV·그린테크 등 산업 수요를 반영한 국제 공동 교육과 Train-the-Trainer 모델 협력</span>
             </div>
           </div>
         </div>
@@ -1228,11 +1256,11 @@
         <div class="tpanel-kpi">
           <div class="tpanel-kpi-item"><div class="k-num">IIIT-H</div><div class="k-lbl">공동 설립 대학</div></div>
           <div class="tpanel-kpi-item"><div class="k-num">ISB</div><div class="k-lbl">비즈니스 스쿨 협력</div></div>
-          <div class="tpanel-kpi-item"><div class="k-num">400+</div><div class="k-lbl">글로벌 네트워크</div></div>
-          <div class="tpanel-kpi-item"><div class="k-num">MATH</div><div class="k-lbl">AI 혁신 연구센터</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">11+</div><div class="k-lbl">국제 협력 국가</div></div>
+          <div class="tpanel-kpi-item"><div class="k-num">15+</div><div class="k-lbl">국제 파트너</div></div>
         </div>
         <div class="tpanel-quote">
-          T-HUB는 IIIT-H, ISB 등 공동 설립 대학과 함께 학문적 역량과 기업 혁신을 연결하는 지식 생태계를 운영합니다. 한국 대학에 연구·교류·창업의 실질적 접점을 제공합니다.
+          실제 대학 협력은 교원 대상 인큐베이션 교육, 학생 몰입 프로그램, 스타트업 인턴십, 공동 커리큘럼 개발처럼 실행 가능한 단위로 구성할 수 있습니다. 대학의 목표와 참여자 수준에 맞춰 기간과 내용을 설계합니다.
         </div>
       </div>
     </div>
@@ -1246,48 +1274,48 @@
       <div class="section-tag">Programs</div>
       <h2 class="section-title">T-HUB 주요 협력 프로그램</h2>
       <p class="section-desc">
-        T-HUB가 운영하는 검증된 프로그램을 통해 체계적으로 인도와 연결하세요.
+        시장 이해에서 현지 몰입, 파트너 발굴, 공동 과제 설계까지. 목적과 참여자에 맞는 프로그램을 조합할 수 있습니다.
       </p>
     </div>
     <div class="prog-grid">
       <div class="prog-card">
         <div class="prog-category">국제화 · 시장 진출</div>
-        <h4>T-Bridge — 글로벌 시장 진출 프로그램</h4>
-        <p>T-HUB의 공식 국제화 프로그램으로, 한국 기업과 스타트업이 인도 시장에 안착할 수 있도록 현지 파트너 매칭, 규제 자문, 네트워크 구축을 지원합니다. 방글라데시, 우즈베키스탄, 일본, 한국, UAE 등 다양한 국가와 협력 중입니다.</p>
+        <h4>India Market Access Program (IMAP)</h4>
+        <p>인도 진출을 검토하는 해외 스타트업과 기업을 위한 시장접근 프로그램입니다. 현지 시장과 규제 환경을 이해하고, 멘토·기업·투자자 네트워크와의 접점을 만들어 실제 진출 가능성을 검증합니다.</p>
         <div class="prog-tags">
-          <span class="prog-tag">소프트랜딩</span>
-          <span class="prog-tag">파트너 매칭</span>
-          <span class="prog-tag">글로벌 네트워크</span>
+          <span class="prog-tag">시장 진단</span>
+          <span class="prog-tag">현지 네트워크</span>
+          <span class="prog-tag">진출 준비</span>
         </div>
       </div>
       <div class="prog-card">
-        <div class="prog-category">한-인도 성장 지원</div>
-        <h4>India Market Access Bridge</h4>
-        <p>인도 시장 진출을 원하는 한국 스타트업과 중소기업을 위한 맞춤형 액셀러레이터 프로그램. KOSME와의 MoU를 기반으로 공동 운영하며, 시장 분석에서 고객 발굴까지 실질적인 인도 시장 접근 기회를 제공합니다.</p>
+        <div class="prog-category">현지 이해 · 몰입</div>
+        <h4>India Immersion Program</h4>
+        <p>하이데라바드 현지에서 T-HUB와 텔랑가나 혁신 생태계를 직접 경험하는 프로그램입니다. 스타트업, 대기업, 투자자, 규제기관과의 만남 및 분야별 인사이트를 통해 인도 사업의 전제와 우선순위를 구체화합니다.</p>
         <div class="prog-tags">
-          <span class="prog-tag">KOSME 연계</span>
-          <span class="prog-tag">시장 분석</span>
-          <span class="prog-tag">고객 발굴</span>
+          <span class="prog-tag">현지 방문</span>
+          <span class="prog-tag">생태계 투어</span>
+          <span class="prog-tag">1:1 미팅</span>
         </div>
       </div>
       <div class="prog-card">
-        <div class="prog-category">AI · 딥테크</div>
-        <h4>MATH AI 센터 — AI·ML 혁신 허브</h4>
-        <p>인도 과학기술부(DST)와 T-HUB가 공동 운영하는 AI·머신러닝 전문 혁신 센터. Google, AWS 등 글로벌 빅테크와 연계하여 인도 최고 수준의 AI 스타트업 및 연구 역량에 직접 접근할 수 있습니다.</p>
+        <div class="prog-category">대학 · 인재 · 창업</div>
+        <h4>Quick Immersion &amp; Future Innovators</h4>
+        <p>대학과 청년 창업가를 위한 단기 몰입 및 창업 프로그램입니다. 창업 아이디어의 검증, 멘토링, 창업가와의 교류, 인도 스타트업 생태계 이해를 결합해 참여자가 다음 단계를 선택할 수 있도록 돕습니다.</p>
         <div class="prog-tags">
-          <span class="prog-tag">AI / ML</span>
-          <span class="prog-tag">딥테크</span>
-          <span class="prog-tag">R&D 협력</span>
+          <span class="prog-tag">학생·교원</span>
+          <span class="prog-tag">창업 교육</span>
+          <span class="prog-tag">멘토링</span>
         </div>
       </div>
       <div class="prog-card">
-        <div class="prog-category">기업 혁신</div>
-        <h4>Corporate Innovation Conclave</h4>
-        <p>T-HUB 최대 연간 행사로, 스타트업과 대기업의 혁신 협력을 촉진하는 플랫폼입니다. 한국 기업이 참가하여 최신 인도 기술 트렌드를 파악하고 잠재적 파트너를 발굴할 수 있는 최고의 기회입니다.</p>
+        <div class="prog-category">공동 과제 · 국제 협력</div>
+        <h4>Virtual Incubation &amp; Bilateral Innovation Challenge</h4>
+        <p>온라인 기반의 인큐베이션 과정과 양국 간 혁신 과제를 결합한 협력 모델입니다. 공동 문제를 정의하고, 스타트업·기업·대학이 함께 해결책을 발굴하며, 필요에 따라 현지 실증과 후속 시장 진입을 연결합니다.</p>
         <div class="prog-tags">
-          <span class="prog-tag">데모데이</span>
-          <span class="prog-tag">투자 기회</span>
-          <span class="prog-tag">네트워킹</span>
+          <span class="prog-tag">공동 과제</span>
+          <span class="prog-tag">온라인 인큐베이팅</span>
+          <span class="prog-tag">실증 연계</span>
         </div>
       </div>
     </div>
